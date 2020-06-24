@@ -1,46 +1,44 @@
-# Unified Biological Dictionaries + PubDictionaries = a curator’s life dream (6)
+# Improving BioHackrXiv.org (13)
 
 ## Abstract
 
-The curation of biological information faces lots of challenges today. The constant refactoring of ontologies, nomenclature and identifiers, as well as the discovery of new information, makes the life of knowledge curators difficult, especially in the highly diverse biology domain. For example, expert curators who use software tools to help them with the annotation process, might come across a new feature or functionality that does not exist within an ontology or data resource that their annotation tool connects to. Similar difficulties are faced by biologists who want to quickly curate ...
+BioHackrXiv is the publishing platform for Biohackathons. For this hackathon we aim to improve the editorial/submission process by automating generation of publications and creating useful metadata in the form of RDF which gets exposed through a SPARQL end point. In addition we would like to link up Jupyter and R markdown notebooks so authors can publish live code with their static papers.
 
 ## Topics
 
-Data Platform
- Interoperability Platform
+Bioschemas
+ Compute Platfrom
+ Covid-19
  Tools Platform
 
 **Project Number:** 6
 
 
 
-**EasyChair Number:** 6
+**EasyChair Number:** 13
 
 ## Team
 
 ### Lead(s)
 
-- John Zobolas <john.zobolas@ntnu.no> (AUTHOR1)
- - Jin-Dong Kim <jdkim@dbcls.rois.ac.jp>
- - Martin Kuiper <martin.kuiper@ntnu.no>
- - Steven Vercruysse <steven.vercruysse@ntnu.no>
+Pjotr Prins <jprins@uthsc.edu>
+ "Garcia-Castro, Leyla Jael" <ljgarcia@zbmed.de>
+ Tazro Ohta <t.ohta@dbcls.rois.ac.jp>
 
 ### Nominated participant(s)
 
-Nominated participant: Jin-Dong Kim <jdkim@dbcls.rois.ac.jp>, who is the main developer and project leader of the PubDictionaries (http://pubdictionaries.org/) and PubAnnotation (http://pubannotation.org/) platforms.
+Pjotr Prins <jprins@uthsc.edu>
+ Thomas Liener <liener.tom@gmail.com>
 
 ## Expected outcomes
 
-- Update PubDictionaries web-server API to incorporate the specification of a general VSM-Dictionary: https://github.com/vsmjs/vsm-dictionary/blob/master/Dictionary.spec.md
- - Create a new biological dictionary interface (https://github.com/UniBioDicts) that communicates with the PubDictionaries API
- 
- The work during the Biohackathon will be split like this:
- - 1-2 day(s) to clarify the API specification and what PubDictionaries needs to change + the code update on the server side.
- - 2 day(s) to implement the client package that uses the above API.
+* Forms for entering metadata as part of submission
+ * Extract metadata from paper
+ * RDF store with metadata and SPARQL end point
 
 ## Expected audience
 
-2 participants are required for the realization of this project. One developer from the PubDictionaries side (REST-API technology, Ruby) and one from the UniBioDicts side (REST-API technology, JavaScript). The first participant is the corresponding author (AUTHOR1 - John Zobolas), the second one of the project leads (see nominated participant).
+There will be people working locally and remotely on this. Participants may be interested in ontologies, text mining, and some web programming.
 
-**Number of expected hacking days**: 4 days
+**Number of expected hacking days**: 4
 

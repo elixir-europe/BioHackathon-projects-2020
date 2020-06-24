@@ -1,47 +1,44 @@
-# CNV detection software containerisation and benchmark (14)
+# Unlock the value of your data computing at the edge (21)
 
 ## Abstract
 
-The main objective of this project is to allow an efficient, unbiased and reproducible way to benchmark a set of tools through software containerization. Here we will use Copy Number Variation detection tools as a use-case. Copy Number Variations are mutational events vital for evolution and they play an important role in diseases. Even if CNVs are the most prevalent genetic mutation type, identifying and interpreting them is still a major challenge. The ELIXIR human Copy Number Variation (hCNV) Community aims to implement processes to make the detection, annotation, and interpretation of ...
+The exponential growth of high throughput devices, such as next generation sequencing or electron microscopy is generating an unprecedent amount of raw data that needs to be processed, analysed and exploited. The challenge lies in the capability to turn the big data produced by the life sciences workflows into actionable insights. How to do that as quickly as possible while ensuring that all data remains safe and secure? BullSequana Edge has been designed to meet these challenges, delivering powerful AI inference and streaming analytics capabilities at the edge. We propose you to prove the ...
 
 ## Topics
 
 Compute Platfrom
- Containers
- Data Platform
  Galaxy
- Human Copy Number Variation
- Rare Disease
- Tools Platform
- Training Platform
+ Machine learning
 
 **Project Number:** 14
 
 
 
-**EasyChair Number:** 14
+**EasyChair Number:** 21
 
 ## Team
 
 ### Lead(s)
 
-David Salgado - david.salgado@univ-amu.fr - author1
- Salvador Capella-Gutierrez - salvador.capella@bsc.es
- Krzysztof Poterlowicz - K.Poterlowicz1@bradford.ac.uk
- Björn Grüning - bjoern.gruening@gmail.com
+Author 1, Nicholas Allsopp - nicholas.allsopp@atos.net
+ Author 2, Albert Trill - albert.trill@atos.net
 
 ### Nominated participant(s)
 
-To be defined once the project accepted. Will be one of the project leaders or additional contributors such as Steve Laurie CNAG-CRG or Lennart Johansson UMCG
+Author 1, Nicholas Allsopp - nicholas.allsopp@atos.net
+ Author 2, Albert Trill - albert.trill@atos.net
 
 ## Expected outcomes
 
-All these steps will allow the group to generate a step-by-step for users to do the same process for any set of tools and therefore will be useful to any community of users within ELIXIR and beyond.
- This project will provide incredible outcomes for the ELIXIR hCNV community, the Tools platform (bio.tools, OpenEbench, Galaxy …), will serve as a use-case for the Strategic Implementation Study BioContainers, and any other user community that would like to test a large batch of software in a reproducible and easy to deploy environment within available computational infrastructures.
+There are no rules or constraints; we want you to enjoy playing with Atos Edge, however, we would be interested in watching a demo of your work at the end of the bio hackathon. 
+ What we want to prove is that traditional data centres and edge computing are the perfect blend to provide powerful analytics and machine learning inference capabilities.
 
 ## Expected audience
 
-Any contributor is welcome but participants with skills in container creation, benchmarking and any other Elixir Services (data, tools, compute and training) are expected.
+Researchers developing workflows
+ Any research with an interest in accelerating an application 
+ Galaxy users
+ Anyone with an interest in exploring edge computing
 
-**Number of expected hacking days**: 4
+**Number of expected hacking days**: That would depend on the nature of the workflow, application or use case chosen by the hacker. We would expect an average of three days.
 

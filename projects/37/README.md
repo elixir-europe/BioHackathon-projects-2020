@@ -1,57 +1,50 @@
-# Federated Interoperable Annotated Variation Graphs (39)
+# Creation of a cloud-native server instance that translates cancer graph variations into an OMOP compliant medical record format. (57)
 
 ## Abstract
 
-Variation Graphs are data structures that can accurately represent genetic variation in populations and across species. While avoiding inherent biases in linear reference genomes. We will use this hackathon to improve how variation graph tools can produce FAIRer data that is highly interoperable and reusable. We will engage with the (bio)container projects and workflow communities to present our computational outcomes as FAIR research objects. Interoperability will be improved by continuing work on SPARQLable views on highly compressed variation graph data structures. This engages with ...
+We will create a cloud-native server instance that generates cancer graph variations and translates them into an OMOP compliant medical record format. The tumor genome is a combination of somatic variants atop a germline background. Germline variants primarily inform discussions of cancer predisposition, such as the election of many BRCA1/2 mutation careers to undergo preventative surgery given their increased lifetime risk for cancer development. The germline plays a particularly important role in childhood cancers such as rhabdomyosarcoma (PTCH1/PTCH2 mutations). A tumor’s somatic ...
 
 ## Topics
 
 Cancer
- Containers
- Covid-19
  Data Platform
  Federated Human Data
- GA4GH partnership
  Interoperability Platform
- Marine Metagenomics
- Plant Sciences
 
 **Project Number:** 37
 
 
 
-**EasyChair Number:** 39
+**EasyChair Number:** 57
 
 ## Team
 
 ### Lead(s)
 
-Simon Heumos (simon.heumos@qbic.uni-tuebingen.de)*corresponding author
- Erik Garrison (erik.garrison@ucsc.edu)
- Jerven Bollemann (jerven.bolleman@sib.swiss)
- Toshiyuki Yokoyama (toshiyuki.t.yokoyama@gmail.com)
- Lukas Heumos (lukas.heumos@posteo.net)
- Philipp Ehmele (philipp_ehm@protonmail.com)
+Ben Busby bbusby@dnanexus.com
+ Jason Chin jchin@dnanexus.com
+ eric.t.dawson@gmail.com
+ anc174@pitt.edu
+ nick.giangreco@gmail.com
 
 ### Nominated participant(s)
 
-Erik Garrison (erik.garrison@ucsc.edu)
- Simon Heumos (simon.heumos@qbic.uni-tuebingen.de)
+Andrew Clugston -- anc174@pitt.edu
+ Nick Giangreco -- nick.giangreco@gmail.com
 
 ## Expected outcomes
 
-1. Container to deploy a variation graph as a SPARQL endpoint on European cloud
- systems.
- 2. Example queries integrating datasets.
- 3. Linear time algorithm for public preserving variation graph node identity.
- 4. Demonstrate that we can enrich a local visualization of a privacy protected cancer sample with public available SPARQL endpoint data.
+A task for generating variation graphs from a set of variants
+ A task for querying variants in a graph, given a set of reads
+ A task for producing OMOP records from cancer variation graphs
 
 ## Expected audience
 
-1. SPARQL/RDF/Semantic Web developers
- 2. Variation graph toolkit developers
- 3. Workflow enthusiasts
- 4. Experience with data visualization using JavaScript
+Ben Busby -- Bioinformatics
+ Jason Chin -- Graph Algorithms
+ Eric Dawson -- Graph Algorithms
+ Andrew Clugston -- Bioinformatics and OMOP
+ Nick Giangreco -- OMOP
 
 **Number of expected hacking days**: 4
 

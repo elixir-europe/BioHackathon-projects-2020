@@ -1,45 +1,46 @@
-# Wine (Ontology) Tasting: testing technicality in practicality for the food industry (4)
+# Unified Biological Dictionaries + PubDictionaries = a curator’s life dream (6)
 
 ## Abstract
 
-https://docs.google.com/document/d/1buY6kI4ysiD8g6PoFYyknHZnaSDfdGfIszd04J9kVLM/edit# Machine learning in high-variability areas, such as food and nutrition, is a very complex problem. Data mining with machine learning is an urgency for the study of dietary intolerance and allergies, especially when accurate labeling is required by laws. Large-scale databasing also introduces demands for structuring information of manufacturer’s data. Lack of semantic implementation to structure food data is a resolvable challenge that can be overcome by using existing technologies equipped with knowledge ...
+The curation of biological information faces lots of challenges today. The constant refactoring of ontologies, nomenclature and identifiers, as well as the discovery of new information, makes the life of knowledge curators difficult, especially in the highly diverse biology domain. For example, expert curators who use software tools to help them with the annotation process, might come across a new feature or functionality that does not exist within an ontology or data resource that their annotation tool connects to. Similar difficulties are faced by biologists who want to quickly curate ...
 
 ## Topics
 
 Data Platform
- industry
  Interoperability Platform
- Training Platform
+ Tools Platform
 
 **Project Number:** 4
 
 
 
-**EasyChair Number:** 4
+**EasyChair Number:** 6
 
 ## Team
 
 ### Lead(s)
 
-Sirarat Sarntivijai, sirarat.sarntivijai@elixir-europe.org
- Jane Lomax, jane@scibite.com
- Damion Dooley, Damion.Dooley@bccdc.ca
- Joan Marc Reira, marc@ribox.co.uk
+- John Zobolas <john.zobolas@ntnu.no> (AUTHOR1)
+ - Jin-Dong Kim <jdkim@dbcls.rois.ac.jp>
+ - Martin Kuiper <martin.kuiper@ntnu.no>
+ - Steven Vercruysse <steven.vercruysse@ntnu.no>
 
 ### Nominated participant(s)
 
-- local wine expert (to be named)
+Nominated participant: Jin-Dong Kim <jdkim@dbcls.rois.ac.jp>, who is the main developer and project leader of the PubDictionaries (http://pubdictionaries.org/) and PubAnnotation (http://pubannotation.org/) platforms.
 
 ## Expected outcomes
 
-1) A summary of findings - Pros & Cons of each wine ontology examined and their capability of data integration and interoperability.
- 2) The test dataset that is curated and mapped to existing wine ontology (-ies) with a follow-up plan of technical implementation at the wine merchant’s database.
- 3) A report of interoperability between the wine ontologies and Food Ontology for reuse of FoodOn as an application ontology in the practice.
+- Update PubDictionaries web-server API to incorporate the specification of a general VSM-Dictionary: https://github.com/vsmjs/vsm-dictionary/blob/master/Dictionary.spec.md
+ - Create a new biological dictionary interface (https://github.com/UniBioDicts) that communicates with the PubDictionaries API
+ 
+ The work during the Biohackathon will be split like this:
+ - 1-2 day(s) to clarify the API specification and what PubDictionaries needs to change + the code update on the server side.
+ - 2 day(s) to implement the client package that uses the above API.
 
 ## Expected audience
 
-- members learning database curation by ontologies
- - building application ontologies
+2 participants are required for the realization of this project. One developer from the PubDictionaries side (REST-API technology, Ruby) and one from the UniBioDicts side (REST-API technology, JavaScript). The first participant is the corresponding author (AUTHOR1 - John Zobolas), the second one of the project leads (see nominated participant).
 
-**Number of expected hacking days**: 2-4
+**Number of expected hacking days**: 4 days
 

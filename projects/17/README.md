@@ -1,59 +1,48 @@
-# EDAM and Tool Information Profiles (17)
+# Improve the support of Common Workflow Language in Galaxy (26)
 
 ## Abstract
 
-We will host discussion and hacking sessions on one or more of the following: 1. EDAM ontology (https://github.com/edamontology/edamontology/) developers and scientists working together to scope and hack collaborative EDAM releases tailored for the needs of specific life-science / biomedical communities, for example targeting the annotation of community-defined portfolios of key analytical software. Scientific domains will include emerging and established ELIXIR communities, and others, such as crop research, rare diseases, bioimage analysis, metabolomics, protein structural bioinformatics. ...
+The field of bioinformatics has seen increasing use of the Common Workflow Language (CWL) standards to systematically describe computational pipelines. The 2018 ELIXIR Implementation Study “Enabling the reuse, extension, scaling, and reproducibility of scientific workflows” demonstrated how CWL tool and workflow descriptions can be shared and reused across different workflow executors and workflow management systems (e.g. Toil, Galaxy, CWLEXEC, Cromwell, etc.), addressing the assembly and functional annotation of transcriptomes from isolated marine eukaryotes. One of the main tasks of ...
 
 ## Topics
 
-Cancer
- Federated Human Data
+Compute Platfrom
+ EOSC-life
  Galaxy
- Human Copy Number Variation
  Interoperability Platform
- Intrinsically Disordered Community
  Marine Metagenomics
- Metabolomics
- Microbial Biotechnology
- Plant Sciences
- Proteomics
- Rare Disease
  Tools Platform
 
 **Project Number:** 17
 
 
 
-**EasyChair Number:** 17
+**EasyChair Number:** 26
 
 ## Team
 
 ### Lead(s)
 
-Jon Ison (jon.c.ison@gmail.com) - corresponding author
- Hans Ienasescu (hans@bio.tools) 
- Erik Jaaniso (erik.jaaniso@ut.ee)
+Nicola Soranzo <nicola.soranzo@earlham.ac.uk>
+ Hervé Ménager <herve.menager@pasteur.fr>
+ John Chilton <john.chilton@gmail.com>
+ Michael Crusoe <mrc@commonwl.org>
 
 ### Nominated participant(s)
 
-Jon Ison, jon.c.ison@gmail.com
- Alban Gaignard, alban.gaignard@univ-nantes.fr
+Marius van den Beek <m.vandenbeek@gmail.com>
+ Nicola Soranzo <nicola.soranzo@earlham.ac.uk>
 
 ## Expected outcomes
 
-One or more of the following:
- * An EDAM release targeting ELIXIR and other communities 
- * Python library for EDAM application development
- * EDAM technical development (conceptual relations)
- * Tool Information Profile for 4OSS metrics and labels in bio.tools
- * General-purpose Tool Information Profile for bio.tools
- * Scoping of new applications of EDAM and Tool Information Profiles
+- Implement CWL 1.2 conditionals in Galaxy
+ - Advance the merge of the separate branch into the upstream Galaxy repository to be part of the next release of Galaxy
+ - Implement a new "Simplified Workflow execution UI" in Galaxy
+ - Export Galaxy workflows to non-abstract CWL
 
 ## Expected audience
 
-Ontology experts
- Programmers
- ELIXIR community representatives
+Software developers with either Python or Web Frontend development skills (especially JavaScript/Vue.js), with or without an initial experience of development in Galaxy and/or CWL.
 
 **Number of expected hacking days**: 4
 

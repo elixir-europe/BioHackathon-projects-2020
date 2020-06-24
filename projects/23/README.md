@@ -1,41 +1,44 @@
-# Exporting rich metadata and provenance from Galaxy using RO-Crate packaging. (23)
+# Extending and implementing InterMine databases for ELIXIR nodes (37)
 
 ## Abstract
 
-Workflows are essential pieces of software for any computational research in life sciences and as such are digital objects in their own right, encapsulating methodological know-how. A great deal of work has been put into developing solutions to simplify the creation of workflows, functional annotation of bioinformatics software tools, as well as their virtualization, containerization and assembly into workflows for automatically executing the processes. This way, we currently have highly comprehensive and easy to use WMS such as Galaxy, enabling researchers to create workflows through a user ...
+InterMine, an ELIXIR Recommended Interoperability Resource, collaborated in early 2020 with members from ELIXIR France and ELIXIR Italy to build two InterMine databases based on data from each of those nodes. Over a two-week period, node representatives collaborated to integrate data into the two new InterMine instances, learning how to administer and configure InterMine. This resulted in prototype versions of InterMine known as InterMirMine for ELIXIR Italy, and Genolist for ELIXIR France. During this time the participants also identified extensions to the work done over these two weeks ...
 
 ## Topics
 
-EOSC-life
- Galaxy
- Interoperability Platform
+Interoperability Platform
 
 **Project Number:** 23
 
 
 
-**EasyChair Number:** 23
+**EasyChair Number:** 37
 
 ## Team
 
 ### Lead(s)
 
-Ignacio Eguinoa (ignacio.eguinoa@psb.ugent.be) - corresponding author
- Frederik Coppens (frcop@psb.vib-ugent.be)
+* Yo Yehudi yo@intermine.org
+ Flavio Licciulli flavio.licciulli@ba.itb.cnr.it
+ Rémi Planel remi.planel@pasteur.fr
+ Hervé Menager herve.menager@pasteur.fr
 
 ### Nominated participant(s)
 
-Marius van den Beek - Galaxy Team member (m.vandenbeek@gmail.com)
- John Chilton - Galaxy Team member(jmchilton@gmail.com)
+Yo Yehudi - yo@intermine.org
+ Flavio - flavio.licciulli@ba.itb.cnr.it
 
 ## Expected outcomes
 
-Being able to import/export RO-Crate objects representing workflow templates and workflow enactments into/from Galaxy. Initially through the API and possibly also embedding this into the UI.
- Enable end-users to generate digital objects from Galaxy that contain the minimal provenance information needed for reproducing the executed workflow and deposit this in registries such as WorkflowHub and OpenAIRE.
+- 1-2 new data visualisations created that can be used across the dozens of InterMines in existence
+ - Better BLAST integration for InterMine instances.
+ - Generate additional collaborations / plans to create new InterMine instances with biohackathon participant data.
 
 ## Expected audience
 
-Ideally, the project requires experts with experience in the Galaxy code to be able to capture all details of a workflow execution, but would benefit from the contribution of any Python developer as well as the interaction with participants of several other projects: e.g WorkflowHub,RO-Crate and CWL PROV)
+JS developers, especially data visualisers
+ People with BLAST software skills
+ People with data they would like to integrate or analyse in InterMine
 
 **Number of expected hacking days**: 4
 

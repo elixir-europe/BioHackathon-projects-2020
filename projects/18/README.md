@@ -1,50 +1,44 @@
-# bio.tools integration and sustainable development (18)
+# Hardening and Testing Galaxy cluster support with BioContainer (28)
 
 ## Abstract
 
-bio.tools is an ELIXIR Tools Platform service which provides a discovery portal for bioinformatics software information. We will host discussion and hacking sessions on one or more of the following: Design a future smart registration interface which leverages EDAM and EDAMmap (https://github.com/edamontology/edammap) to facilitate tool description creation and improve the user experience at registration time. This may include the following aspects: - user supplies a tool-related publication ID, i.e. DOI, PMID or PMCID (or possibly some other relevant text or website), EDAMmap is invoked ...
+Galaxy is an open-source web framework for easy-to-use, reproducible, and shareable computational life science research, that is used across all ELIXIR nodes and serve thousands of users. Galaxy can run jobs using a plethora of different infrastructures (local, batch schedulers, container orchestrators, etc.) through different “Galaxy job runners”. However, support for different infrastructures through these runners is not uniform (some runners support certain features in certain infrastructures) and so it needs to be continuously updated and tested. During the Biohackathon, we will: - ...
 
 ## Topics
 
-Machine learning
+Compute Platfrom
+ Galaxy
  Tools Platform
 
 **Project Number:** 18
 
 
 
-**EasyChair Number:** 18
+**EasyChair Number:** 28
 
 ## Team
 
 ### Lead(s)
 
-Hans Ienasescu (hans@bio.tools) (corresponding author-author1)
- Erik Jaaniso (erik.jaaniso@ut.ee)
- Jon Ison (jon.c.ison@gmail.com)
+Marco Antonio Tangaro <ma.tangaro@ibiom.cnr.it> (IT)
 
 ### Nominated participant(s)
 
-Hans Ienasescu (hans@bio.tools)
- Erik Jaaniso (erik.jaaniso@ut.ee)
+Marco Antonio Tangaro <ma.tangaro@ibiom.cnr.it> (IT) - Ansible, Bash, Cloud computing, Docker, Galaxy, Python
+ 
+ Pablo Moreno <pmoreno@ebi.ac.uk> (UK) - Galaxy on Kubernetes, Galaxy on LSF, Cloud computing, Python, Ansible, Bash
 
 ## Expected outcomes
 
-One or more of the following:
- - Design of future smart bio.tools registration interface leveraging EDAM and EDAMmap
- - Technical plan for better use of EDAM for bio.tools search
- - Implementation of biotoolsLint for tool information verification in the ELIXIR Tools ecosystem
- - Optimised methods for auto-generation of bio.tools content
- - Technical scoping of methods to render similar tools in bio.tools
+- Testing Galaxy cluster support, through Galaxy runners, e.g. for HTCondor, Kubernetes, Mesos, etc.
+ - Improve Container orchestrator support in Galaxy.
+ - Improve job resubmission support.
 
 ## Expected audience
 
-Angular 2+ programmers
- Python programmers
- Text mining experts
- Ontology experts
- Elasticsearch experts
- Data science experts
+- Type of participants: Developers, DevOps, System Administrators
+ - Knowledge: basic Galaxy admin knowledge, Job scheduling
+ - Skills: Bash, Python
 
-**Number of expected hacking days**: 4
+**Number of expected hacking days**: 4 days
 

@@ -1,47 +1,38 @@
-# Exploiting Bioschemas Markup in Community Registries (38)
+# Enabling interactive R analyses in the InterMine user interface (56)
 
 ## Abstract
 
-Bioschemas has the potential to automate the collection of content from the long-tail of scientific resources for community registries such as FAIRDARE for the plant community or Orphanet for the Rare Disease community. This can be achieved by scraping structured markup from the web resources and depositing it with the community registry. This provides a single mechanism to collect data from hundreds of sources with minimal effort from the resource provider; they only need to maintain a website in which schema markup is embedded. However, it requires the registry provider to be able to ...
+InterMine, an ELIXIR Recommended Interoperability Resource, is an open source biological data warehouse deployed worldwide with instances focused on model organisms, human data and even drug targets. There are multiple interfaces to the data, such as RESTful web API, an interactive web application, as well as clients for popular programming languages like Python, JavaScript, Java and R. The current webapp is in the process of being replaced by a modern frontend stack, called BlueGenes. We have developed multiple visualization tools for use in BlueGenes ...
 
 ## Topics
 
-Bioschemas
- Interoperability Platform
- Intrinsically Disordered Community
- Plant Sciences
- Rare Disease
+Interoperability Platform
 
 **Project Number:** 36
 
 
 
-**EasyChair Number:** 38
+**EasyChair Number:** 56
 
 ## Team
 
 ### Lead(s)
 
-Alasdair Gray A.J.G.Gray@hw.ac.uk
+Kevin Herald Reierskog - khr29@cam.ac.uk
 
 ### Nominated participant(s)
 
-Petros Papadopoulos <p.papadopoulos@hw.ac.uk>
- Ivan Micetic <ivan.micetic@unipd.it>
+Kevin Herald Reierskog - khr29@cam.ac.uk
+ Sergio Contrino - contrino.it@gmail.com
 
 ## Expected outcomes
 
-Bioschemas markup crawled
- Markup fed into community aggregators
- Markup improving search results
+Provide a functional R editor in BlueGenes that allows you to manipulate and plot the query result data, with feedback displayed in the webapp.
 
 ## Expected audience
 
-Community registry providers
- - FAIRDARE: Cyril Pommier
- - IDPCentral: Ivan Micetic, Andras Hatos
- - Orphanet: Marc Hanauer, David Lagorce, Céline Rousselot
- Scraper expertise: Petros Papadopoulos
+- Experience with sandboxing language runtimes to safely execute untrusted code
+ - People with experience in R
 
 **Number of expected hacking days**: 4
 

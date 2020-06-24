@@ -1,44 +1,56 @@
-# Improving BioHackrXiv.org (13)
+# Extension and Continuous Integration of Cheminformatics Resources and Applications (20)
 
 ## Abstract
 
-BioHackrXiv is the publishing platform for Biohackathons. For this hackathon we aim to improve the editorial/submission process by automating generation of publications and creating useful metadata in the form of RDF which gets exposed through a SPARQL end point. In addition we would like to link up Jupyter and R markdown notebooks so authors can publish live code with their static papers.
+Answering complex biological, environmental or toxicological questions requires the integration of information (e.g. chemicals, spectra, metadata, biochemical pathways) across resources. This information is generally accessed via online queries or (potentially preprocessed) local copies in various bioinformatics approaches. One such approach is MetFrag (https://msbi.ipb-halle.de/MetFrag/), an in silico metabolite identification tool that accesses chemical databases like PubChem (https://pubchem.ncbi.nlm.nih.gov/) or ChEBI (https://www.ebi.ac.uk/chebi/), and spectral libraries like MassBank ...
 
 ## Topics
 
-Bioschemas
- Compute Platfrom
- Covid-19
+Compute Platfrom
+ Data Platform
+ Interoperability Platform
+ Metabolomics
  Tools Platform
 
 **Project Number:** 13
 
 
 
-**EasyChair Number:** 13
+**EasyChair Number:** 20
 
 ## Team
 
 ### Lead(s)
 
-Pjotr Prins <jprins@uthsc.edu>
- "Garcia-Castro, Leyla Jael" <ljgarcia@zbmed.de>
- Tazro Ohta <t.ohta@dbcls.rois.ac.jp>
+Emma Schymanski emma.schymanski@uni.lu corresponding
+ Steffen Neumann sneumann@ipb-halle.de
+ Evan Bolton bolton@ncbi.nlm.nih.gov
 
 ### Nominated participant(s)
 
-Pjotr Prins <jprins@uthsc.edu>
- Thomas Liener <liener.tom@gmail.com>
+Evan Bolton (PubChem) <bolton@ncbi.nlm.nih.gov>
+ Venkatesh Muthukrishnan <venkat@ebi.ac.uk>
 
 ## Expected outcomes
 
-* Forms for entering metadata as part of submission
- * Extract metadata from paper
- * RDF store with metadata and SPARQL end point
+CI for data extraction from PubChem
+ CI for data import into MetFrag
+ Automated workflows for data deposition to PubChem
+ Prototype for functional Fingerprint for ChEBI Categories; integration into MetFrag
+ Improved handling of transformation product pairs (Rhea/PubChem/NORMAN-SLE)
 
 ## Expected audience
 
-There will be people working locally and remotely on this. Participants may be interested in ontologies, text mining, and some web programming.
+Evan Bolton (data provider and integrator, NCBI, cheminformatics)
+ Venkatesh Muthukrishnan (data provider, EBI, ChEBI)
+ Thierry Lombardot (data provider, SIB, Rhea)
+ Emma Schymanski (data provider, consumer, developer, Uni Lu (ELIXIR-LU))
+ Steffen Neumann (workflow developer, IPB Halle, DE)
+ Laurent Gatto (likely only remotely: PubChem - R package integration, BE)
+ Egon Willighagen (cheminformatics, ELIXIR Interoperability Platform)
+ Denise Slenter (data provider, consumer, WikiPathways)
+ Other hosts or contributors to small molecule databases
+ Other developers of identification workflows
 
 **Number of expected hacking days**: 4
 

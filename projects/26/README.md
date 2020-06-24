@@ -1,48 +1,45 @@
-# Improve the support of Common Workflow Language in Galaxy (26)
+# Sapporo WES as a Public Web Service (41)
 
 ## Abstract
 
-The field of bioinformatics has seen increasing use of the Common Workflow Language (CWL) standards to systematically describe computational pipelines. The 2018 ELIXIR Implementation Study “Enabling the reuse, extension, scaling, and reproducibility of scientific workflows” demonstrated how CWL tool and workflow descriptions can be shared and reused across different workflow executors and workflow management systems (e.g. Toil, Galaxy, CWLEXEC, Cromwell, etc.), addressing the assembly and functional annotation of transcriptomes from isolated marine eukaryotes. One of the main tasks of ...
+We have been developing Sapporo as a Workflow Execution Service (WES) in DDBJ. This system has been developed with an emphasis on the use of various workflow engines in a closed computing environment for sensitive human genome data. Therefore, it is not designed to cooperate with the other GA4GH API definitions such as Data Repository Service (DRS) and Tool Resistory Service (TRS). Extending the Sapporo system to follow these standards will make the system usable on a public computing instance, which can be used with the other WES implementations. At the previous BioHackathons in Paris and ...
 
 ## Topics
 
 Compute Platfrom
- EOSC-life
- Galaxy
- Interoperability Platform
- Marine Metagenomics
- Tools Platform
 
 **Project Number:** 26
 
 
 
-**EasyChair Number:** 26
+**EasyChair Number:** 41
 
 ## Team
 
 ### Lead(s)
 
-Nicola Soranzo <nicola.soranzo@earlham.ac.uk>
- Hervé Ménager <herve.menager@pasteur.fr>
- John Chilton <john.chilton@gmail.com>
- Michael Crusoe <mrc@commonwl.org>
+- Hirotaka Suetake (suehiro619@gmail.com)
+ - Manabu Ishii (manabu@genome-analytics.co.jp)
+ - Tomoya Tanjo (tanjo@nii.ac.jp)
 
 ### Nominated participant(s)
 
-Marius van den Beek <m.vandenbeek@gmail.com>
- Nicola Soranzo <nicola.soranzo@earlham.ac.uk>
+- Hirotaka Suetake (suehiro619@gmail.com)
+ - Tomoya Tanjo (tanjo@nii.ac.jp)
 
 ## Expected outcomes
 
-- Implement CWL 1.2 conditionals in Galaxy
- - Advance the merge of the separate branch into the upstream Galaxy repository to be part of the next release of Galaxy
- - Implement a new "Simplified Workflow execution UI" in Galaxy
- - Export Galaxy workflows to non-abstract CWL
+- Sharing the system components with the other WES developers such as the WES-Elixir team
+ - Creating PoC when combining WES with DRS or TRS
+ - Creating a public web service that actually makes it easy for users to run workflows
 
 ## Expected audience
 
-Software developers with either Python or Web Frontend development skills (especially JavaScript/Vue.js), with or without an initial experience of development in Galaxy and/or CWL.
+- experiences with the GA4GH API standards
+ - Workflow Languages
+ - Workflow Engines
+ - Workflow Execution Service
+ - Web frontend
 
-**Number of expected hacking days**: 4
+**Number of expected hacking days**: 4 days
 

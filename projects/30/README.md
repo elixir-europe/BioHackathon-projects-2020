@@ -1,47 +1,48 @@
-# CAB: Computer Aided Biodiversity (30)
+# Epidemiology and monitoring ontology for COVID-19 (49)
 
 ## Abstract
 
-Currently, the management and visualization of molecular data have become a key point due to the strong increase in the availability of information and the consequent possibility to improve our abilities to inference new rules. Studies investigating biodiversity are a clear example of how, collecting more information such as species distribution, community composition, and the presence of invasive or endangered species, we can improve our knowledge of ecosystems and our ability to understand the interactions among organisms. In recent years, metagenomic approaches (e.g. metabarcoding) based ...
+Epidemiological data is necessary to monitor public health, and to assess the impact of disease outbreaks and efficacy of mitigating interventions. In the context of an infectious disease outbreak it is imperative to have these data as FAIR as possible to facilitate rapid analysis to support timely evidence-based decision making. During the past virtual BioHackathon-COVID-19 we evaluated the availability of some epidemiological quantitative indicators in OBO ontologies and detected that while between the Statistics ontology [1] and Epidemiology Ontology (EPO) we have many of the usual ...
 
 ## Topics
 
-Biodiversity
+Covid-19
  Data Platform
- Tools Platform
+ Federated Human Data
+ Interoperability Platform
 
 **Project Number:** 30
 
 
 
-**EasyChair Number:** 30
+**EasyChair Number:** 49
 
 ## Team
 
 ### Lead(s)
 
-Anna Sandionigi anna.sandionigi@unimib.it (corresponding)
- Dario Pescini dario.pescini@unimib.it
+Núria Queralt-Rosinach [ nqueralt.r@gmail.com ], 
+ Robert Hoehndorf [ robert.hoehndorf@kaust.edu.sa ], 
+ Paul N Schofield [ pns12@hermes.cam.ac.uk ], 
+ Philippe Rocca-Serra [ philippe.rocca-serra@oerc.ox.ac.uk ]
+ Rajaram Kaliyaperumal [ R.Kaliyaperumal@lumc.nl ]
 
 ### Nominated participant(s)
 
-Donat Agosti agosti@amnh.org (text-mining expert)
- Bachir Balech b.balech@ibiom.cnr.it (taxonomy data management expert)
+Núria Queralt-Rosinach [ nqueralt.r@gmail.com ],
+ Rajaram Kaliyaperumal [ R.Kaliyaperumal@lumc.nl ]
 
 ## Expected outcomes
 
-- A tool to query the database (i.e. ENA) using a list of unique taxonomic code (TAXID)
+Expected outcomes and prioritization: First to develop an epidemiology information model in OBO focused on quantitative indicators; Incorporate this model in an existing resource for the community.
  
- - Retrieve geographical and molecular information (gene tag) and at the same time to correct the possible incongruences (ex. two different gene names for the same accession) using text-mining strategies
+ From the first list of epidemiological quantitative terms analyzed, our plan is to: 1) add new COVID-19 relevant content through manual extraction from publications in medrXiv and or case report forms 2) try to map these to existing OBO ontologies 3) refine the list of terms with epidemiologists 4) define and implement axiom patterns 5) contact ontology stakeholders to define what is missing and either to ask for extensions to existing ontologies or to build a new, logically well-formed, and accurate ontology in OBO. We plan to perform two rounds of work, a first round to focus on quantitative indicators and a second round to expand to other indicators such as WHO indicators [3].
  
- - The creation of an efficient visualization of queries output (interactive dashboard)
+ [3] https://www.who.int/healthinfo/indicators/2015/metadata/en/
 
 ## Expected audience
 
-- basic programming in python or R
- - text-mining
- - taxonomy data management
- - data visualization
+Curators, epidemiologists, ontologists, biomedical scientists, FAIRData experts.
 
-**Number of expected hacking days**: 4
+**Number of expected hacking days**: 4 days
 

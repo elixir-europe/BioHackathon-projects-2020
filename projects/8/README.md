@@ -1,48 +1,47 @@
-# Detection of epimutations to improve the diagnosis of rare diseases (8)
+# Integrating modelling services with the 3D-Beacons network (15)
 
 ## Abstract
 
-ELIXIR’s rare disease community aims to facilitate tools to researchers for rare disease research. Currently, most available tools explore genetic and genomic mutations. Although these variants have provided a diagnosis for many patients and families, around 60% of the cases still remained undiagnosed (Lionel et al, 2018). Aberrant methylation can be an underlying cause of undiagnosed patients, either as a primary event (a.k.a. epimutation) or as a functional consequence of chromatin dysregulation by genetic or environmental agents (a.k.a. episignature). Epimutations are the cause of some ...
+3D-Beacons is a new platform being developed under the umbrella of the ELIXIR 3D-BioInfo Community. The primary objective of 3D-Beacons is to serve as a common portal that provides FAIR access to experimental and predicted protein structures in a transparent way, such that the data provenance is clear to the end-users. Combining access to data resources that provide experimentally determined structures from the Protein Data Bank (PDB) and modelled structures (e.g. Genome3D, SWISS-MODEL) will provide maximum possible coverage of the protein sequence space. To avoid ascribing the same level of ...
 
 ## Topics
 
-Cancer
- Machine learning
- Rare Disease
- Tools Platform
+Covid-19
+ Data Platform
+ Proteomics
 
 **Project Number:** 8
 
 
 
-**EasyChair Number:** 8
+**EasyChair Number:** 15
 
 ## Team
 
 ### Lead(s)
 
-Carlos Ruiz Arenas. Universitat Pompeu Fabra, Centro de Investigación Biomédica en Red de Enfermedades Raras. carlos.ruiza@upf.edu. Author1
- 
- Luis A Pérez-Jurado. Universitat Pompeu Fabra, Centro de Investigación Biomédica en Red de Enfermedades Raras. luis.perez@upf.edu
- 
- Alejandro Cáceres. Barcelona Institute for Global Health (ISGlobal). alejandro.caceres@isglobal.org
+Mihaly Varadi - mvaradi@ebi.ac.uk*
+ Sreenath Nair - sreenath@ebi.ac.uk
+ Ian Sillitoe - i.sillitoe@ucl.ac.uk
+ Gerardo Tauriello - gerardo.tauriello@unibas.ch
 
 ### Nominated participant(s)
 
-Alejandro Cáceres. alejandro.caceres@isglobal.org
+Sreenath Nair - sreenath@ebi.ac.uk
+ Ian Sillitoe - i.sillitoe@ucl.ac.uk
 
 ## Expected outcomes
 
-A working prototype of our tool, which would allow running a full epimutation analysis. We propose the following tasks during the hackathon:
- 1. Discuss different statistical approaches to address the problem, including some approaches proposed by the team leaders.
- 2. Apply approaches discussed in point 1 to public DNA methylation datasets with cases and control samples.
- 3. Implement the best performing approach in a R package, following Bioconductor guidelines
- Further work will be done to fully test tool parameters and to submit the package to Bioconductor.
+* Discussions on standardised data exchange formats to suit the various data providers, decreasing fragmentation of the data.
+ * Updating the 3D-Beacons Registry with the required meta-information on new data providers
+ * Implementation of API endpoints according to the 3D-Beacons API specification
+ * Integration of the 3D-Beacons client for processing and converting model files to data exchange format (.mmcif, .pdb)
+ * Extending the 3D-Beacons Hub to establish connections with the new data provider beacons
+ * Developing a proof of concept 3D Beacon network of structural models related to SARS-CoV-2.
 
 ## Expected audience
 
-Researchers with knowledge of biostatistics
- Researchers with experience in software development and plots design.
+bioinformaticians/scientific programmers (data structures, data access mechanisms, data processing pipelines)
 
-**Number of expected hacking days**: 4 days
+**Number of expected hacking days**: 2
 

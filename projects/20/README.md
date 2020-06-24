@@ -1,56 +1,47 @@
-# Extension and Continuous Integration of Cheminformatics Resources and Applications (20)
+# CAB: Computer Aided Biodiversity (30)
 
 ## Abstract
 
-Answering complex biological, environmental or toxicological questions requires the integration of information (e.g. chemicals, spectra, metadata, biochemical pathways) across resources. This information is generally accessed via online queries or (potentially preprocessed) local copies in various bioinformatics approaches. One such approach is MetFrag (https://msbi.ipb-halle.de/MetFrag/), an in silico metabolite identification tool that accesses chemical databases like PubChem (https://pubchem.ncbi.nlm.nih.gov/) or ChEBI (https://www.ebi.ac.uk/chebi/), and spectral libraries like MassBank ...
+Currently, the management and visualization of molecular data have become a key point due to the strong increase in the availability of information and the consequent possibility to improve our abilities to inference new rules. Studies investigating biodiversity are a clear example of how, collecting more information such as species distribution, community composition, and the presence of invasive or endangered species, we can improve our knowledge of ecosystems and our ability to understand the interactions among organisms. In recent years, metagenomic approaches (e.g. metabarcoding) based ...
 
 ## Topics
 
-Compute Platfrom
+Biodiversity
  Data Platform
- Interoperability Platform
- Metabolomics
  Tools Platform
 
 **Project Number:** 20
 
 
 
-**EasyChair Number:** 20
+**EasyChair Number:** 30
 
 ## Team
 
 ### Lead(s)
 
-Emma Schymanski emma.schymanski@uni.lu corresponding
- Steffen Neumann sneumann@ipb-halle.de
- Evan Bolton bolton@ncbi.nlm.nih.gov
+Anna Sandionigi anna.sandionigi@unimib.it (corresponding)
+ Dario Pescini dario.pescini@unimib.it
 
 ### Nominated participant(s)
 
-Evan Bolton (PubChem) <bolton@ncbi.nlm.nih.gov>
- Venkatesh Muthukrishnan <venkat@ebi.ac.uk>
+Donat Agosti agosti@amnh.org (text-mining expert)
+ Bachir Balech b.balech@ibiom.cnr.it (taxonomy data management expert)
 
 ## Expected outcomes
 
-CI for data extraction from PubChem
- CI for data import into MetFrag
- Automated workflows for data deposition to PubChem
- Prototype for functional Fingerprint for ChEBI Categories; integration into MetFrag
- Improved handling of transformation product pairs (Rhea/PubChem/NORMAN-SLE)
+- A tool to query the database (i.e. ENA) using a list of unique taxonomic code (TAXID)
+ 
+ - Retrieve geographical and molecular information (gene tag) and at the same time to correct the possible incongruences (ex. two different gene names for the same accession) using text-mining strategies
+ 
+ - The creation of an efficient visualization of queries output (interactive dashboard)
 
 ## Expected audience
 
-Evan Bolton (data provider and integrator, NCBI, cheminformatics)
- Venkatesh Muthukrishnan (data provider, EBI, ChEBI)
- Thierry Lombardot (data provider, SIB, Rhea)
- Emma Schymanski (data provider, consumer, developer, Uni Lu (ELIXIR-LU))
- Steffen Neumann (workflow developer, IPB Halle, DE)
- Laurent Gatto (likely only remotely: PubChem - R package integration, BE)
- Egon Willighagen (cheminformatics, ELIXIR Interoperability Platform)
- Denise Slenter (data provider, consumer, WikiPathways)
- Other hosts or contributors to small molecule databases
- Other developers of identification workflows
+- basic programming in python or R
+ - text-mining
+ - taxonomy data management
+ - data visualization
 
 **Number of expected hacking days**: 4
 

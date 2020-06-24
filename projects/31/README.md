@@ -1,42 +1,45 @@
-# Adoption of Software Management Plans (SMPs) (32)
+# Deploying biocontainers in orchestration environments for life science research (50)
 
 ## Abstract
 
-The Software Development Best Practices Working Group of the ELIXIR tools platform has been working on the development of the Software Management Plan (SMP) template that can be used across ELIXIR projects. The software management plan has a form of a checklist that can be filled in by the Research Software Engineer (RSE). During the development of the SMP, we have faced two main challenges (1) SMP should be usable not only by the RSEs but also by researchers who develop software, principal investigators (PIs), policymakers and funders, (2) we don’t want to overwhelm developers with an ...
+Packaging tools in containers is becoming a common practice in bioinformatics to ensure reproducible research. However, usage of orchestration platforms, such as Kubernetes, is in the community not yet broadly adopted. EOSC-Life is planning to provide such environments as part of the compute resources, which implies we need to enable developers to take advantage of them. In this Hackathon depending on the knowledge of participants we will start with introducing Kubernetes and helm charts environments for biocontainers by deploying some sample containers. We will also see minimal ...
 
 ## Topics
 
-Tools Platform
+Compute Platfrom
+ Containers
+ EOSC-life
+ Galaxy
+ Tools Platform
 
 **Project Number:** 31
 
 
 
-**EasyChair Number:** 32
+**EasyChair Number:** 50
 
 ## Team
 
 ### Lead(s)
 
-Mateusz Kuzak (m.kuzak@esciecencenter.nl) corresponding
- Allegra Via (allegra.via@cnr.it)
- Fotis Psomopoulos (fpsom@certh.gr)
+Kiran K Telukunta <kiran.telukunta@psb.vib-ugent.be>
 
 ### Nominated participant(s)
 
-Steve Crouch (s.crouch@software.ac.uk)
- Dimitrios Bampalikis (dimitrios.bampalikis@nbis.se)
+Pablo Moreno<pmoreno@ebi.ac.uk> Expression Atlas Data Production Project Lead
+ Nuwan Goonasekera<nuwan.goonasekera@unimelb.edu.au>
 
 ## Expected outcomes
 
-1. Set of guidelines for different stakeholders
- 2. Set of software project stages
- 3. Set of core requirements
- 4. Requirements grouped by the stages
+* Guidelines and specifications to run containers in orchestration
+ * Making more containers deployable into cloud environments
+ * Hassle free deployment of biocontainers
+ * Understanding the challenges of cloud deployment and orchestration
 
 ## Expected audience
 
-research software engineers, researchers developing software, anyone involved in research software development process
+* researchers working or maintaining cloud infrastructure
+ * Groups which want to migrate to cloud environments and moving towards work from home approach
 
-**Number of expected hacking days**: 4 (2 for discussions and 2 for hacking specific aspects).
+**Number of expected hacking days**: 4
 

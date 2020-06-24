@@ -1,47 +1,43 @@
-# Federating Accessible InterMine Resources (33)
+# User interface for plant experimental metadata management: EBI(DSP)-ISA-FAIRDOMHub/SEEK harmonization (52)
 
 ## Abstract
 
-InterMine, an ELIXIR Recommended Interoperability Resource, is a platform to integrate life science data. The many InterMine installations around the world contain information on diverse organisms, including human data, model animals, plants and drug targets. An InterMine instance stores all its data in a relational database. This data can be accessed through a set of RESTful web service APIs, with direct support for many common programming languages such as Python, JavaScript, Java and R. In order to increase data interoperability and enable federated queries among different resources, we ...
+Despite the general demand for research data that meet FAIR principles (Findability, Accessibility, Interoperability and Reusability), there are very few tools available that try to help researchers generate FAIR data by design. FAIRDOMHub/SEEK is a very flexible platform for sharing research projects; ISA tools and formats are a general purpose framework to collect and communicate complex metadata from experiments employing a combination of technologies. Both systems are used by several scientific communities, within ELIXIR and beyond, as suitable systems for research data management. ...
 
 ## Topics
 
-Bioschemas
- Covid-19
- Data Platform
- Federated Human Data
+Data Platform
  Interoperability Platform
  Plant Sciences
+ Tools Platform
 
 **Project Number:** 32
 
 
 
-**EasyChair Number:** 33
+**EasyChair Number:** 52
 
 ## Team
 
 ### Lead(s)
 
-Daniela Butano - daniela@intermine.org
- Jerven Bolleman - Jerven.Bolleman@sib.swiss
+Name: Flora D’Anna
+ Email: flora.danna@ugent.vib.be
 
 ### Nominated participant(s)
 
-Jerven Bolleman - Jerven.Bolleman@sib.swiss
- Daniela Butano - daniela@intermine.org
+- Stuart Owen, UMAN for FAIRDOMHub/SEEK, stuart.owen@manchester.ac.uk
+ - Philippe Rocca-Serra, Uni of Oxford for ISA format, philippe.rocca-serra@oerc.ox.ac.uk
 
 ## Expected outcomes
 
-1. Generate a dynamic R2RML mappings starting from the InterMine core model
- 2. Execute some queries using Ontop (or D2R server) and CovidMine resource
- 3. Execute some federated queries using UniProt
- 4. Run a set of complex sparql queries to verify that translation of SPARQL queries -> SQL queries works well
+1) FAIRDOMHub/SEEK compliance to ISA formats
+ 2) Possibility to incorporate standard metadata schema in FAIRDOMHub/SEEK, such as MIAPPE, to describe experimental data
+ 3) Proof of concept for exporting data from FAIRDOMHub/SEEK to EBI repositories
 
 ## Expected audience
 
-1. SPARQL/RDF/Semantic Web developers
- 2. People with resources with a relational backend who want to provide a similar mechanism
+Ideally, the project requires experts in ISA format, EBI repositories, DSP and Plant data standards specifications, but would benefit from the contribution of any life science researcher interested in data management platform for FAIR data.
 
-**Number of expected hacking days**: 4
+**Number of expected hacking days**: 4 days
 

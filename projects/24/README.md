@@ -1,38 +1,47 @@
-# FAIR4Software. Automated indicators and metrics measurement. (24)
+# Exploiting Bioschemas Markup in Community Registries (38)
 
 ## Abstract
 
-Research software are digital objects that depending on the context resemble research data. However, the dynamic nature of research software has led to the community to propose specific instantiations of the FAIR principles for software. Taking into account a number of efforts in this direction, we have implemented in OpenEBench an initial set of indicators and metrics derived from those principles. This non-exhaustive set of metrics and indicators provide the possibility to have a first glance at the FAIRness level of research software across Life Sciences. Measurements are deemed automated ...
+Bioschemas has the potential to automate the collection of content from the long-tail of scientific resources for community registries such as FAIRDARE for the plant community or Orphanet for the Rare Disease community. This can be achieved by scraping structured markup from the web resources and depositing it with the community registry. This provides a single mechanism to collect data from hundreds of sources with minimal effort from the resource provider; they only need to maintain a website in which schema markup is embedded. However, it requires the registry provider to be able to ...
 
 ## Topics
 
-Tools Platform
+Bioschemas
+ Interoperability Platform
+ Intrinsically Disordered Community
+ Plant Sciences
+ Rare Disease
 
 **Project Number:** 24
 
 
 
-**EasyChair Number:** 24
+**EasyChair Number:** 38
 
 ## Team
 
 ### Lead(s)
 
-Eva Martin del Pico (eva.mdpico@gmail.com) - author1
+Alasdair Gray A.J.G.Gray@hw.ac.uk
 
 ### Nominated participant(s)
 
-Morane Gruenpeter. Software Heritage (morane.gg@gmail.com)
- Neil Chue Hong. Software Sustainability Institute (n.chuehong@software.ac.uk)
+Petros Papadopoulos <p.papadopoulos@hw.ac.uk>
+ Ivan Micetic <ivan.micetic@unipd.it>
 
 ## Expected outcomes
 
-Work towards a sustainable Software Quality Observatory for Life Sciences based (partially) in the work around FAIR4Software metrics and indicators. Also, the seed of platform agnostic reference implementations to measure these metrics.
+Bioschemas markup crawled
+ Markup fed into community aggregators
+ Markup improving search results
 
 ## Expected audience
 
-software developers
- software end-users
+Community registry providers
+ - FAIRDARE: Cyril Pommier
+ - IDPCentral: Ivan Micetic, Andras Hatos
+ - Orphanet: Marc Hanauer, David Lagorce, Céline Rousselot
+ Scraper expertise: Petros Papadopoulos
 
-**Number of expected hacking days**: 2 for discussions and 2 for hacking specific aspects
+**Number of expected hacking days**: 4
 
