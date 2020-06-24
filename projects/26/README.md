@@ -1,4 +1,4 @@
-# Improve the support of Common Workflow Language in Galaxy
+# Improve the support of Common Workflow Language in Galaxy (26)
 
 ## Abstract
 
@@ -14,6 +14,10 @@ Compute Platfrom
  Tools Platform
 
 **Project Number:** 26
+
+
+
+**EasyChair Number:** 26
 
 ## Team
 

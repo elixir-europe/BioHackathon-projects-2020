@@ -1,4 +1,4 @@
-# Exporting rich metadata and provenance from Galaxy using RO-Crate packaging.
+# Exporting rich metadata and provenance from Galaxy using RO-Crate packaging. (23)
 
 ## Abstract
 
@@ -11,6 +11,10 @@ EOSC-life
  Interoperability Platform
 
 **Project Number:** 23
+
+
+
+**EasyChair Number:** 23
 
 ## Team
 

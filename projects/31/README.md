@@ -1,4 +1,4 @@
-# Adoption of Software Management Plans (SMPs)
+# Adoption of Software Management Plans (SMPs) (32)
 
 ## Abstract
 
@@ -9,6 +9,10 @@ The Software Development Best Practices Working Group of the ELIXIR tools platfo
 Tools Platform
 
 **Project Number:** 31
+
+
+
+**EasyChair Number:** 32
 
 ## Team
 

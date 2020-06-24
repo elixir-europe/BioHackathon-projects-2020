@@ -1,4 +1,4 @@
-# Unified Biological Dictionaries + PubDictionaries = a curator’s life dream
+# Unified Biological Dictionaries + PubDictionaries = a curator’s life dream (6)
 
 ## Abstract
 
@@ -11,6 +11,10 @@ Data Platform
  Tools Platform
 
 **Project Number:** 6
+
+
+
+**EasyChair Number:** 6
 
 ## Team
 

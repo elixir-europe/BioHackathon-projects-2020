@@ -1,4 +1,4 @@
-# The Turing Way: A how-to guide to reproducible, ethical and inclusive data research
+# The Turing Way: A how-to guide to reproducible, ethical and inclusive data research (16)
 
 ## Abstract
 
@@ -12,6 +12,10 @@ industry
  Training Platform
 
 **Project Number:** 16
+
+
+
+**EasyChair Number:** 16
 
 ## Team
 

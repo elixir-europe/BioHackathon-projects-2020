@@ -1,4 +1,4 @@
-# Hardening and Testing Galaxy cluster support with BioContainer
+# Hardening and Testing Galaxy cluster support with BioContainer (28)
 
 ## Abstract
 
@@ -11,6 +11,10 @@ Compute Platfrom
  Tools Platform
 
 **Project Number:** 28
+
+
+
+**EasyChair Number:** 28
 
 ## Team
 

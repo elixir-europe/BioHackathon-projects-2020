@@ -1,4 +1,4 @@
-# Design of a modular learning path (curriculum) in Data Stewardship, Management and Analysis for the Life Sciences
+# Design of a modular learning path (curriculum) in Data Stewardship, Management and Analysis for the Life Sciences (47)
 
 ## Abstract
 
@@ -10,6 +10,10 @@ Data Platform
  Training Platform
 
 **Project Number:** 45
+
+
+
+**EasyChair Number:** 47
 
 ## Team
 

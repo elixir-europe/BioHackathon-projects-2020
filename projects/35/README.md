@@ -1,4 +1,4 @@
-# Extending and implementing InterMine databases for ELIXIR nodes
+# Extending and implementing InterMine databases for ELIXIR nodes (37)
 
 ## Abstract
 
@@ -9,6 +9,10 @@ InterMine, an ELIXIR Recommended Interoperability Resource, collaborated in earl
 Interoperability Platform
 
 **Project Number:** 35
+
+
+
+**EasyChair Number:** 37
 
 ## Team
 

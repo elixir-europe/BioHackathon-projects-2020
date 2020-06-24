@@ -1,4 +1,4 @@
-# Machine-Actionable Data Stewardship Wizard
+# Machine-Actionable Data Stewardship Wizard (2)
 
 ## Abstract
 
@@ -11,6 +11,10 @@ Data Platform
  Tools Platform
 
 **Project Number:** 2
+
+
+
+**EasyChair Number:** 2
 
 ## Team
 

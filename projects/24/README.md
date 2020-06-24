@@ -1,4 +1,4 @@
-# FAIR4Software. Automated indicators and metrics measurement.
+# FAIR4Software. Automated indicators and metrics measurement. (24)
 
 ## Abstract
 
@@ -9,6 +9,10 @@ Research software are digital objects that depending on the context resemble res
 Tools Platform
 
 **Project Number:** 24
+
+
+
+**EasyChair Number:** 24
 
 ## Team
 

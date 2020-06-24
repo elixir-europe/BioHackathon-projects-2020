@@ -1,4 +1,4 @@
-# Detection of epimutations to improve the diagnosis of rare diseases
+# Detection of epimutations to improve the diagnosis of rare diseases (8)
 
 ## Abstract
 
@@ -12,6 +12,10 @@ Cancer
  Tools Platform
 
 **Project Number:** 8
+
+
+
+**EasyChair Number:** 8
 
 ## Team
 

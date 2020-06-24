@@ -1,4 +1,4 @@
-# Enabling interactive R analyses in the InterMine user interface
+# Enabling interactive R analyses in the InterMine user interface (56)
 
 ## Abstract
 
@@ -9,6 +9,10 @@ InterMine, an ELIXIR Recommended Interoperability Resource, is an open source bi
 Interoperability Platform
 
 **Project Number:** 54
+
+
+
+**EasyChair Number:** 56
 
 ## Team
 
