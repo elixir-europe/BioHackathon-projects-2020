@@ -1,12 +1,17 @@
-# Adoption of Software Management Plans (SMPs)
+# Federating Accessible InterMine Resources
 
 ## Abstract
 
-The Software Development Best Practices Working Group of the ELIXIR tools platform has been working on the development of the Software Management Plan (SMP) template that can be used across ELIXIR projects. The software management plan has a form of a checklist that can be filled in by the Research Software Engineer (RSE). During the development of the SMP, we have faced two main challenges (1) SMP should be usable not only by the RSEs but also by researchers who develop software, principal investigators (PIs), policymakers and funders, (2) we don’t want to overwhelm developers with an ...
+InterMine, an ELIXIR Recommended Interoperability Resource, is a platform to integrate life science data. The many InterMine installations around the world contain information on diverse organisms, including human data, model animals, plants and drug targets. An InterMine instance stores all its data in a relational database. This data can be accessed through a set of RESTful web service APIs, with direct support for many common programming languages such as Python, JavaScript, Java and R. In order to increase data interoperability and enable federated queries among different resources, we ...
 
 ## Topics
 
-Tools Platform
+Bioschemas
+ Covid-19
+ Data Platform
+ Federated Human Data
+ Interoperability Platform
+ Plant Sciences
 
 **Project Number:** 32
 
@@ -14,25 +19,25 @@ Tools Platform
 
 ### Lead(s)
 
-Mateusz Kuzak (m.kuzak@esciecencenter.nl) corresponding
- Allegra Via (allegra.via@cnr.it)
- Fotis Psomopoulos (fpsom@certh.gr)
+Daniela Butano - daniela@intermine.org
+ Jerven Bolleman - Jerven.Bolleman@sib.swiss
 
 ### Nominated participant(s)
 
-Steve Crouch (s.crouch@software.ac.uk)
- Dimitrios Bampalikis (dimitrios.bampalikis@nbis.se)
+Jerven Bolleman - Jerven.Bolleman@sib.swiss
+ Daniela Butano - daniela@intermine.org
 
 ## Expected outcomes
 
-1. Set of guidelines for different stakeholders
- 2. Set of software project stages
- 3. Set of core requirements
- 4. Requirements grouped by the stages
+1. Generate a dynamic R2RML mappings starting from the InterMine core model
+ 2. Execute some queries using Ontop (or D2R server) and CovidMine resource
+ 3. Execute some federated queries using UniProt
+ 4. Run a set of complex sparql queries to verify that translation of SPARQL queries -> SQL queries works well
 
 ## Expected audience
 
-research software engineers, researchers developing software, anyone involved in research software development process
+1. SPARQL/RDF/Semantic Web developers
+ 2. People with resources with a relational backend who want to provide a similar mechanism
 
-**Number of expected hacking days**: 4 (2 for discussions and 2 for hacking specific aspects).
+**Number of expected hacking days**: 4
 

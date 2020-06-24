@@ -1,20 +1,12 @@
-# Federated Interoperable Annotated Variation Graphs
+# Sapporo WES as a Public Web Service
 
 ## Abstract
 
-Variation Graphs are data structures that can accurately represent genetic variation in populations and across species. While avoiding inherent biases in linear reference genomes. We will use this hackathon to improve how variation graph tools can produce FAIRer data that is highly interoperable and reusable. We will engage with the (bio)container projects and workflow communities to present our computational outcomes as FAIR research objects. Interoperability will be improved by continuing work on SPARQLable views on highly compressed variation graph data structures. This engages with ...
+We have been developing Sapporo as a Workflow Execution Service (WES) in DDBJ. This system has been developed with an emphasis on the use of various workflow engines in a closed computing environment for sensitive human genome data. Therefore, it is not designed to cooperate with the other GA4GH API definitions such as Data Repository Service (DRS) and Tool Resistory Service (TRS). Extending the Sapporo system to follow these standards will make the system usable on a public computing instance, which can be used with the other WES implementations. At the previous BioHackathons in Paris and ...
 
 ## Topics
 
-Cancer
- Containers
- Covid-19
- Data Platform
- Federated Human Data
- GA4GH partnership
- Interoperability Platform
- Marine Metagenomics
- Plant Sciences
+Compute Platfrom
 
 **Project Number:** 39
 
@@ -22,32 +14,28 @@ Cancer
 
 ### Lead(s)
 
-Simon Heumos (simon.heumos@qbic.uni-tuebingen.de)*corresponding author
- Erik Garrison (erik.garrison@ucsc.edu)
- Jerven Bollemann (jerven.bolleman@sib.swiss)
- Toshiyuki Yokoyama (toshiyuki.t.yokoyama@gmail.com)
- Lukas Heumos (lukas.heumos@posteo.net)
- Philipp Ehmele (philipp_ehm@protonmail.com)
+- Hirotaka Suetake (suehiro619@gmail.com)
+ - Manabu Ishii (manabu@genome-analytics.co.jp)
+ - Tomoya Tanjo (tanjo@nii.ac.jp)
 
 ### Nominated participant(s)
 
-Erik Garrison (erik.garrison@ucsc.edu)
- Simon Heumos (simon.heumos@qbic.uni-tuebingen.de)
+- Hirotaka Suetake (suehiro619@gmail.com)
+ - Tomoya Tanjo (tanjo@nii.ac.jp)
 
 ## Expected outcomes
 
-1. Container to deploy a variation graph as a SPARQL endpoint on European cloud
- systems.
- 2. Example queries integrating datasets.
- 3. Linear time algorithm for public preserving variation graph node identity.
- 4. Demonstrate that we can enrich a local visualization of a privacy protected cancer sample with public available SPARQL endpoint data.
+- Sharing the system components with the other WES developers such as the WES-Elixir team
+ - Creating PoC when combining WES with DRS or TRS
+ - Creating a public web service that actually makes it easy for users to run workflows
 
 ## Expected audience
 
-1. SPARQL/RDF/Semantic Web developers
- 2. Variation graph toolkit developers
- 3. Workflow enthusiasts
- 4. Experience with data visualization using JavaScript
+- experiences with the GA4GH API standards
+ - Workflow Languages
+ - Workflow Engines
+ - Workflow Execution Service
+ - Web frontend
 
-**Number of expected hacking days**: 4
+**Number of expected hacking days**: 4 days
 

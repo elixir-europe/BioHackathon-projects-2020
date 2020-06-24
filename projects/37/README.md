@@ -1,12 +1,20 @@
-# Extending and implementing InterMine databases for ELIXIR nodes
+# Federated Interoperable Annotated Variation Graphs
 
 ## Abstract
 
-InterMine, an ELIXIR Recommended Interoperability Resource, collaborated in early 2020 with members from ELIXIR France and ELIXIR Italy to build two InterMine databases based on data from each of those nodes. Over a two-week period, node representatives collaborated to integrate data into the two new InterMine instances, learning how to administer and configure InterMine. This resulted in prototype versions of InterMine known as InterMirMine for ELIXIR Italy, and Genolist for ELIXIR France. During this time the participants also identified extensions to the work done over these two weeks ...
+Variation Graphs are data structures that can accurately represent genetic variation in populations and across species. While avoiding inherent biases in linear reference genomes. We will use this hackathon to improve how variation graph tools can produce FAIRer data that is highly interoperable and reusable. We will engage with the (bio)container projects and workflow communities to present our computational outcomes as FAIR research objects. Interoperability will be improved by continuing work on SPARQLable views on highly compressed variation graph data structures. This engages with ...
 
 ## Topics
 
-Interoperability Platform
+Cancer
+ Containers
+ Covid-19
+ Data Platform
+ Federated Human Data
+ GA4GH partnership
+ Interoperability Platform
+ Marine Metagenomics
+ Plant Sciences
 
 **Project Number:** 37
 
@@ -14,27 +22,32 @@ Interoperability Platform
 
 ### Lead(s)
 
-* Yo Yehudi yo@intermine.org
- Flavio Licciulli flavio.licciulli@ba.itb.cnr.it
- Rémi Planel remi.planel@pasteur.fr
- Hervé Menager herve.menager@pasteur.fr
+Simon Heumos (simon.heumos@qbic.uni-tuebingen.de)*corresponding author
+ Erik Garrison (erik.garrison@ucsc.edu)
+ Jerven Bollemann (jerven.bolleman@sib.swiss)
+ Toshiyuki Yokoyama (toshiyuki.t.yokoyama@gmail.com)
+ Lukas Heumos (lukas.heumos@posteo.net)
+ Philipp Ehmele (philipp_ehm@protonmail.com)
 
 ### Nominated participant(s)
 
-Yo Yehudi - yo@intermine.org
- Flavio - flavio.licciulli@ba.itb.cnr.it
+Erik Garrison (erik.garrison@ucsc.edu)
+ Simon Heumos (simon.heumos@qbic.uni-tuebingen.de)
 
 ## Expected outcomes
 
-- 1-2 new data visualisations created that can be used across the dozens of InterMines in existence
- - Better BLAST integration for InterMine instances.
- - Generate additional collaborations / plans to create new InterMine instances with biohackathon participant data.
+1. Container to deploy a variation graph as a SPARQL endpoint on European cloud
+ systems.
+ 2. Example queries integrating datasets.
+ 3. Linear time algorithm for public preserving variation graph node identity.
+ 4. Demonstrate that we can enrich a local visualization of a privacy protected cancer sample with public available SPARQL endpoint data.
 
 ## Expected audience
 
-JS developers, especially data visualisers
- People with BLAST software skills
- People with data they would like to integrate or analyse in InterMine
+1. SPARQL/RDF/Semantic Web developers
+ 2. Variation graph toolkit developers
+ 3. Workflow enthusiasts
+ 4. Experience with data visualization using JavaScript
 
 **Number of expected hacking days**: 4
 
