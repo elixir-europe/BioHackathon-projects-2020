@@ -32,7 +32,12 @@ David Salgado - david.salgado@univ-amu.fr - author1
 
 ### Nominated participant(s)
 
-To be defined once the project accepted. Will be one of the project leaders or additional contributors such as Steve Laurie CNAG-CRG or Lennart Johansson UMCG
+Kasia Kamieniecka - K.Murat1@bradford.ac.uk
+Wolfgang Maier - maierw@informatik.uni-freiburg.de
+
+### Additional ELIXIR hCNV community members key contributors:
+Steve Laurie - steven.laurie@cnag.crg.eu - CNAG-CRG 
+Lennart Johansson -l.johansson@umcg.nl - UMCG
 
 ## Expected outcomes
 
