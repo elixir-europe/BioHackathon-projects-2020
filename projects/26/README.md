@@ -1,4 +1,4 @@
-# Federated Interoperable Annotated Variation Graphs (39)
+# *Project* 26 Federated Interoperable Annotated Variation Graphs (39)
 
 ## Abstract
 

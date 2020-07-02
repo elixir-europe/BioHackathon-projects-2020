@@ -1,4 +1,4 @@
-# User interface for plant experimental metadata management: EBI(DSP)-ISA-FAIRDOMHub/SEEK harmonization (52)
+# *Project* 34 User interface for plant experimental metadata management: EBI(DSP)-ISA-FAIRDOMHub/SEEK harmonization (52)
 
 ## Abstract
 

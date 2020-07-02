@@ -1,4 +1,4 @@
-# Design of a modular learning path (curriculum) in Data Stewardship, Management and Analysis for the Life Sciences (47)
+# *Project* 31 Design of a modular learning path (curriculum) in Data Stewardship, Management and Analysis for the Life Sciences (47)
 
 ## Abstract
 

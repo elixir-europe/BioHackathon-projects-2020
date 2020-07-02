@@ -1,4 +1,4 @@
-# Further development of Service Bundle pilots and integration with the ELIXIR ecosystem (45)
+# *Project* 30 Further development of Service Bundle pilots and integration with the ELIXIR ecosystem (45)
 
 ## Abstract
 

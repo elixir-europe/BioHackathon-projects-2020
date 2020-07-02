@@ -1,4 +1,4 @@
-# Extending and implementing InterMine databases for ELIXIR nodes (37)
+# *Project* 24 Extending and implementing InterMine databases for ELIXIR nodes (37)
 
 ## Abstract
 

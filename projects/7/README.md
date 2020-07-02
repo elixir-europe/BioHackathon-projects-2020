@@ -1,4 +1,4 @@
-# CNV detection software containerisation and benchmark (14)
+# *Project* 7 CNV detection software containerisation and benchmark (14)
 
 ## Abstract
 

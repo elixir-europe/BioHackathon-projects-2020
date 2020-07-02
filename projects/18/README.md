@@ -1,4 +1,4 @@
-# Improve the support of Common Workflow Language in Galaxy (26)
+# *Project* 18 Improve the support of Common Workflow Language in Galaxy (26)
 
 ## Abstract
 

@@ -1,4 +1,4 @@
-# Integrating modelling services with the 3D-Beacons network (15)
+# *Project* 8 Integrating modelling services with the 3D-Beacons network (15)
 
 ## Abstract
 

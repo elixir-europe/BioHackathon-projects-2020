@@ -1,4 +1,4 @@
-# An interface between Galaxy and disease maps (43)
+# *Project* 28 An interface between Galaxy and disease maps (43)
 
 ## Abstract
 

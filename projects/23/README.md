@@ -1,4 +1,4 @@
-# Federating Accessible InterMine Resources (33)
+# *Project* 23 Federating Accessible InterMine Resources (33)
 
 ## Abstract
 
