@@ -1,49 +1,38 @@
-# Accelerating integrated use of biomedical databases through semantic data modeling (58)
+# Enabling interactive R analyses in the InterMine user interface (56)
 
 ## Abstract
 
-From the interpretation of variant to large scale data sciences, it is essential to use biomedical databases in an integrated manner. For this purpose, we produced Resource Description Framework (RDF) datasets in the Med2RDF project (http://med2rdf.org/) including ClinVar, ExAC/gnomAD, ICGC, CIViC, DGIdb, HiNT, INstruct, CCLE, dbNSFP, MedGen, and HGNC. However, the utilization of integrated data was still hard for users (especially non-engineers) due to a lack of the best tooling to capture the complex data models. Actually, although RDF datasets have been constructed around the world, they ...
+InterMine, an ELIXIR Recommended Interoperability Resource, is an open source biological data warehouse deployed worldwide with instances focused on model organisms, human data and even drug targets. There are multiple interfaces to the data, such as RESTful web API, an interactive web application, as well as clients for popular programming languages like Python, JavaScript, Java and R. The current webapp is in the process of being replaced by a modern frontend stack, called BlueGenes. We have developed multiple visualization tools for use in BlueGenes ...
 
 ## Topics
 
-Data Platform
- Interoperability Platform
- Machine learning
- Tools Platform
+Interoperability Platform
 
 **Project Number:** 38
 
 
 
-**EasyChair Number:** 58
+**EasyChair Number:** 56
 
 ## Team
 
 ### Lead(s)
 
-Toshiaki Katayama <ktym@dbcls.jp>
+Kevin Herald Reierskog - khr29@cam.ac.uk
 
 ### Nominated participant(s)
 
-Toshiaki Katayama <ktym@dbcls.jp>
- Shuichi Kawashima <kwsm@dbcls.rois.ac.jp>
- Daisuke Satoh <daisuke.satoh@lifematics.co.jp>
- Ryosuke Kojima <kojima.ryosuke.8e@kyoto-u.ac.jp>
- Mayumi Kamada <mkamada@kuhp.kyoto-u.ac.jp>
+Kevin Herald Reierskog - khr29@cam.ac.uk
+ Sergio Contrino - contrino.it@gmail.com
 
 ## Expected outcomes
 
-Provides a data science platform for the biomedical domain by creating:
- * schema diagrams for each database
- * queries for each database
- * integrated use of databases
- * machine-learning applications
+Provide a functional R editor in BlueGenes that allows you to manipulate and plot the query result data, with feedback displayed in the webapp.
 
 ## Expected audience
 
-Biomedical database developers and users,
- Data scientists and Machine learning experts,
- Biomedical researchers who have experience of clinical interpretation
+- Experience with sandboxing language runtimes to safely execute untrusted code
+ - People with experience in R
 
-**Number of expected hacking days**: 4 days
+**Number of expected hacking days**: 4
 

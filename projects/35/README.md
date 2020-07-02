@@ -1,50 +1,42 @@
-# Knowledge graphs and wikidata subsetting (55)
+# Connecting molecular sequence to their voucher specimens (53)
 
 ## Abstract
 
-During the last years there were multiple biohackathon efforts to develop mechanisms which extract subsets from linked data. One example would be the G2G language created in a 2019 Biohackathon-Europe project, which used a mixture of SPARQL expressions and Cypher patterns to extract property graphs. An initial effort started during SWAT4(HC)LS to define the topical use cases and main methods. Later, at the virtual Covid-19 biohackathon in April, an initial prototype was started to use ShEx schemas to define the subsets to be extracted from a wikibase instance. There are several benefits and ...
+When sequencing DNA from an organism, it is standard practice to create voucher specimens. This ensures that the results are repeatable and that the identification of the organism can be verified. These vouchers are often stored in herbaria and museums, where they are curated and stored for the long-term. Similarly, DNA is also extracted from specimens already in collections, having been collected some time ago. In both cases, it is important both to be able to know all the sequences extracted from a specimen and find the specimen from which the sequences have been extracted. Yet, currently ...
 
 ## Topics
 
-Bioschemas
- Compute Platfrom
- Containers
- Covid-19
- Data Platform
- Federated Human Data
- Interoperability Platform
- Tools Platform
+Biodiversity
 
 **Project Number:** 35
 
 
 
-**EasyChair Number:** 55
+**EasyChair Number:** 53
 
 ## Team
 
 ### Lead(s)
 
-Jose Emilio Labra Gayo, labra@uniovi.es (corresponding author)
- Andra Waagmeester, andra@micel.io
- Eric Prud’hommeaux, eric@w3.org
- Dan Brickley, danbri@danbri.org
- John Samuel, john.samuel@cpe.fr
+Quentin Groom quentin.groom@plantentuinmeise.be (corresponding author)
+ Mathias Dillen mathias.dillen@plantentuinmeise.be
+ Pieter Huybrechts pieter.huybrechts@plantentuinmeise.be
+ Maarten Trekels maarten.trekels@plantentuinmeise.be
+ Andra Waagmeester andra@micel.io
 
 ### Nominated participant(s)
 
-Alejandro González Hevia, alendrgh11@gmail.com
- Jose Emilio Labra Gayo, labra@uniovi.es
+Maarten Trekels
 
 ## Expected outcomes
 
-We want to create a knowledge graph extraction tool that will allow a bioinformatician to easily generate useful subsets from Wikidata or similar knowledge graphs based on ShEx schemas. Those datasets can be later used for efficiently analysing the subset data. They could also be used to generate reproducible subsets from wikidata and other large knowledge graphs. The prototype tool will be a WikidataIntegrator module that could be used to extract on demand wikibase instances for specific use cases.
+The outcome of the hackathon will be (1) recommendations on how specimen and sequence databases should be connected in the future (2) an analysis of the types of data available in databases suitable to find links and (3) the scripts implementing algorithms to match data. Ultimately, these outcomes will help any collection connect its data better and will support the Elixir goals of improving human and machine readable access to all data in the biological sciences.
 
 ## Expected audience
 
-- Bio-data scientists and domain experts interested in data analytics
- - Researchers interested in open science and reproducible workflows
- - Bioinformaticians and programmers, or anyone with technical background
+scripting (Python, R)
+ linked open data SPARQL
+ Understanding of biological collection data and the metadata associated with molecular sequence data
 
 **Number of expected hacking days**: 4
 

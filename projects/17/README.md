@@ -1,48 +1,66 @@
-# Improve the support of Common Workflow Language in Galaxy (26)
+# The ELIXIR Cloud & AAI Platform: Operationalising GA4GH Cloud standards (25)
 
 ## Abstract
 
-The field of bioinformatics has seen increasing use of the Common Workflow Language (CWL) standards to systematically describe computational pipelines. The 2018 ELIXIR Implementation Study “Enabling the reuse, extension, scaling, and reproducibility of scientific workflows” demonstrated how CWL tool and workflow descriptions can be shared and reused across different workflow executors and workflow management systems (e.g. Toil, Galaxy, CWLEXEC, Cromwell, etc.), addressing the assembly and functional annotation of transcriptomes from isolated marine eukaryotes. One of the main tasks of ...
+The exponential increase in the amounts of data generated in the biomedical sector as well as the vast computational resources required to analyse and integrate them, present veritable barriers to the advancement of science and medicine. The sensitivity of health-related data further requires sophisticated security measures to be in place, which are difficult to implement and maintain in a world of fragmented IT infrastructure as is typically found across hospitals, research centers and industry. To help overcome these obstacles, the Global Alliance for Genomics and Health (GA4GH), an ...
 
 ## Topics
 
 Compute Platfrom
+ Containers
+ Data Platform
  EOSC-life
- Galaxy
+ Federated Human Data
+ GA4GH partnership
+ Human Copy Number Variation
  Interoperability Platform
  Marine Metagenomics
+ Rare Disease
  Tools Platform
 
 **Project Number:** 17
 
 
 
-**EasyChair Number:** 26
+**EasyChair Number:** 25
 
 ## Team
 
 ### Lead(s)
 
-Nicola Soranzo <nicola.soranzo@earlham.ac.uk>
- Hervé Ménager <herve.menager@pasteur.fr>
- John Chilton <john.chilton@gmail.com>
- Michael Crusoe <mrc@commonwl.org>
+Alexander Kanitz <alexander.kanitz@unibas.ch> <corresponding author>
+ Jonathan Tedds <jonathan.tedds@elixir-europe.org>
+ Shubham Kapoor <shubham.kapoor@csc.fi>
 
 ### Nominated participant(s)
 
-Marius van den Beek <m.vandenbeek@gmail.com>
- Nicola Soranzo <nicola.soranzo@earlham.ac.uk>
+1. Alexander Kanitz <alexander.kanitz@unibas.ch>
+ 2. Shubham Kapoor <shubham.kapoor@csc.fi>
 
 ## Expected outcomes
 
-- Implement CWL 1.2 conditionals in Galaxy
- - Advance the merge of the separate branch into the upstream Galaxy repository to be part of the next release of Galaxy
- - Implement a new "Simplified Workflow execution UI" in Galaxy
- - Export Galaxy workflows to non-abstract CWL
+Rollout of ELIXIR Cloud & AAI platform to first users is planned for the second half of 2020 and, depending on progress, may coincide with BioHackathon. Possible expected outcomes therefore include:
+ - Integration of individual components into tool stack via automated deployment recipes
+ - User testing / bug hunting
+ - Interoperability testing with other GA4GH-compatible clients and services (e.g., workflow or task execution services)
+ - Official beta release of integrated tool stack
+ - Writing documentation for end users, developers and system admins
+ - First steps towards FAIR teaching materials
+ - Adding additional features to service components or clients
 
 ## Expected audience
 
-Software developers with either Python or Web Frontend development skills (especially JavaScript/Vue.js), with or without an initial experience of development in Galaxy and/or CWL.
+Audience:
+ - Web developers
+ - DevOps
+ - End users (biologists/bioinformaticians)
+ 
+ Useful skills:
+ - Web development (preferably Python, Go and/or React)
+ - REST/HTTP microservices
+ - Kubernetes
+ - CI/CD
+ - OpenID Connect / OAuth2 / AAI
 
 **Number of expected hacking days**: 4
 

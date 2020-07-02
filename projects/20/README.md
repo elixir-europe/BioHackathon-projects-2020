@@ -1,47 +1,37 @@
-# CAB: Computer Aided Biodiversity (30)
+# Support tools for efficient FAIRification of Data Resources in life sciences (29)
 
 ## Abstract
 
-Currently, the management and visualization of molecular data have become a key point due to the strong increase in the availability of information and the consequent possibility to improve our abilities to inference new rules. Studies investigating biodiversity are a clear example of how, collecting more information such as species distribution, community composition, and the presence of invasive or endangered species, we can improve our knowledge of ecosystems and our ability to understand the interactions among organisms. In recent years, metagenomic approaches (e.g. metabarcoding) based ...
+The Identifiers.org system is a central infrastructure for findable, accessible, interoperable and re-usable (FAIR) data. It provides a range of services to generate, resolve and validate persistent Compact Identifiers to promote the citability of individual data providers and integration with e-infrastructures [1,2]. The Identifiers.org registry[4] contains hundreds of manually curated, high quality data collections, with each assigned a unique prefix. A combination of the prefix and a locally assigned database identifier (accession) forms a Compact Identifier, [prefix]:[accession]. For ...
 
 ## Topics
 
-Biodiversity
- Data Platform
- Tools Platform
+Interoperability Platform
 
 **Project Number:** 20
 
 
 
-**EasyChair Number:** 30
+**EasyChair Number:** 29
 
 ## Team
 
 ### Lead(s)
 
-Anna Sandionigi anna.sandionigi@unimib.it (corresponding)
- Dario Pescini dario.pescini@unimib.it
+Manuel Bernal Llinares <mbernal@ebi.ac.uk>
 
 ### Nominated participant(s)
 
-Donat Agosti agosti@amnh.org (text-mining expert)
- Bachir Balech b.balech@ibiom.cnr.it (taxonomy data management expert)
+Javier Ferrer <jferrer@ebi.ac.uk>
+ Nick Juty <nick.juty@manchester.ac.uk>
 
 ## Expected outcomes
 
-- A tool to query the database (i.e. ENA) using a list of unique taxonomic code (TAXID)
- 
- - Retrieve geographical and molecular information (gene tag) and at the same time to correct the possible incongruences (ex. two different gene names for the same accession) using text-mining strategies
- 
- - The creation of an efficient visualization of queries output (interactive dashboard)
+The outcome of this project will be a fast lightweight tool, for FAIRification of data provided by resources registered in identifiers.org, which can easily be integrated within Identfiers.org or third party applications.
 
 ## Expected audience
 
-- basic programming in python or R
- - text-mining
- - taxonomy data management
- - data visualization
+This project is expected to attract the attention of the bioinformatics community who are interested in working with any of the following technologies: Javascript, HTML5, CSS3, Java, Python, Django, Shell Script, Kubernetes and Google Cloud.
 
 **Number of expected hacking days**: 4
 

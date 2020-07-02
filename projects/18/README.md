@@ -1,44 +1,48 @@
-# Hardening and Testing Galaxy cluster support with BioContainer (28)
+# Improve the support of Common Workflow Language in Galaxy (26)
 
 ## Abstract
 
-Galaxy is an open-source web framework for easy-to-use, reproducible, and shareable computational life science research, that is used across all ELIXIR nodes and serve thousands of users. Galaxy can run jobs using a plethora of different infrastructures (local, batch schedulers, container orchestrators, etc.) through different “Galaxy job runners”. However, support for different infrastructures through these runners is not uniform (some runners support certain features in certain infrastructures) and so it needs to be continuously updated and tested. During the Biohackathon, we will: - ...
+The field of bioinformatics has seen increasing use of the Common Workflow Language (CWL) standards to systematically describe computational pipelines. The 2018 ELIXIR Implementation Study “Enabling the reuse, extension, scaling, and reproducibility of scientific workflows” demonstrated how CWL tool and workflow descriptions can be shared and reused across different workflow executors and workflow management systems (e.g. Toil, Galaxy, CWLEXEC, Cromwell, etc.), addressing the assembly and functional annotation of transcriptomes from isolated marine eukaryotes. One of the main tasks of ...
 
 ## Topics
 
 Compute Platfrom
+ EOSC-life
  Galaxy
+ Interoperability Platform
+ Marine Metagenomics
  Tools Platform
 
 **Project Number:** 18
 
 
 
-**EasyChair Number:** 28
+**EasyChair Number:** 26
 
 ## Team
 
 ### Lead(s)
 
-Marco Antonio Tangaro <ma.tangaro@ibiom.cnr.it> (IT)
+Nicola Soranzo <nicola.soranzo@earlham.ac.uk>
+ Hervé Ménager <herve.menager@pasteur.fr>
+ John Chilton <john.chilton@gmail.com>
+ Michael Crusoe <mrc@commonwl.org>
 
 ### Nominated participant(s)
 
-Marco Antonio Tangaro <ma.tangaro@ibiom.cnr.it> (IT) - Ansible, Bash, Cloud computing, Docker, Galaxy, Python
- 
- Pablo Moreno <pmoreno@ebi.ac.uk> (UK) - Galaxy on Kubernetes, Galaxy on LSF, Cloud computing, Python, Ansible, Bash
+Marius van den Beek <m.vandenbeek@gmail.com>
+ Nicola Soranzo <nicola.soranzo@earlham.ac.uk>
 
 ## Expected outcomes
 
-- Testing Galaxy cluster support, through Galaxy runners, e.g. for HTCondor, Kubernetes, Mesos, etc.
- - Improve Container orchestrator support in Galaxy.
- - Improve job resubmission support.
+- Implement CWL 1.2 conditionals in Galaxy
+ - Advance the merge of the separate branch into the upstream Galaxy repository to be part of the next release of Galaxy
+ - Implement a new "Simplified Workflow execution UI" in Galaxy
+ - Export Galaxy workflows to non-abstract CWL
 
 ## Expected audience
 
-- Type of participants: Developers, DevOps, System Administrators
- - Knowledge: basic Galaxy admin knowledge, Job scheduling
- - Skills: Bash, Python
+Software developers with either Python or Web Frontend development skills (especially JavaScript/Vue.js), with or without an initial experience of development in Galaxy and/or CWL.
 
-**Number of expected hacking days**: 4 days
+**Number of expected hacking days**: 4
 

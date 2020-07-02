@@ -1,48 +1,54 @@
-# Design of a modular learning path (curriculum) in Data Stewardship, Management and Analysis for the Life Sciences (47)
+# Beacon for clinical and translational data’ (44)
 
 ## Abstract
 
-In the context of ELIXIR-CONVERGE, a pilot Learning Path (LP) in Data Stewardship, Management and Analysis (DSMA) for the Life Sciences will be designed (phase 1), delivered (phase 2) and assessed (phase 3). This task will build on the experience and expertise of ELIXIR nodes and CONVERGE WPs. The LP will consist of a set of learning modules, which can be also attended as independent training events by users who only need to fill specific gaps. This BH project focuses on phase 1. It consists in a collaborative curriculum design activity that will pave the road for the development of ...
+The Global Alliance for Genomics and Health (GA4GH) Beacon Project has shown its great potential in federated discovery of genomic data. It is originally implemented as a tool to share aggregated information (the “existence“) of Single Nucleotide Polymorphisms (SNP) in distributed genomic data collections. This has been later on extended to other types of genomic variants such as structural variants (the “Beacon+”). The ELIXIR team across several nodes has developed a reference implementation of the Beacon protocol. The Beacon protocol has evolved towards more complex applications ...
 
 ## Topics
 
-Data Platform
- Training Platform
+Cancer
+ Compute Platfrom
+ Federated Human Data
+ Rare Disease
 
 **Project Number:** 29
 
 
 
-**EasyChair Number:** 47
+**EasyChair Number:** 44
 
 ## Team
 
 ### Lead(s)
 
-Allegra Via; allegra.via@cnr.it (author1)
- Loredana Le Pera; loredanalepera@gmail.com
- Celia van Gelder; celia.van.gelder@dtls.nl
- Jessica Lindvall; jessica.lindvall@nbis.se
- Patricia Palagi; Patricia.Palagi@sib.swiss
- Alexia Cardona; ac812@cam.ac.uk
- Victoria Dominguez del Angel; victoria.dominguez@france-bioinformatique.fr
+Dr. Venkata Satagopam venkata.satagopam@elixir-luxembourg.org (corresponding author-author1)
+ Dr. Salvador Capella salvador.capella@bsc.es
+ Dr. Jordi Rambla De Argila jordi.rambla@crg.eu
+ Dr. Wei Gu wei.gu@elixir-luxembourg.org
 
 ### Nominated participant(s)
 
-Patricia Palagi 
- Alexia Cardona
+Dr. Tim Beck 
+ UKRI Innovation Fellow at Health Data Research UK
+ Email: timbeck@leicester.ac.uk
+ 
+ Kees van Bochove 
+ Thehyve (and EHDEN)
+ Email: kees@thehyve.nl
 
 ## Expected outcomes
 
-A curriculum in Data Stewardship, Management and Analysis for the Life Sciences to be implemented in 2021-2022 and a plan to deliver it. This activity will lead, for each module, to the identification of:
- 1) Desired KSAs and LOs;
- 2) Learning Experiences (LEs) supporting the achievement of LOs;
- 3) Content leading to LOs;
- 4) Formative and summative assessments.
+We look forward to the development of:
+ Example implementation of API to report the existence and summary statistics of clinical/phenotypic information.
+ Example implementation of API to report the existence of transcriptomics data (as an example of other OMICs data types)
+ A set of core filters (with ontology links) based on the test datasets (public) that could be extended in the future by the community.
+ We are planning to submit a manuscript on Biohackathon outcome. Between the potential achievements, we could find an extended and lasting collaboration between institutions as well as scientific contributions, exploring the deployment of joint multi-institutional services.
 
 ## Expected audience
 
-Curriculum developers, trainers, training providers from ELIXIR nodes involved in CONVERGE, in particular involved in the development of a comprehensive ELIXIR Training programme in Data Stewardship, Management and Analysis. The programme is directed to a data-driven life science community to support ELIXIR users such as data managers and data scientists. The DSMA programme will also couple to the national training programmes in Data management and Data Driven life science across the ELIXIR nodes.
+Bioinformaticians and developers working in the areas of API development, ontology, clinical and transcriptomics data processing/analysis.
+  
+ By all means, organisers commit to the proposal with the participation and contribution of Beacon experts, developers, bioinformaticians for the event to ensure the presence of enough human resources and provide momentum during the biohackathon. 3 people from the University of Luxembourg 2 from BSC and 3 from CRG will participate in this Biohackathon topic.
 
-**Number of expected hacking days**: 4
+**Number of expected hacking days**: 4 days
 
