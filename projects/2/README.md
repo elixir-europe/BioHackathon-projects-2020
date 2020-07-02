@@ -1,4 +1,4 @@
-# *Project* 2 Machine-Actionable Data Stewardship Wizard (2)
+# Project 2: Machine-Actionable Data Stewardship Wizard (2)
 
 ## Abstract
 

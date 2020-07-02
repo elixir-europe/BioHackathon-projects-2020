@@ -1,4 +1,4 @@
-# *Project* 5 Detection of epimutations to improve the diagnosis of rare diseases (8)
+# Project 5: Detection of epimutations to improve the diagnosis of rare diseases (8)
 
 ## Abstract
 

@@ -1,4 +1,4 @@
-# *Project* 3 Wine (Ontology) Tasting: testing technicality in practicality for the food industry (4)
+# Project 3: Wine (Ontology) Tasting: testing technicality in practicality for the food industry (4)
 
 ## Abstract
 

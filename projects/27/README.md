@@ -1,4 +1,4 @@
-# *Project* 27 Sapporo WES as a Public Web Service (41)
+# Project 27: Sapporo WES as a Public Web Service (41)
 
 ## Abstract
 

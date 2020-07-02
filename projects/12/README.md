@@ -1,4 +1,4 @@
-# *Project* 12 “Federated” query by agents (19)
+# Project 12: “Federated” query by agents (19)
 
 ## Abstract
 

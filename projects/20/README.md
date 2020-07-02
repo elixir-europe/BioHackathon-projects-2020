@@ -1,4 +1,4 @@
-# *Project* 20 Support tools for efficient FAIRification of Data Resources in life sciences (29)
+# Project 20: Support tools for efficient FAIRification of Data Resources in life sciences (29)
 
 ## Abstract
 

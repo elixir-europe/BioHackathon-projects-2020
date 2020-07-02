@@ -1,4 +1,4 @@
-# *Project* 1 Follow-up analysis on BioHackathon-Europe outcomes (1)
+# Project 1: Follow-up analysis on BioHackathon-Europe outcomes (1)
 
 ## Abstract
 

@@ -1,4 +1,4 @@
-# *Project* 22 Adoption of Software Management Plans (SMPs) (32)
+# Project 22: Adoption of Software Management Plans (SMPs) (32)
 
 ## Abstract
 

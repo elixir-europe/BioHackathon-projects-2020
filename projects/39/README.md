@@ -1,4 +1,4 @@
-# *Project* 39 Creation of a cloud-native server instance that translates cancer graph variations into an OMOP compliant medical record format. (57)
+# Project 39: Creation of a cloud-native server instance that translates cancer graph variations into an OMOP compliant medical record format. (57)
 
 ## Abstract
 

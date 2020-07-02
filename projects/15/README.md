@@ -1,4 +1,4 @@
-# *Project* 15 Exporting rich metadata and provenance from Galaxy using RO-Crate packaging. (23)
+# Project 15: Exporting rich metadata and provenance from Galaxy using RO-Crate packaging. (23)
 
 ## Abstract
 

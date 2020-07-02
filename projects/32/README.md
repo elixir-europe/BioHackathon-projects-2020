@@ -1,4 +1,4 @@
-# *Project* 32 Epidemiology and monitoring ontology for COVID-19 (49)
+# Project 32: Epidemiology and monitoring ontology for COVID-19 (49)
 
 ## Abstract
 

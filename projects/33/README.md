@@ -1,4 +1,4 @@
-# *Project* 33 Deploying biocontainers in orchestration environments for life science research (50)
+# Project 33: Deploying biocontainers in orchestration environments for life science research (50)
 
 ## Abstract
 

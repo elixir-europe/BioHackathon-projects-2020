@@ -1,4 +1,4 @@
-# *Project* 9 The Turing Way: A how-to guide to reproducible, ethical and inclusive data research (16)
+# Project 9: The Turing Way: A how-to guide to reproducible, ethical and inclusive data research (16)
 
 ## Abstract
 

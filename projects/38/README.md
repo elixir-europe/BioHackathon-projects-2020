@@ -1,4 +1,4 @@
-# *Project* 38 Enabling interactive R analyses in the InterMine user interface (56)
+# Project 38: Enabling interactive R analyses in the InterMine user interface (56)
 
 ## Abstract
 

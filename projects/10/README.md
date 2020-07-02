@@ -1,4 +1,4 @@
-# *Project* 10 EDAM and Tool Information Profiles (17)
+# Project 10: EDAM and Tool Information Profiles (17)
 
 ## Abstract
 

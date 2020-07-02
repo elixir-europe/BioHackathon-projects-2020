@@ -1,4 +1,4 @@
-# *Project* 21 CAB: Computer Aided Biodiversity (30)
+# Project 21: CAB: Computer Aided Biodiversity (30)
 
 ## Abstract
 

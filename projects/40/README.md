@@ -1,4 +1,4 @@
-# *Project* 40 Accelerating integrated use of biomedical databases through semantic data modeling (58)
+# Project 40: Accelerating integrated use of biomedical databases through semantic data modeling (58)
 
 ## Abstract
 

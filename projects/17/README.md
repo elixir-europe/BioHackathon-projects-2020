@@ -1,4 +1,4 @@
-# *Project* 17 The ELIXIR Cloud & AAI Platform: Operationalising GA4GH Cloud standards (25)
+# Project 17: The ELIXIR Cloud & AAI Platform: Operationalising GA4GH Cloud standards (25)
 
 ## Abstract
 

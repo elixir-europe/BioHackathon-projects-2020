@@ -1,4 +1,4 @@
-# *Project* 35 Connecting molecular sequence to their voucher specimens (53)
+# Project 35: Connecting molecular sequence to their voucher specimens (53)
 
 ## Abstract
 

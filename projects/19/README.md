@@ -1,4 +1,4 @@
-# *Project* 19 Hardening and Testing Galaxy cluster support with BioContainer (28)
+# Project 19: Hardening and Testing Galaxy cluster support with BioContainer (28)
 
 ## Abstract
 
