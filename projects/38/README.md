@@ -1,38 +1,45 @@
-# Project 38: Enabling interactive R analyses in the InterMine user interface (56)
+# Project 38: Wine (Ontology) Tasting: testing technicality in practicality for the food industry
 
 ## Abstract
 
-InterMine, an ELIXIR Recommended Interoperability Resource, is an open source biological data warehouse deployed worldwide with instances focused on model organisms, human data and even drug targets. There are multiple interfaces to the data, such as RESTful web API, an interactive web application, as well as clients for popular programming languages like Python, JavaScript, Java and R. The current webapp is in the process of being replaced by a modern frontend stack, called BlueGenes. We have developed multiple visualization tools for use in BlueGenes ...
+https://docs.google.com/document/d/1buY6kI4ysiD8g6PoFYyknHZnaSDfdGfIszd04J9kVLM/edit# Machine learning in high-variability areas, such as food and nutrition, is a very complex problem. Data mining with machine learning is an urgency for the study of dietary intolerance and allergies, especially when accurate labeling is required by laws. Large-scale databasing also introduces demands for structuring information of manufacturer’s data. Lack of semantic implementation to structure food data is a resolvable challenge that can be overcome by using existing technologies equipped with knowledge ...
 
 ## Topics
 
-Interoperability Platform
+Data Platform
+ industry
+ Interoperability Platform
+ Training Platform
 
 **Project Number:** 38
 
 
 
-**EasyChair Number:** 56
+**EasyChair Number:** 4
 
 ## Team
 
 ### Lead(s)
 
-Kevin Herald Reierskog - khr29@cam.ac.uk
+Sirarat Sarntivijai, sirarat.sarntivijai@elixir-europe.org
+ Jane Lomax, jane@scibite.com
+ Damion Dooley, Damion.Dooley@bccdc.ca
+ Joan Marc Reira, marc@ribox.co.uk
 
 ### Nominated participant(s)
 
-Kevin Herald Reierskog - khr29@cam.ac.uk
- Sergio Contrino - contrino.it@gmail.com
+- local wine expert (to be named)
 
 ## Expected outcomes
 
-Provide a functional R editor in BlueGenes that allows you to manipulate and plot the query result data, with feedback displayed in the webapp.
+1) A summary of findings - Pros & Cons of each wine ontology examined and their capability of data integration and interoperability.
+ 2) The test dataset that is curated and mapped to existing wine ontology (-ies) with a follow-up plan of technical implementation at the wine merchant’s database.
+ 3) A report of interoperability between the wine ontologies and Food Ontology for reuse of FoodOn as an application ontology in the practice.
 
 ## Expected audience
 
-- Experience with sandboxing language runtimes to safely execute untrusted code
- - People with experience in R
+- members learning database curation by ontologies
+ - building application ontologies
 
-**Number of expected hacking days**: 4
+**Number of expected hacking days**: 2-4
 

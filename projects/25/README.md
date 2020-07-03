@@ -1,47 +1,57 @@
-# Project 25: Exploiting Bioschemas Markup in Community Registries (38)
+# Project 25: Federated Interoperable Annotated Variation Graphs
 
 ## Abstract
 
-Bioschemas has the potential to automate the collection of content from the long-tail of scientific resources for community registries such as FAIRDARE for the plant community or Orphanet for the Rare Disease community. This can be achieved by scraping structured markup from the web resources and depositing it with the community registry. This provides a single mechanism to collect data from hundreds of sources with minimal effort from the resource provider; they only need to maintain a website in which schema markup is embedded. However, it requires the registry provider to be able to ...
+Variation Graphs are data structures that can accurately represent genetic variation in populations and across species. While avoiding inherent biases in linear reference genomes. We will use this hackathon to improve how variation graph tools can produce FAIRer data that is highly interoperable and reusable. We will engage with the (bio)container projects and workflow communities to present our computational outcomes as FAIR research objects. Interoperability will be improved by continuing work on SPARQLable views on highly compressed variation graph data structures. This engages with ...
 
 ## Topics
 
-Bioschemas
+Cancer
+ Containers
+ Covid-19
+ Data Platform
+ Federated Human Data
+ GA4GH partnership
  Interoperability Platform
- Intrinsically Disordered Community
+ Marine Metagenomics
  Plant Sciences
- Rare Disease
 
 **Project Number:** 25
 
 
 
-**EasyChair Number:** 38
+**EasyChair Number:** 39
 
 ## Team
 
 ### Lead(s)
 
-Alasdair Gray A.J.G.Gray@hw.ac.uk
+Simon Heumos (simon.heumos@qbic.uni-tuebingen.de)*corresponding author
+ Erik Garrison (erik.garrison@ucsc.edu)
+ Jerven Bollemann (jerven.bolleman@sib.swiss)
+ Toshiyuki Yokoyama (toshiyuki.t.yokoyama@gmail.com)
+ Lukas Heumos (lukas.heumos@posteo.net)
+ Philipp Ehmele (philipp_ehm@protonmail.com)
 
 ### Nominated participant(s)
 
-Petros Papadopoulos <p.papadopoulos@hw.ac.uk>
- Ivan Micetic <ivan.micetic@unipd.it>
+Erik Garrison (erik.garrison@ucsc.edu)
+ Simon Heumos (simon.heumos@qbic.uni-tuebingen.de)
 
 ## Expected outcomes
 
-Bioschemas markup crawled
- Markup fed into community aggregators
- Markup improving search results
+1. Container to deploy a variation graph as a SPARQL endpoint on European cloud
+ systems.
+ 2. Example queries integrating datasets.
+ 3. Linear time algorithm for public preserving variation graph node identity.
+ 4. Demonstrate that we can enrich a local visualization of a privacy protected cancer sample with public available SPARQL endpoint data.
 
 ## Expected audience
 
-Community registry providers
- - FAIRDARE: Cyril Pommier
- - IDPCentral: Ivan Micetic, Andras Hatos
- - Orphanet: Marc Hanauer, David Lagorce, Céline Rousselot
- Scraper expertise: Petros Papadopoulos
+1. SPARQL/RDF/Semantic Web developers
+ 2. Variation graph toolkit developers
+ 3. Workflow enthusiasts
+ 4. Experience with data visualization using JavaScript
 
 **Number of expected hacking days**: 4
 

@@ -1,44 +1,47 @@
-# Project 24: Extending and implementing InterMine databases for ELIXIR nodes (37)
+# Project 24: Exploiting Bioschemas Markup in Community Registries
 
 ## Abstract
 
-InterMine, an ELIXIR Recommended Interoperability Resource, collaborated in early 2020 with members from ELIXIR France and ELIXIR Italy to build two InterMine databases based on data from each of those nodes. Over a two-week period, node representatives collaborated to integrate data into the two new InterMine instances, learning how to administer and configure InterMine. This resulted in prototype versions of InterMine known as InterMirMine for ELIXIR Italy, and Genolist for ELIXIR France. During this time the participants also identified extensions to the work done over these two weeks ...
+Bioschemas has the potential to automate the collection of content from the long-tail of scientific resources for community registries such as FAIRDARE for the plant community or Orphanet for the Rare Disease community. This can be achieved by scraping structured markup from the web resources and depositing it with the community registry. This provides a single mechanism to collect data from hundreds of sources with minimal effort from the resource provider; they only need to maintain a website in which schema markup is embedded. However, it requires the registry provider to be able to ...
 
 ## Topics
 
-Interoperability Platform
+Bioschemas
+ Interoperability Platform
+ Intrinsically Disordered Community
+ Plant Sciences
+ Rare Disease
 
 **Project Number:** 24
 
 
 
-**EasyChair Number:** 37
+**EasyChair Number:** 38
 
 ## Team
 
 ### Lead(s)
 
-* Yo Yehudi yo@intermine.org
- Flavio Licciulli flavio.licciulli@ba.itb.cnr.it
- Rémi Planel remi.planel@pasteur.fr
- Hervé Menager herve.menager@pasteur.fr
+Alasdair Gray A.J.G.Gray@hw.ac.uk
 
 ### Nominated participant(s)
 
-Yo Yehudi - yo@intermine.org
- Flavio - flavio.licciulli@ba.itb.cnr.it
+Petros Papadopoulos <p.papadopoulos@hw.ac.uk>
+ Ivan Micetic <ivan.micetic@unipd.it>
 
 ## Expected outcomes
 
-- 1-2 new data visualisations created that can be used across the dozens of InterMines in existence
- - Better BLAST integration for InterMine instances.
- - Generate additional collaborations / plans to create new InterMine instances with biohackathon participant data.
+Bioschemas markup crawled
+ Markup fed into community aggregators
+ Markup improving search results
 
 ## Expected audience
 
-JS developers, especially data visualisers
- People with BLAST software skills
- People with data they would like to integrate or analyse in InterMine
+Community registry providers
+ - FAIRDARE: Cyril Pommier
+ - IDPCentral: Ivan Micetic, Andras Hatos
+ - Orphanet: Marc Hanauer, David Lagorce, Céline Rousselot
+ Scraper expertise: Petros Papadopoulos
 
 **Number of expected hacking days**: 4
 

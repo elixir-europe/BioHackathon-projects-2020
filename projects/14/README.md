@@ -1,44 +1,41 @@
-# Project 14: Unlock the value of your data computing at the edge (21)
+# Project 14: Exporting rich metadata and provenance from Galaxy using RO-Crate packaging.
 
 ## Abstract
 
-The exponential growth of high throughput devices, such as next generation sequencing or electron microscopy is generating an unprecedent amount of raw data that needs to be processed, analysed and exploited. The challenge lies in the capability to turn the big data produced by the life sciences workflows into actionable insights. How to do that as quickly as possible while ensuring that all data remains safe and secure? BullSequana Edge has been designed to meet these challenges, delivering powerful AI inference and streaming analytics capabilities at the edge. We propose you to prove the ...
+Workflows are essential pieces of software for any computational research in life sciences and as such are digital objects in their own right, encapsulating methodological know-how. A great deal of work has been put into developing solutions to simplify the creation of workflows, functional annotation of bioinformatics software tools, as well as their virtualization, containerization and assembly into workflows for automatically executing the processes. This way, we currently have highly comprehensive and easy to use WMS such as Galaxy, enabling researchers to create workflows through a user ...
 
 ## Topics
 
-Compute Platfrom
+EOSC-life
  Galaxy
- Machine learning
+ Interoperability Platform
 
 **Project Number:** 14
 
 
 
-**EasyChair Number:** 21
+**EasyChair Number:** 23
 
 ## Team
 
 ### Lead(s)
 
-Author 1, Nicholas Allsopp - nicholas.allsopp@atos.net
- Author 2, Albert Trill - albert.trill@atos.net
+Ignacio Eguinoa (ignacio.eguinoa@psb.ugent.be) - corresponding author
+ Frederik Coppens (frcop@psb.vib-ugent.be)
 
 ### Nominated participant(s)
 
-Author 1, Nicholas Allsopp - nicholas.allsopp@atos.net
- Author 2, Albert Trill - albert.trill@atos.net
+Marius van den Beek - Galaxy Team member (m.vandenbeek@gmail.com)
+ John Chilton - Galaxy Team member(jmchilton@gmail.com)
 
 ## Expected outcomes
 
-There are no rules or constraints; we want you to enjoy playing with Atos Edge, however, we would be interested in watching a demo of your work at the end of the bio hackathon. 
- What we want to prove is that traditional data centres and edge computing are the perfect blend to provide powerful analytics and machine learning inference capabilities.
+Being able to import/export RO-Crate objects representing workflow templates and workflow enactments into/from Galaxy. Initially through the API and possibly also embedding this into the UI.
+ Enable end-users to generate digital objects from Galaxy that contain the minimal provenance information needed for reproducing the executed workflow and deposit this in registries such as WorkflowHub and OpenAIRE.
 
 ## Expected audience
 
-Researchers developing workflows
- Any research with an interest in accelerating an application 
- Galaxy users
- Anyone with an interest in exploring edge computing
+Ideally, the project requires experts with experience in the Galaxy code to be able to capture all details of a workflow execution, but would benefit from the contribution of any Python developer as well as the interaction with participants of several other projects: e.g WorkflowHub,RO-Crate and CWL PROV)
 
-**Number of expected hacking days**: That would depend on the nature of the workflow, application or use case chosen by the hacker. We would expect an average of three days.
+**Number of expected hacking days**: 4
 

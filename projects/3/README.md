@@ -1,45 +1,46 @@
-# Project 3: Wine (Ontology) Tasting: testing technicality in practicality for the food industry (4)
+# Project 3: ELIXIR Service Bundle for Epidemic Response
 
 ## Abstract
 
-https://docs.google.com/document/d/1buY6kI4ysiD8g6PoFYyknHZnaSDfdGfIszd04J9kVLM/edit# Machine learning in high-variability areas, such as food and nutrition, is a very complex problem. Data mining with machine learning is an urgency for the study of dietary intolerance and allergies, especially when accurate labeling is required by laws. Large-scale databasing also introduces demands for structuring information of manufacturer’s data. Lack of semantic implementation to structure food data is a resolvable challenge that can be overcome by using existing technologies equipped with knowledge ...
+In the last few decades we have seen the surfacing and spreading of many novel pathogenic viruses. Some were mutations of the traditional influenza viruses, and some were viruses that crossed the animal-human divide and became a threat to human lives. An example of the former is the influenza A (H1N1) virus that caused a pandemic in 2009 [1], while an example of the latter are highly pathogenic avian influenza A(H7N9), A(H5N1), and A(H5N6), low pathogenic avian influenza A(H7N2), swine influenza A(H1N2)v and A(H3N2) [2]. In he above cases, when a novel virus or bacterial strain for which ...
 
 ## Topics
 
-Data Platform
- industry
- Interoperability Platform
- Training Platform
+Containers
+ Data Platform
+ Plant Sciences
+ Proteomics
+ Tools Platform
 
 **Project Number:** 3
 
 
 
-**EasyChair Number:** 4
+**EasyChair Number:** 5
 
 ## Team
 
 ### Lead(s)
 
-Sirarat Sarntivijai, sirarat.sarntivijai@elixir-europe.org
- Jane Lomax, jane@scibite.com
- Damion Dooley, Damion.Dooley@bccdc.ca
- Joan Marc Reira, marc@ribox.co.uk
+Castrense Savojardo castrense.savojardo2@unibo.it
+ 
+ Pier Luigi Martelli pierluigi.martelli@unibo.it
 
 ### Nominated participant(s)
 
-- local wine expert (to be named)
+Castrense Savojardo castrense.savojardo2@unibo.it
+ 
+ Pier Luigi Martelli pierluigi.martelli@unibo.it
 
 ## Expected outcomes
 
-1) A summary of findings - Pros & Cons of each wine ontology examined and their capability of data integration and interoperability.
- 2) The test dataset that is curated and mapped to existing wine ontology (-ies) with a follow-up plan of technical implementation at the wine merchant’s database.
- 3) A report of interoperability between the wine ontologies and Food Ontology for reuse of FoodOn as an application ontology in the practice.
+The ideal final outcome would be a draft ELIXIR Service Bundle that can link together different workflows, tools and literature resources, and can provide a platform for a quick response in case of an outbreak, for example finding candidates for drug retargeting or finding phenotypes naturally resistant to the infection.
 
 ## Expected audience
 
-- members learning database curation by ontologies
- - building application ontologies
+Bioinformatics
+ Container 
+ Workflow
 
-**Number of expected hacking days**: 2-4
+**Number of expected hacking days**: 4
 

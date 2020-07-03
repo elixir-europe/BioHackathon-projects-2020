@@ -1,4 +1,4 @@
-# Project 13: Extension and Continuous Integration of Cheminformatics Resources and Applications (20)
+# Project 13: Extension and Continuous Integration of Cheminformatics Resources and Applications
 
 ## Abstract
 

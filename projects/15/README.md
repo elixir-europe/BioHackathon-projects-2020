@@ -1,41 +1,38 @@
-# Project 15: Exporting rich metadata and provenance from Galaxy using RO-Crate packaging. (23)
+# Project 15: FAIR4Software. Automated indicators and metrics measurement.
 
 ## Abstract
 
-Workflows are essential pieces of software for any computational research in life sciences and as such are digital objects in their own right, encapsulating methodological know-how. A great deal of work has been put into developing solutions to simplify the creation of workflows, functional annotation of bioinformatics software tools, as well as their virtualization, containerization and assembly into workflows for automatically executing the processes. This way, we currently have highly comprehensive and easy to use WMS such as Galaxy, enabling researchers to create workflows through a user ...
+Research software are digital objects that depending on the context resemble research data. However, the dynamic nature of research software has led to the community to propose specific instantiations of the FAIR principles for software. Taking into account a number of efforts in this direction, we have implemented in OpenEBench an initial set of indicators and metrics derived from those principles. This non-exhaustive set of metrics and indicators provide the possibility to have a first glance at the FAIRness level of research software across Life Sciences. Measurements are deemed automated ...
 
 ## Topics
 
-EOSC-life
- Galaxy
- Interoperability Platform
+Tools Platform
 
 **Project Number:** 15
 
 
 
-**EasyChair Number:** 23
+**EasyChair Number:** 24
 
 ## Team
 
 ### Lead(s)
 
-Ignacio Eguinoa (ignacio.eguinoa@psb.ugent.be) - corresponding author
- Frederik Coppens (frcop@psb.vib-ugent.be)
+Eva Martin del Pico (eva.mdpico@gmail.com) - author1
 
 ### Nominated participant(s)
 
-Marius van den Beek - Galaxy Team member (m.vandenbeek@gmail.com)
- John Chilton - Galaxy Team member(jmchilton@gmail.com)
+Morane Gruenpeter. Software Heritage (morane.gg@gmail.com)
+ Neil Chue Hong. Software Sustainability Institute (n.chuehong@software.ac.uk)
 
 ## Expected outcomes
 
-Being able to import/export RO-Crate objects representing workflow templates and workflow enactments into/from Galaxy. Initially through the API and possibly also embedding this into the UI.
- Enable end-users to generate digital objects from Galaxy that contain the minimal provenance information needed for reproducing the executed workflow and deposit this in registries such as WorkflowHub and OpenAIRE.
+Work towards a sustainable Software Quality Observatory for Life Sciences based (partially) in the work around FAIR4Software metrics and indicators. Also, the seed of platform agnostic reference implementations to measure these metrics.
 
 ## Expected audience
 
-Ideally, the project requires experts with experience in the Galaxy code to be able to capture all details of a workflow execution, but would benefit from the contribution of any Python developer as well as the interaction with participants of several other projects: e.g WorkflowHub,RO-Crate and CWL PROV)
+software developers
+ software end-users
 
-**Number of expected hacking days**: 4
+**Number of expected hacking days**: 2 for discussions and 2 for hacking specific aspects
 

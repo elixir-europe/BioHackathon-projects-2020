@@ -1,49 +1,50 @@
-# Project 40: Accelerating integrated use of biomedical databases through semantic data modeling (58)
+# Project 40: Creation of a cloud-native server instance that translates cancer graph variations into an OMOP compliant medical record format.
 
 ## Abstract
 
-From the interpretation of variant to large scale data sciences, it is essential to use biomedical databases in an integrated manner. For this purpose, we produced Resource Description Framework (RDF) datasets in the Med2RDF project (http://med2rdf.org/) including ClinVar, ExAC/gnomAD, ICGC, CIViC, DGIdb, HiNT, INstruct, CCLE, dbNSFP, MedGen, and HGNC. However, the utilization of integrated data was still hard for users (especially non-engineers) due to a lack of the best tooling to capture the complex data models. Actually, although RDF datasets have been constructed around the world, they ...
+We will create a cloud-native server instance that generates cancer graph variations and translates them into an OMOP compliant medical record format. The tumor genome is a combination of somatic variants atop a germline background. Germline variants primarily inform discussions of cancer predisposition, such as the election of many BRCA1/2 mutation careers to undergo preventative surgery given their increased lifetime risk for cancer development. The germline plays a particularly important role in childhood cancers such as rhabdomyosarcoma (PTCH1/PTCH2 mutations). A tumor’s somatic ...
 
 ## Topics
 
-Data Platform
+Cancer
+ Data Platform
+ Federated Human Data
  Interoperability Platform
- Machine learning
- Tools Platform
 
 **Project Number:** 40
 
 
 
-**EasyChair Number:** 58
+**EasyChair Number:** 57
 
 ## Team
 
 ### Lead(s)
 
-Toshiaki Katayama <ktym@dbcls.jp>
+Ben Busby bbusby@dnanexus.com
+ Jason Chin jchin@dnanexus.com
+ eric.t.dawson@gmail.com
+ anc174@pitt.edu
+ nick.giangreco@gmail.com
 
 ### Nominated participant(s)
 
-Toshiaki Katayama <ktym@dbcls.jp>
- Shuichi Kawashima <kwsm@dbcls.rois.ac.jp>
- Daisuke Satoh <daisuke.satoh@lifematics.co.jp>
- Ryosuke Kojima <kojima.ryosuke.8e@kyoto-u.ac.jp>
- Mayumi Kamada <mkamada@kuhp.kyoto-u.ac.jp>
+Andrew Clugston -- anc174@pitt.edu
+ Nick Giangreco -- nick.giangreco@gmail.com
 
 ## Expected outcomes
 
-Provides a data science platform for the biomedical domain by creating:
- * schema diagrams for each database
- * queries for each database
- * integrated use of databases
- * machine-learning applications
+A task for generating variation graphs from a set of variants
+ A task for querying variants in a graph, given a set of reads
+ A task for producing OMOP records from cancer variation graphs
 
 ## Expected audience
 
-Biomedical database developers and users,
- Data scientists and Machine learning experts,
- Biomedical researchers who have experience of clinical interpretation
+Ben Busby -- Bioinformatics
+ Jason Chin -- Graph Algorithms
+ Eric Dawson -- Graph Algorithms
+ Andrew Clugston -- Bioinformatics and OMOP
+ Nick Giangreco -- OMOP
 
-**Number of expected hacking days**: 4 days
+**Number of expected hacking days**: 4
 

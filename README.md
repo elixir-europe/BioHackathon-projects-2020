@@ -3,46 +3,47 @@ This repository is meant for the participants of the BioHackathon hosted in Barc
 
 ## Projects
 
-* [Project 1](projects/1) Follow-up analysis on BioHackathon-Europe outcomes (1)
-* [Project 2](projects/2) Machine-Actionable Data Stewardship Wizard (2)
-* [Project 3](projects/3) Wine (Ontology) Tasting: testing technicality in practicality for the food industry (4)
-* [Project 4](projects/4) Unified Biological Dictionaries + PubDictionaries = a curator’s life dream (6)
-* [Project 5](projects/5) Detection of epimutations to improve the diagnosis of rare diseases (8)
-* [Project 6](projects/6) Improving BioHackrXiv.org (13)
-* [Project 7](projects/7) CNV detection software containerisation and benchmark (14)
-* [Project 8](projects/8) Integrating modelling services with the 3D-Beacons network (15)
-* [Project 9](projects/9) The Turing Way: A how-to guide to reproducible, ethical and inclusive data research (16)
-* [Project 10](projects/10) EDAM and Tool Information Profiles (17)
-* [Project 11](projects/11) bio.tools integration and sustainable development (18)
-* [Project 12](projects/12) “Federated” query by agents (19)
-* [Project 13](projects/13) Extension and Continuous Integration of Cheminformatics Resources and Applications (20)
-* [Project 14](projects/14) Unlock the value of your data computing at the edge (21)
-* [Project 15](projects/15) Exporting rich metadata and provenance from Galaxy using RO-Crate packaging. (23)
-* [Project 16](projects/16) FAIR4Software. Automated indicators and metrics measurement. (24)
-* [Project 17](projects/17) The ELIXIR Cloud & AAI Platform: Operationalising GA4GH Cloud standards (25)
-* [Project 18](projects/18) Improve the support of Common Workflow Language in Galaxy (26)
-* [Project 19](projects/19) Hardening and Testing Galaxy cluster support with BioContainer (28)
-* [Project 20](projects/20) Support tools for efficient FAIRification of Data Resources in life sciences (29)
-* [Project 21](projects/21) CAB: Computer Aided Biodiversity (30)
-* [Project 22](projects/22) Adoption of Software Management Plans (SMPs) (32)
-* [Project 23](projects/23) Federating Accessible InterMine Resources (33)
-* [Project 24](projects/24) Extending and implementing InterMine databases for ELIXIR nodes (37)
-* [Project 25](projects/25) Exploiting Bioschemas Markup in Community Registries (38)
-* [Project 26](projects/26) Federated Interoperable Annotated Variation Graphs (39)
-* [Project 27](projects/27) Sapporo WES as a Public Web Service (41)
-* [Project 28](projects/28) An interface between Galaxy and disease maps (43)
-* [Project 29](projects/29) Beacon for clinical and translational data’ (44)
-* [Project 30](projects/30) Further development of Service Bundle pilots and integration with the ELIXIR ecosystem (45)
-* [Project 31](projects/31) Design of a modular learning path (curriculum) in Data Stewardship, Management and Analysis for the Life Sciences (47)
-* [Project 32](projects/32) Epidemiology and monitoring ontology for COVID-19 (49)
-* [Project 33](projects/33) Deploying biocontainers in orchestration environments for life science research (50)
-* [Project 34](projects/34) User interface for plant experimental metadata management: EBI(DSP)-ISA-FAIRDOMHub/SEEK harmonization (52)
-* [Project 35](projects/35) Connecting molecular sequence to their voucher specimens (53)
-* [Project 36](projects/36) Development of a tool for mechanistic meta-analyses using COVID-19 available data as proof of concept (54)
-* [Project 37](projects/37) Knowledge graphs and wikidata subsetting (55)
-* [Project 38](projects/38) Enabling interactive R analyses in the InterMine user interface (56)
-* [Project 39](projects/39) Creation of a cloud-native server instance that translates cancer graph variations into an OMOP compliant medical record format. (57)
-* [Project 40](projects/40) Accelerating integrated use of biomedical databases through semantic data modeling (58)
+* [Project 1](projects/1) Follow-up analysis on BioHackathon-Europe outcomes
+* [Project 2](projects/2) Machine-Actionable Data Stewardship Wizard
+* [Project 3](projects/3) ELIXIR Service Bundle for Epidemic Response
+* [Project 4](projects/4) Unified Biological Dictionaries + PubDictionaries = a curator’s life dream
+* [Project 5](projects/5) Detection of epimutations to improve the diagnosis of rare diseases
+* [Project 6](projects/6) Improving BioHackrXiv.org
+* [Project 7](projects/7) CNV detection software containerisation and benchmark
+* [Project 8](projects/8) Integrating modelling services with the 3D-Beacons network
+* [Project 9](projects/9) The Turing Way: A how-to guide to reproducible, ethical and inclusive data research
+* [Project 10](projects/10) EDAM and Tool Information Profiles
+* [Project 11](projects/11) bio.tools integration and sustainable development
+* [Project 12](projects/12) “Federated” query by agents
+* [Project 13](projects/13) Extension and Continuous Integration of Cheminformatics Resources and Applications
+* [Project 14](projects/14) Exporting rich metadata and provenance from Galaxy using RO-Crate packaging.
+* [Project 15](projects/15) FAIR4Software. Automated indicators and metrics measurement.
+* [Project 16](projects/16) The ELIXIR Cloud & AAI Platform: Operationalising GA4GH Cloud standards
+* [Project 17](projects/17) Improve the support of Common Workflow Language in Galaxy
+* [Project 18](projects/18) Hardening and Testing Galaxy cluster support with BioContainer
+* [Project 19](projects/19) Support tools for efficient FAIRification of Data Resources in life sciences
+* [Project 20](projects/20) CAB: Computer Aided Biodiversity
+* [Project 21](projects/21) Adoption of Software Management Plans (SMPs)
+* [Project 22](projects/22) Federating Accessible InterMine Resources
+* [Project 23](projects/23) Extending and implementing InterMine databases for ELIXIR nodes
+* [Project 24](projects/24) Exploiting Bioschemas Markup in Community Registries
+* [Project 25](projects/25) Federated Interoperable Annotated Variation Graphs
+* [Project 26](projects/26) Sapporo WES as a Public Web Service
+* [Project 27](projects/27) An interface between Galaxy and disease maps
+* [Project 28](projects/28) Beacon for clinical and translational data’
+* [Project 29](projects/29) Design of a modular learning path (curriculum) in Data Stewardship, Management and Analysis for the Life Sciences
+* [Project 30](projects/30) Epidemiology and monitoring ontology for COVID-19
+* [Project 31](projects/31) Deploying biocontainers in orchestration environments for life science research
+* [Project 32](projects/32) User interface for plant experimental metadata management: EBI(DSP)-ISA-FAIRDOMHub/SEEK harmonization
+* [Project 33](projects/33) Connecting molecular sequence to their voucher specimens
+* [Project 34](projects/34) Development of a tool for mechanistic meta-analyses using COVID-19 available data as proof of concept
+* [Project 35](projects/35) Knowledge graphs and wikidata subsetting
+* [Project 36](projects/36) Enabling interactive R analyses in the InterMine user interface
+* [Project 37](projects/37) Accelerating integrated use of biomedical databases through semantic data modeling
+* [Project 38](projects/38) Wine (Ontology) Tasting: testing technicality in practicality for the food industry
+* [Project 39](projects/39) Unlock the value of your data computing at the edge
+* [Project 40](projects/40) Creation of a cloud-native server instance that translates cancer graph variations into an OMOP compliant medical record format.
+* [Project 41](projects/41) Further development of Service Bundle pilots and integration with the ELIXIR ecosystem
 
 
 ## BioHackathon IP disclaimer

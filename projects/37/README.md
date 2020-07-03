@@ -1,50 +1,49 @@
-# Project 37: Knowledge graphs and wikidata subsetting (55)
+# Project 37: Accelerating integrated use of biomedical databases through semantic data modeling
 
 ## Abstract
 
-During the last years there were multiple biohackathon efforts to develop mechanisms which extract subsets from linked data. One example would be the G2G language created in a 2019 Biohackathon-Europe project, which used a mixture of SPARQL expressions and Cypher patterns to extract property graphs. An initial effort started during SWAT4(HC)LS to define the topical use cases and main methods. Later, at the virtual Covid-19 biohackathon in April, an initial prototype was started to use ShEx schemas to define the subsets to be extracted from a wikibase instance. There are several benefits and ...
+From the interpretation of variant to large scale data sciences, it is essential to use biomedical databases in an integrated manner. For this purpose, we produced Resource Description Framework (RDF) datasets in the Med2RDF project (http://med2rdf.org/) including ClinVar, ExAC/gnomAD, ICGC, CIViC, DGIdb, HiNT, INstruct, CCLE, dbNSFP, MedGen, and HGNC. However, the utilization of integrated data was still hard for users (especially non-engineers) due to a lack of the best tooling to capture the complex data models. Actually, although RDF datasets have been constructed around the world, they ...
 
 ## Topics
 
-Bioschemas
- Compute Platfrom
- Containers
- Covid-19
- Data Platform
- Federated Human Data
+Data Platform
  Interoperability Platform
+ Machine learning
  Tools Platform
 
 **Project Number:** 37
 
 
 
-**EasyChair Number:** 55
+**EasyChair Number:** 58
 
 ## Team
 
 ### Lead(s)
 
-Jose Emilio Labra Gayo, labra@uniovi.es (corresponding author)
- Andra Waagmeester, andra@micel.io
- Eric Prud’hommeaux, eric@w3.org
- Dan Brickley, danbri@danbri.org
- John Samuel, john.samuel@cpe.fr
+Toshiaki Katayama <ktym@dbcls.jp>
 
 ### Nominated participant(s)
 
-Alejandro González Hevia, alendrgh11@gmail.com
- Jose Emilio Labra Gayo, labra@uniovi.es
+Toshiaki Katayama <ktym@dbcls.jp>
+ Shuichi Kawashima <kwsm@dbcls.rois.ac.jp>
+ Daisuke Satoh <daisuke.satoh@lifematics.co.jp>
+ Ryosuke Kojima <kojima.ryosuke.8e@kyoto-u.ac.jp>
+ Mayumi Kamada <mkamada@kuhp.kyoto-u.ac.jp>
 
 ## Expected outcomes
 
-We want to create a knowledge graph extraction tool that will allow a bioinformatician to easily generate useful subsets from Wikidata or similar knowledge graphs based on ShEx schemas. Those datasets can be later used for efficiently analysing the subset data. They could also be used to generate reproducible subsets from wikidata and other large knowledge graphs. The prototype tool will be a WikidataIntegrator module that could be used to extract on demand wikibase instances for specific use cases.
+Provides a data science platform for the biomedical domain by creating:
+ * schema diagrams for each database
+ * queries for each database
+ * integrated use of databases
+ * machine-learning applications
 
 ## Expected audience
 
-- Bio-data scientists and domain experts interested in data analytics
- - Researchers interested in open science and reproducible workflows
- - Bioinformaticians and programmers, or anyone with technical background
+Biomedical database developers and users,
+ Data scientists and Machine learning experts,
+ Biomedical researchers who have experience of clinical interpretation
 
-**Number of expected hacking days**: 4
+**Number of expected hacking days**: 4 days
 

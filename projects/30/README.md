@@ -1,41 +1,48 @@
-# Project 30: Further development of Service Bundle pilots and integration with the ELIXIR ecosystem (45)
+# Project 30: Epidemiology and monitoring ontology for COVID-19
 
 ## Abstract
 
-Services Bundles are a new mechanism to identify how ELIXIR platforms and communities are able to address specific user needs. In the context of the Service Bundles pilots around Rare Disease we propose a project aimed to complete the offer of the Service Bundles identified so far. The Project will have a dual aspect of creation of containers of the tools not yet available in the BioContainers registry and defining the workflows targeting the use cases driving the Service Bundles. On the BioContainer front we plan to contribute to the recipes in BioConda and take advantage of the ELIXIR ...
+Epidemiological data is necessary to monitor public health, and to assess the impact of disease outbreaks and efficacy of mitigating interventions. In the context of an infectious disease outbreak it is imperative to have these data as FAIR as possible to facilitate rapid analysis to support timely evidence-based decision making. During the past virtual BioHackathon-COVID-19 we evaluated the availability of some epidemiological quantitative indicators in OBO ontologies and detected that while between the Statistics ontology [1] and Epidemiology Ontology (EPO) we have many of the usual ...
 
 ## Topics
 
-Containers
- Rare Disease
+Covid-19
+ Data Platform
+ Federated Human Data
+ Interoperability Platform
 
 **Project Number:** 30
 
 
 
-**EasyChair Number:** 45
+**EasyChair Number:** 49
 
 ## Team
 
 ### Lead(s)
 
-Emidio Capriotti <emidio.capriotti@unibo.it>
- Michael R. Crusoe <mrc@commonwl.org>
+Núria Queralt-Rosinach [ nqueralt.r@gmail.com ], 
+ Robert Hoehndorf [ robert.hoehndorf@kaust.edu.sa ], 
+ Paul N Schofield [ pns12@hermes.cam.ac.uk ], 
+ Philippe Rocca-Serra [ philippe.rocca-serra@oerc.ox.ac.uk ]
+ Rajaram Kaliyaperumal [ R.Kaliyaperumal@lumc.nl ]
 
 ### Nominated participant(s)
 
-Emidio Capriotti <emidio.capriotti@unibo.it>
- Michael R. Crusoe <mrc@commonwl.org>
+Núria Queralt-Rosinach [ nqueralt.r@gmail.com ],
+ Rajaram Kaliyaperumal [ R.Kaliyaperumal@lumc.nl ]
 
 ## Expected outcomes
 
-Expected outcome: this effort will improve the visibility and usability of the pilot Service Bundles, and pave the road ahead for the future Service Bundles being considered.
+Expected outcomes and prioritization: First to develop an epidemiology information model in OBO focused on quantitative indicators; Incorporate this model in an existing resource for the community.
+ 
+ From the first list of epidemiological quantitative terms analyzed, our plan is to: 1) add new COVID-19 relevant content through manual extraction from publications in medrXiv and or case report forms 2) try to map these to existing OBO ontologies 3) refine the list of terms with epidemiologists 4) define and implement axiom patterns 5) contact ontology stakeholders to define what is missing and either to ask for extensions to existing ontologies or to build a new, logically well-formed, and accurate ontology in OBO. We plan to perform two rounds of work, a first round to focus on quantitative indicators and a second round to expand to other indicators such as WHO indicators [3].
+ 
+ [3] https://www.who.int/healthinfo/indicators/2015/metadata/en/
 
 ## Expected audience
 
-People involved in the Rare Disease Service bundle Pilots.
- People interested in adding tools to the BioContainers ecosystem.
- People interested in creating CWL workflows.
+Curators, epidemiologists, ontologists, biomedical scientists, FAIRData experts.
 
-**Number of expected hacking days**: 4
+**Number of expected hacking days**: 4 days
 

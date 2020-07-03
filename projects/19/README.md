@@ -1,44 +1,37 @@
-# Project 19: Hardening and Testing Galaxy cluster support with BioContainer (28)
+# Project 19: Support tools for efficient FAIRification of Data Resources in life sciences
 
 ## Abstract
 
-Galaxy is an open-source web framework for easy-to-use, reproducible, and shareable computational life science research, that is used across all ELIXIR nodes and serve thousands of users. Galaxy can run jobs using a plethora of different infrastructures (local, batch schedulers, container orchestrators, etc.) through different “Galaxy job runners”. However, support for different infrastructures through these runners is not uniform (some runners support certain features in certain infrastructures) and so it needs to be continuously updated and tested. During the Biohackathon, we will: - ...
+The Identifiers.org system is a central infrastructure for findable, accessible, interoperable and re-usable (FAIR) data. It provides a range of services to generate, resolve and validate persistent Compact Identifiers to promote the citability of individual data providers and integration with e-infrastructures [1,2]. The Identifiers.org registry[4] contains hundreds of manually curated, high quality data collections, with each assigned a unique prefix. A combination of the prefix and a locally assigned database identifier (accession) forms a Compact Identifier, [prefix]:[accession]. For ...
 
 ## Topics
 
-Compute Platfrom
- Galaxy
- Tools Platform
+Interoperability Platform
 
 **Project Number:** 19
 
 
 
-**EasyChair Number:** 28
+**EasyChair Number:** 29
 
 ## Team
 
 ### Lead(s)
 
-Marco Antonio Tangaro <ma.tangaro@ibiom.cnr.it> (IT)
+Manuel Bernal Llinares <mbernal@ebi.ac.uk>
 
 ### Nominated participant(s)
 
-Marco Antonio Tangaro <ma.tangaro@ibiom.cnr.it> (IT) - Ansible, Bash, Cloud computing, Docker, Galaxy, Python
- 
- Pablo Moreno <pmoreno@ebi.ac.uk> (UK) - Galaxy on Kubernetes, Galaxy on LSF, Cloud computing, Python, Ansible, Bash
+Javier Ferrer <jferrer@ebi.ac.uk>
+ Nick Juty <nick.juty@manchester.ac.uk>
 
 ## Expected outcomes
 
-- Testing Galaxy cluster support, through Galaxy runners, e.g. for HTCondor, Kubernetes, Mesos, etc.
- - Improve Container orchestrator support in Galaxy.
- - Improve job resubmission support.
+The outcome of this project will be a fast lightweight tool, for FAIRification of data provided by resources registered in identifiers.org, which can easily be integrated within Identfiers.org or third party applications.
 
 ## Expected audience
 
-- Type of participants: Developers, DevOps, System Administrators
- - Knowledge: basic Galaxy admin knowledge, Job scheduling
- - Skills: Bash, Python
+This project is expected to attract the attention of the bioinformatics community who are interested in working with any of the following technologies: Javascript, HTML5, CSS3, Java, Python, Django, Shell Script, Kubernetes and Google Cloud.
 
-**Number of expected hacking days**: 4 days
+**Number of expected hacking days**: 4
 

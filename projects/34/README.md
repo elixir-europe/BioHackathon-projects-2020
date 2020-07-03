@@ -1,43 +1,71 @@
-# Project 34: User interface for plant experimental metadata management: EBI(DSP)-ISA-FAIRDOMHub/SEEK harmonization (52)
+# Project 34: Development of a tool for mechanistic meta-analyses using COVID-19 available data as proof of concept
 
 ## Abstract
 
-Despite the general demand for research data that meet FAIR principles (Findability, Accessibility, Interoperability and Reusability), there are very few tools available that try to help researchers generate FAIR data by design. FAIRDOMHub/SEEK is a very flexible platform for sharing research projects; ISA tools and formats are a general purpose framework to collect and communicate complex metadata from experiments employing a combination of technologies. Both systems are used by several scientific communities, within ELIXIR and beyond, as suitable systems for research data management. ...
+The development of biomedical high-throughput technologies has made omic analyses more affordable and, thus, accessible. This technological boom has rapidly taken us to a scenario where we are gathering a vast amount of data at public repositories, such as GEO, EGA, SRA or ArrayExpress, changing the data challenge, that now lies in the integration of all the available data, and in drawing conclusions from it as a whole. Given the recent events of COVID-19 pandemic, we expect to be flooded with a huge amount of omics data from cells or patients infected with SARS-CoV-2 in the upcoming ...
 
 ## Topics
 
-Data Platform
- Interoperability Platform
- Plant Sciences
+Covid-19
+ Data Platform
  Tools Platform
 
 **Project Number:** 34
 
 
 
-**EasyChair Number:** 52
+**EasyChair Number:** 54
 
 ## Team
 
 ### Lead(s)
 
-Name: Flora D’Anna
- Email: flora.danna@ugent.vib.be
+Maria Peña-Chilet (author)
+ mariapch84@gmail.com
+ 
+ Joaquin Dopazo (corresponing author)
+ joaquin.dopazo@juntadeandalucia.es
+ Clinical Bioinformatics Area - FPS (Fundacion Progreso y Salud)
 
 ### Nominated participant(s)
 
-- Stuart Owen, UMAN for FAIRDOMHub/SEEK, stuart.owen@manchester.ac.uk
- - Philippe Rocca-Serra, Uni of Oxford for ISA format, philippe.rocca-serra@oerc.ox.ac.uk
+Maria Peña-Chilet mariapch84@gmail.com
+ Jose Luis Fernandez-Rueda josel.fernandez.rueda@juntadeandalucia.es
 
 ## Expected outcomes
 
-1) FAIRDOMHub/SEEK compliance to ISA formats
- 2) Possibility to incorporate standard metadata schema in FAIRDOMHub/SEEK, such as MIAPPE, to describe experimental data
- 3) Proof of concept for exporting data from FAIRDOMHub/SEEK to EBI repositories
+The final outcome of this project is a user-friendly web-based tool that will retrieve transcriptomic data from a given disease, or diseases, and perform a meta-analysis, on both gene expression and pathway activation.
+ 
+ Scripting: 
+ An optimized workflow using python and R to retrieve and integrate transcriptomic information from several repositories and to integrate data and perform meta-analyses.
+ Choose data repositories.
+ Establish a data retrieval method.
+ Explore study information and relevant metadata.
+ Define standardization of data and metadata.
+ Search for to account for data structure, heterogeneity and cross-platform issues.
+ Develop a pipeline for meta-analysis.
+ Perform gene expression meta-analysis of available COVID-19 data.
+ Perform pathway activity meta-analysis of available COVID-19 data.
+ If there are no sufficient number of COVID-19 studies, we will explore data from other respiratory syndromes such as SARS, MERS or influenza.
+ 
+ Coding: 
+ A web tool structure that will allocate the tool functionalities as modules that will run the developed scripts, the web development will be focused on data visualization. 
+ Decide type of data to visualize.
+ Establish output and input data.
+ Define data structure.
+ 
+ Both workgroups (scripters and coders) will work parallel, but have some dependencies that need to be addressed.
 
 ## Expected audience
 
-Ideally, the project requires experts in ISA format, EBI repositories, DSP and Plant data standards specifications, but would benefit from the contribution of any life science researcher interested in data management platform for FAIR data.
+Scripters and helpers
+ Data scientists, Biostatisticians, Biologists or Biotechnologists and Bioinformatics.
+ 
+ Coders
+ Software engineers, Front-end developers, Web developers.
+ 
+ Some desired, but not mandatory, skills:
+ Statistics, knowledge of biomedicine or bioinformatics, programming skills, scripting, python, R, R/Shiny, React, JavaScript, data visualization libraries such as D3 or cytoscapeJS.
 
 **Number of expected hacking days**: 4 days
 

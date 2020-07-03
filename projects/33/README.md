@@ -1,45 +1,42 @@
-# Project 33: Deploying biocontainers in orchestration environments for life science research (50)
+# Project 33: Connecting molecular sequence to their voucher specimens
 
 ## Abstract
 
-Packaging tools in containers is becoming a common practice in bioinformatics to ensure reproducible research. However, usage of orchestration platforms, such as Kubernetes, is in the community not yet broadly adopted. EOSC-Life is planning to provide such environments as part of the compute resources, which implies we need to enable developers to take advantage of them. In this Hackathon depending on the knowledge of participants we will start with introducing Kubernetes and helm charts environments for biocontainers by deploying some sample containers. We will also see minimal ...
+When sequencing DNA from an organism, it is standard practice to create voucher specimens. This ensures that the results are repeatable and that the identification of the organism can be verified. These vouchers are often stored in herbaria and museums, where they are curated and stored for the long-term. Similarly, DNA is also extracted from specimens already in collections, having been collected some time ago. In both cases, it is important both to be able to know all the sequences extracted from a specimen and find the specimen from which the sequences have been extracted. Yet, currently ...
 
 ## Topics
 
-Compute Platfrom
- Containers
- EOSC-life
- Galaxy
- Tools Platform
+Biodiversity
 
 **Project Number:** 33
 
 
 
-**EasyChair Number:** 50
+**EasyChair Number:** 53
 
 ## Team
 
 ### Lead(s)
 
-Kiran K Telukunta <kiran.telukunta@psb.vib-ugent.be>
+Quentin Groom quentin.groom@plantentuinmeise.be (corresponding author)
+ Mathias Dillen mathias.dillen@plantentuinmeise.be
+ Pieter Huybrechts pieter.huybrechts@plantentuinmeise.be
+ Maarten Trekels maarten.trekels@plantentuinmeise.be
+ Andra Waagmeester andra@micel.io
 
 ### Nominated participant(s)
 
-Pablo Moreno<pmoreno@ebi.ac.uk> Expression Atlas Data Production Project Lead
- Nuwan Goonasekera<nuwan.goonasekera@unimelb.edu.au>
+Maarten Trekels
 
 ## Expected outcomes
 
-* Guidelines and specifications to run containers in orchestration
- * Making more containers deployable into cloud environments
- * Hassle free deployment of biocontainers
- * Understanding the challenges of cloud deployment and orchestration
+The outcome of the hackathon will be (1) recommendations on how specimen and sequence databases should be connected in the future (2) an analysis of the types of data available in databases suitable to find links and (3) the scripts implementing algorithms to match data. Ultimately, these outcomes will help any collection connect its data better and will support the Elixir goals of improving human and machine readable access to all data in the biological sciences.
 
 ## Expected audience
 
-* researchers working or maintaining cloud infrastructure
- * Groups which want to migrate to cloud environments and moving towards work from home approach
+scripting (Python, R)
+ linked open data SPARQL
+ Understanding of biological collection data and the metadata associated with molecular sequence data
 
 **Number of expected hacking days**: 4
 
