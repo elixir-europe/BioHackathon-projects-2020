@@ -1,18 +1,20 @@
 # Project 4: Unified Biological Dictionaries + PubDictionaries = a curator’s life dream
 
+## Updates
+
+- First draft/spec of the work for the Biohackathon is [here](https://github.com/UniBioDicts/vsm-pubdictionaries).
+
 ## Abstract
 
 The curation of biological information faces lots of challenges today. The constant refactoring of ontologies, nomenclature and identifiers, as well as the discovery of new information, makes the life of knowledge curators difficult, especially in the highly diverse biology domain. For example, expert curators who use software tools to help them with the annotation process, might come across a new feature or functionality that does not exist within an ontology or data resource that their annotation tool connects to. Similar difficulties are faced by biologists who want to quickly curate ...
 
 ## Topics
 
-Data Platform
- Interoperability Platform
- Tools Platform
+- Data Platform
+- Interoperability Platform
+- Tools Platform
 
 **Project Number:** 4
-
-
 
 **EasyChair Number:** 6
 
@@ -21,9 +23,9 @@ Data Platform
 ### Lead(s)
 
 - John Zobolas <john.zobolas@ntnu.no> (AUTHOR1)
- - Jin-Dong Kim <jdkim@dbcls.rois.ac.jp>
- - Martin Kuiper <martin.kuiper@ntnu.no>
- - Steven Vercruysse <steven.vercruysse@ntnu.no>
+- Jin-Dong Kim <jdkim@dbcls.rois.ac.jp>
+- Martin Kuiper <martin.kuiper@ntnu.no>
+- Steven Vercruysse <steven.vercruysse@ntnu.no>
 
 ### Nominated participant(s)
 
