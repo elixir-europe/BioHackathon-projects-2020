@@ -35,6 +35,7 @@ Clinical Bioinformatics Area - FPS (Fundacion Progreso y Salud)
 ### Nominated participant(s)
 
 Marina Esteban marina.estebanm@gmail.com
+
 Jose Luis Fernandez-Rueda josel.fernandez.rueda@juntadeandalucia.es
 
 ## Expected outcomes
