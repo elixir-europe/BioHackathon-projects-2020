@@ -62,7 +62,7 @@ The final outcome of this project is a user-friendly web-based tool that will re
  - Establish output and input data.
  - Define data structure.
  
- Both workgroups (scripters and coders) will work parallel, but have some dependencies that need to be addressed.
+ Both workgroups (scripters and coders) will work parallel, but have some dependencies that need to be addressed. We do not plan to finish all the tool, but to develop the structure and outline the desired tool functionalities and best strategy to achieve our tool goals. 
 
 ## Expected audience
 
@@ -77,7 +77,7 @@ The final outcome of this project is a user-friendly web-based tool that will re
  
  Some desired, but not mandatory, skills:
  
- Statistics, knowledge of biomedicine or bioinformatics, programming skills, scripting, python, R, R/Shiny, React, JavaScript, data visualization libraries such as D3 or cytoscapeJS.
+ Statistics, biomedicine or bioinformatics, programming, scripting, python, R, R/Shiny, React, JavaScript, data visualization libraries such as D3 or cytoscapeJS.
  
  **Everyone can join us!**
 
