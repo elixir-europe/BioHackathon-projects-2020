@@ -18,15 +18,14 @@ Interoperability Platform
 
 ### Lead(s)
 
-* Yo Yehudi yo@intermine.org
+* Rémi Planel remi.planel@pasteur.fr
  Flavio Licciulli flavio.licciulli@ba.itb.cnr.it
- Rémi Planel remi.planel@pasteur.fr
  Hervé Menager herve.menager@pasteur.fr
 
 ### Nominated participant(s)
 
-Yo Yehudi - yo@intermine.org
- Flavio - flavio.licciulli@ba.itb.cnr.it
+Rémi Planel remi.planel@pasteur.fr
+Flavio - flavio.licciulli@ba.itb.cnr.it
 
 ## Expected outcomes
 
