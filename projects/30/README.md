@@ -23,9 +23,7 @@ Our project will facilitate epidemiological and bioinformatic studies enabling m
 
 ## Topics
 
-Covid-19 | Data Platform
-* Federated Human Data
-* Interoperability Platform
+Covid-19 | Data Platform | Federated Human Data | Interoperability Platform
 
 **Project Number:** 30
 
@@ -50,7 +48,7 @@ Covid-19 | Data Platform
 
 ## Expected outcomes
 
-Expected outcomes and prioritization: First to develop an epidemiology information model in OBO focused on quantitative indicators; Incorporate this model in an existing resource for the community.
+Develop an epidemiology information model in OBO focused on quantitative indicators. Incorporate this model in an existing resource for the community.
  
 ## Plan
 
