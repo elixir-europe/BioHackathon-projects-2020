@@ -41,10 +41,10 @@ Covid-19 | Data Platform | Federated Human Data | Interoperability Platform
  Philippe Rocca-Serra [ philippe.rocca-serra@oerc.ox.ac.uk ]
  Rajaram Kaliyaperumal [ R.Kaliyaperumal@lumc.nl ]
 
-<!-- ### Nominated participant(s)
+<!-- ### Nominated participant(s)-->
 
-<!-- Núria Queralt-Rosinach [ n.queralt_rosinach@lumc.nl ],
-<!-- Rajaram Kaliyaperumal [ R.Kaliyaperumal@lumc.nl ]
+<!-- Núria Queralt-Rosinach [ n.queralt_rosinach@lumc.nl ],-->
+<!-- Rajaram Kaliyaperumal [ R.Kaliyaperumal@lumc.nl ] -->
 
 ## Expected outcomes
 
