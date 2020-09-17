@@ -22,35 +22,35 @@ Compute Platfrom
 
 ### Lead(s)
 
-Emma Schymanski emma.schymanski@uni.lu corresponding
- Steffen Neumann sneumann@ipb-halle.de
- Evan Bolton bolton@ncbi.nlm.nih.gov
+* Emma Schymanski emma.schymanski@uni.lu corresponding
+* Steffen Neumann sneumann@ipb-halle.de
+* Evan Bolton bolton@ncbi.nlm.nih.gov
 
 ### Nominated participant(s)
 
-Evan Bolton (PubChem) <bolton@ncbi.nlm.nih.gov>
- Venkatesh Muthukrishnan <venkat@ebi.ac.uk>
+* Evan Bolton (PubChem) <bolton@ncbi.nlm.nih.gov>
+* Venkatesh Muthukrishnan <venkat@ebi.ac.uk>
 
 ## Expected outcomes
 
-CI for data extraction from PubChem
- CI for data import into MetFrag
- Automated workflows for data deposition to PubChem
- Prototype for functional Fingerprint for ChEBI Categories; integration into MetFrag
- Improved handling of transformation product pairs (Rhea/PubChem/NORMAN-SLE)
+* CI for data extraction from PubChem
+* CI for data import into MetFrag
+* Automated workflows for data deposition to PubChem
+* Prototype for functional Fingerprint for ChEBI Categories; integration into MetFrag
+* Improved handling of transformation product pairs (Rhea/PubChem/NORMAN-SLE)
 
 ## Expected audience
 
-Evan Bolton (data provider and integrator, NCBI, cheminformatics)
- Venkatesh Muthukrishnan (data provider, EBI, ChEBI)
- Thierry Lombardot (data provider, SIB, Rhea)
- Emma Schymanski (data provider, consumer, developer, Uni Lu (ELIXIR-LU))
- Steffen Neumann (workflow developer, IPB Halle, DE)
- Laurent Gatto (likely only remotely: PubChem - R package integration, BE)
- Egon Willighagen (cheminformatics, ELIXIR Interoperability Platform)
- Denise Slenter (data provider, consumer, WikiPathways)
- Other hosts or contributors to small molecule databases
- Other developers of identification workflows
+* Evan Bolton (data provider and integrator, NCBI, cheminformatics)
+* Venkatesh Muthukrishnan (data provider, EBI, ChEBI)
+* Thierry Lombardot (data provider, SIB, Rhea)
+* Emma Schymanski (data provider, consumer, developer, Uni Lu (ELIXIR-LU))
+* Steffen Neumann (workflow developer, IPB Halle, DE)
+* Laurent Gatto (likely only remotely: PubChem - R package integration, BE)
+* Egon Willighagen (cheminformatics, ELIXIR Interoperability Platform)
+* Denise Slenter (data provider, consumer, WikiPathways)
+* Other hosts or contributors to small molecule databases
+* Other developers of identification workflows
 
 **Number of expected hacking days**: 4
 
