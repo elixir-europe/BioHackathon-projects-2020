@@ -60,4 +60,4 @@ Here we include a list of the open channels created by organizers, those startin
 * #38_WineOntoTasting
 * #39_DataComputing
 * #40_CloudOMOP
-* #41_ServiceBundle
+* #41_RareDiseaseBundle
