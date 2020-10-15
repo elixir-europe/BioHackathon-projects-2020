@@ -21,10 +21,13 @@ Cancer
 
 ### Lead(s)
 
-Dr. Venkata Satagopam venkata.satagopam@elixir-luxembourg.org (corresponding author-author1)
- Dr. Salvador Capella salvador.capella@bsc.es
- Dr. Jordi Rambla De Argila jordi.rambla@crg.eu
- Dr. Wei Gu wei.gu@elixir-luxembourg.org
+Dr. Venkata Satagopam venkata.satagopam@elixir-luxembourg.org (corresponding author)
+
+Dr. Salvador Capella salvador.capella@bsc.es
+
+Dr. Jordi Rambla De Argila jordi.rambla@crg.eu
+
+Dr. Wei Gu wei.gu@elixir-luxembourg.org
 
 ### Nominated participant(s)
 
