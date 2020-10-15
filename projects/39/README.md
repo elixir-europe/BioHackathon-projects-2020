@@ -28,6 +28,11 @@ Author 1, Nicholas Allsopp - nicholas.allsopp@atos.net
 Author 1, Nicholas Allsopp - nicholas.allsopp@atos.net
  Author 2, Albert Trill - albert.trill@atos.net
 
+### Participants
+
+- Fotis Psomopoulos (INAB|CERTH) - fpsom-at-certh.gr
+
+
 ## Expected outcomes
 
 There are no rules or constraints; we want you to enjoy playing with Atos Edge, however, we would be interested in watching a demo of your work at the end of the bio hackathon. 
