@@ -31,6 +31,7 @@ Author 1, Nicholas Allsopp - nicholas.allsopp@atos.net
 ### Participants
 
 - Fotis Psomopoulos (INAB|CERTH) - fpsom-at-certh.gr
+- Anastasis Togkousidis (INAB|CERTH) - togkousa@gmail.com
 
 
 ## Expected outcomes
