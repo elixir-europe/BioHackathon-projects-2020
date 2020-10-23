@@ -55,9 +55,8 @@ Here we include a list of the open channels created by organizers, those startin
 * #33_MolSeq
 * #34_MechAnalysisCovid
 * #35_WikidataKG
-* #36_InterMine-R
+* #36_V-pipe-SARS
 * #37_BioMedData
-* #38_WineOntoTasting
 * #39_DataComputing
 * #40_CloudOMOP
 * #41_RareDiseaseBundle
