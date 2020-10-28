@@ -39,6 +39,9 @@ Dr. Tim Beck
  UKRI Innovation Fellow at Health Data Research UK
  Email: timbeck@leicester.ac.uk
  
+### Participant(s)
+Jacek Jarosław Lebioda jacek.lebioda@uni.lu
+Sascha Herzinger sascha.herzinger@uni.lu
 
 ## Expected outcomes
 
