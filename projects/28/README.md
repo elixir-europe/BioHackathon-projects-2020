@@ -41,6 +41,7 @@ Dr. Tim Beck
  
 ### Participant(s)
 Jacek Jarosław Lebioda jacek.lebioda@uni.lu
+
 Sascha Herzinger sascha.herzinger@uni.lu
 
 ## Expected outcomes
