@@ -44,6 +44,8 @@ Jacek Jarosław Lebioda jacek.lebioda@uni.lu
 
 Sascha Herzinger sascha.herzinger@uni.lu
 
+Sabela de la Torre sabela.delatorre@crg.eu
+
 ## Expected outcomes
 
 We look forward to the development of:
