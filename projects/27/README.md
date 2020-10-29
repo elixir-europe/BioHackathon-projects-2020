@@ -38,7 +38,7 @@ This proposal aligns with the “Workflows and workbenches”, “Tools interope
 
 ### Nominated participant(s)
 
-- Willem de Koning, Erasmus MC, w.dekoning@erasmusmc.nl  
+- Willem de Koning, Erasmus MC, w.dekoning.1@erasmusmc.nl  
 - Helena Rasche, Erasmus MC, helena.rasche@gmail.com
 
 ## Expected outcomes
