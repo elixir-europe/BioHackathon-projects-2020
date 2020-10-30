@@ -12,10 +12,11 @@ Cancer
  Tools Platform
 
 **Project Number:** 5
-
-
-
 **EasyChair Number:** 8
+
+## How to collaborate
+
+If you are interested in collaborating with our project, you can join us in our channel (5_epimutations) in BioHackEU20 slack. You will find more information about our project in our [github repository](https://github.com/yocra3/epimutacions).
 
 ## Team
 
