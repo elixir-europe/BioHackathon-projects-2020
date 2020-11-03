@@ -17,13 +17,12 @@ Below is an example of panoptes in action:
 
 ## Topics
 
-Tools and compute
-Workflows
+- Tools and compute
+- Workflows
 
 ### Lead(s)
 
-Foivos Gypas, foivos.gypas@fmi.ch
-Friedrich Miescher Institute for Biomedical Research (FMI), Basel, Switzerland
+Foivos Gypas, foivos.gypas@fmi.ch, Friedrich Miescher Institute for Biomedical Research (FMI), Basel, Switzerland
 
 ## Expected outcomes
 
