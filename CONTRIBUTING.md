@@ -57,6 +57,7 @@ Here we include a list of the open channels created by organizers, those startin
 * #35_WikidataKG
 * #36_VpipeSARS
 * #37_BioMedData
+* #38_panoptes
 * #39_DataComputing
 * #40_CloudOMOP
 * #41_RareDiseaseBundle
