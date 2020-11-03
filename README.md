@@ -40,7 +40,7 @@ This repository is meant for the participants of the BioHackathon hosted in Barc
 * [Project 35](projects/35) Knowledge graphs and wikidata subsetting
 * [Project 36](projects/36) Enabling interactive R analyses in the InterMine user interface
 * [Project 37](projects/37) Accelerating integrated use of biomedical databases through semantic data modeling
-* [Project 38](projects/38) Wine (Ontology) Tasting: testing technicality in practicality for the food industry
+* [Project 38](projects/38) panoptes: monitor computational workflows in real time
 * [Project 39](projects/39) Unlock the value of your data computing at the edge
 * [Project 40](projects/40) Creation of a cloud-native server instance that translates cancer graph variations into an OMOP compliant medical record format.
 * [Project 41](projects/41) Further development of Service Bundle pilots and integration with the ELIXIR ecosystem
