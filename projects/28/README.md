@@ -1,4 +1,4 @@
-# Project 28: Beacon for clinical and translational data’
+# Project 28: Beacon for clinical and translational data
 
 ## Abstract
 
