@@ -38,8 +38,14 @@ Note: we are starting from zero --sort of
 
 * Brainstorming
   * Initial assessment on what BioHackathon-Europe outcomes should be targeted
+    * From GitHub (this project)
+    * Beyond GitHub (future work)
   * Initial assessment on what analyses should be performed
+    * From GitHub (this project)
+    * Beyond GitHub (future work)
   * Preliminary data model
+    * From GitHub (this project)
+    * Beyond GitHub (future work)
   
 * Development  
   * Preliminary data model
