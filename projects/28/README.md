@@ -46,7 +46,7 @@ Sascha Herzinger sascha.herzinger@uni.lu
 
 Sabela de la Torre sabela.delatorre@crg.eu
 
-Claudio Vasallo Vega claudia.vasallo@crg.eu
+Claudia Vasallo Vega claudia.vasallo@crg.eu
 
 ## Expected outcomes
 
