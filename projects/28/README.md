@@ -46,6 +46,8 @@ Sascha Herzinger sascha.herzinger@uni.lu
 
 Sabela de la Torre sabela.delatorre@crg.eu
 
+Claudio Vasallo Vega claudia.vasallo@crg.eu
+
 ## Expected outcomes
 
 We look forward to the development of:
