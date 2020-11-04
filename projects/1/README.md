@@ -32,7 +32,9 @@ One of the recurring questions when it comes to BioHackathons is how to measure 
   * Benjamin Wolff <wolff@zbmed.de>
   * Are you interested? Ping me on Slack at #BioHackOutcomes
 
-## Expected outcomes
+## Expected outcomes 
+
+Note: we are starting from zero --sort of
 
 * Brainstorming
   * Initial assessment on what BioHackathon-Europe outcomes should be targeted
@@ -64,4 +66,7 @@ One of the recurring questions when it comes to BioHackathons is how to measure 
 
 * https://github.com/zbmed/BioHackOutcomes
 * Let's work in Python (Jupyter notebooks or Python files, TBD)
+* Some projects that might be useful
+  * https://github.com/KnowledgeCaptureAndDiscovery/somef
+  * https://github.com/weso-edma/hercules-challenge-git
 
