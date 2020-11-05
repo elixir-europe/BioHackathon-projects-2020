@@ -48,6 +48,8 @@ Sabela de la Torre sabela.delatorre@crg.eu
 
 Claudia Vasallo Vega claudia.vasallo@crg.eu
 
+Dmitry Repchevsky dmitry.repchevski@bsc.es
+
 ## Expected outcomes
 
 We look forward to the development of:
