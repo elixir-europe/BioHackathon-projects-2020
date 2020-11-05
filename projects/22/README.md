@@ -54,3 +54,8 @@ Jerven Bolleman - Jerven.Bolleman@sib.swiss
 
 **Number of expected hacking days**: 4
 
+## Useful links
+1. InterMine-R2RML-mapping github repo (https://github.com/danielabutano/intermine-R2RML-mapping)
+ 2. InterMine model description doc (https://intermine.readthedocs.io/en/latest/data-model/model/)
+ 3. R2RML Mapping Language (https://www.w3.org/TR/r2rml/)
+ 4. Ontop (https://ontop-vkg.org/)
