@@ -59,3 +59,17 @@ Jerven Bolleman - Jerven.Bolleman@sib.swiss
  2. InterMine model description doc (https://intermine.readthedocs.io/en/latest/data-model/model/)
  3. R2RML Mapping Language (https://www.w3.org/TR/r2rml/)
  4. Ontop (https://ontop-vkg.org/)
+ 
+## Instruction to build the biotestmine database using Docker
+biotestmine database is a test database containing some data sets for Malaria (P. falciparum)
+To build the database using docker:
+1. Download the archive https://www.dropbox.com/s/tuqq3429jn3gd6b/biotestmine-data.tar.gz?dl=0
+2. Unzip biotestmine-data.tar.gz
+3. Start a new container with a docker volume mounted:
+docker run -d --name postgres -v {FULL_path_of_unzipped_data_dir_}:/var/lib/postgresql/data -u 1000:1000 intermine/postgres
+4. check the data:
+docker exec -it postgres bash
+psql -U postgres biotestmine
+
+## Instruction to build the biotestmine database using InterMine script
+Follow the instructions in the README (https://github.com/intermine/biotestmine/blob/master/README.md)
