@@ -20,7 +20,7 @@ Interoperability Platform
 
 * Rémi Planel remi.planel@pasteur.fr
  Flavio Licciulli flavio.licciulli@ba.itb.cnr.it
- Hervé Menager herve.menager@pasteur.fr
+ Hervé Ménager herve.menager@pasteur.fr
 
 ### Nominated participant(s)
 
