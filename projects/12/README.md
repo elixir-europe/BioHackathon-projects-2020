@@ -1,5 +1,7 @@
 # Project 12: “Federated” query by agents
 
+[OVERVIEW Google Slide Deck](https://docs.google.com/presentation/d/1SKxtUceSBcfwzozCJn0HN4jqHLtO1c8_TaF5ZqrtzCY/edit?usp=sharing)
+
 ## Abstract
 
 The European Joint Programme on Rare Diseases (EJP-RD) is building an interoperability platform for registries and biobanks for rare diseases. RD registries are diverse in size, content, and form, and are widely dispersed throughout Europe, including several hundred small single-disease-focused registries being run by non-technical experts. Notably, this is among the most sensitive of all data, in particular because the rarity of the diseases make personal identification much easier to achieve with fewer data points. The EJP-RD technical platform consists of data entry/transformation tools, ...
