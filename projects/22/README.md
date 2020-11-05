@@ -62,6 +62,7 @@ Jerven Bolleman - Jerven.Bolleman@sib.swiss
  
 ## Instruction to build the biotestmine database using Docker
 biotestmine database is a test database containing some data sets for Malaria (P. falciparum)
+
 To build the database using docker:
 1. Download the archive https://www.dropbox.com/s/tuqq3429jn3gd6b/biotestmine-data.tar.gz?dl=0
 2. Unzip biotestmine-data.tar.gz
@@ -72,4 +73,4 @@ docker exec -it postgres bash
 psql -U postgres biotestmine
 
 ## Instruction to build the biotestmine database using InterMine script
-Follow the instructions in the README (https://github.com/intermine/biotestmine/blob/master/README.md)
+Follow the instructions in the README (https://github.com/intermine/biotestmine/blob/master/README.md).
