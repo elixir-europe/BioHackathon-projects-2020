@@ -21,6 +21,7 @@ Compute Platfrom
 - Hirotaka Suetake (suehiro619@gmail.com)
  - Manabu Ishii (manabu@genome-analytics.co.jp)
  - Tomoya Tanjo (tanjo@nii.ac.jp)
+ - Tazro Ohta (t.ohta@dbcls.rois.ac.jp)
 
 ### Nominated participant(s)
 
