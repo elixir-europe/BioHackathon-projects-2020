@@ -29,24 +29,24 @@ Compute Platfrom
 ### Nominated participant(s)
 
 * Evan Bolton (PubChem) <bolton@ncbi.nlm.nih.gov>
-* Venkatesh Muthukrishnan <venkat@ebi.ac.uk>
 
 ## Expected outcomes
 
-* CI for data extraction from PubChem
-* CI for data import into MetFrag
-* Automated workflows for data deposition to PubChem
-* Prototype for functional Fingerprint for ChEBI Categories; integration into MetFrag
-* Improved handling of transformation product pairs (Rhea/PubChem/NORMAN-SLE)
+* CI for database import into MetFrag (sneumann)
+* Automated workflows for MassBank data deposition to PubChem (sneumann)
+* Prototype for functional Fingerprint for PubChem Classification Categories (schymane+others)
+* Improved handling of transformation product pairs (Rhea/PubChem/NORMAN-SLE) (schymane/anne)
+* Analysis pipeline generation + discussion on requirements (ebolton)
+* Dataset gathering for analysis pipeline/interpretation of bulk annotations (sneumann+others)
+* Bioschemas in R (lgatto/sneumann?)
 
 ## Expected audience
 
 * Evan Bolton (data provider and integrator, NCBI, cheminformatics)
-* Venkatesh Muthukrishnan (data provider, EBI, ChEBI)
-* Thierry Lombardot (data provider, SIB, Rhea)
 * Emma Schymanski (data provider, consumer, developer, Uni Lu (ELIXIR-LU))
 * Steffen Neumann (workflow developer, IPB Halle, DE)
-* Laurent Gatto (likely only remotely: PubChem - R package integration, BE)
+* Anne Morgat (data provider, SIB, Rhea)
+* Laurent Gatto (PubChem - R package integration, BE)
 * Egon Willighagen (cheminformatics, ELIXIR Interoperability Platform)
 * Denise Slenter (data provider, consumer, WikiPathways)
 * Other hosts or contributors to small molecule databases
