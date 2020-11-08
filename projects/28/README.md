@@ -50,6 +50,8 @@ Claudia Vasallo Vega claudia.vasallo@crg.eu
 
 Dmitry Repchevsky dmitry.repchevski@bsc.es
 
+Luca Bolzani luca.bolzani@uni.lu
+
 ## Expected outcomes
 
 We look forward to the development of:
