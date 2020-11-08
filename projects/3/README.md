@@ -18,6 +18,7 @@ The final goal of the bundle will be to provide tools to collect and aggregate k
 - Service Bundles
 - Data Platform
 - Tools Platform
+- Interoperability Platform
 
 **Project Number:** 3
 
@@ -33,9 +34,9 @@ Pier Luigi Martelli pierluigi.martelli@unibo.it
 
 ### Nominated participant(s)
 
-Castrense Savojardo castrense.savojardo2@unibo.it
+Emidio Capriotti emidio.capriotti@unibo.it
  
-Pier Luigi Martelli pierluigi.martelli@unibo.it
+Giulia Babbi giulia.babbi3@unibo.it
 
 ## Expected outcomes
 
