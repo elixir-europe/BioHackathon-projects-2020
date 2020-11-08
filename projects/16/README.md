@@ -20,8 +20,9 @@ out the poster or presentation below:
 Depending on your background, skill set and other team members, possible areas
 to work on for the BH20 hackathon include:
 
-* Design and implement a pub/sub [**CI/CD strategy**][topic-ci-cd]
 * Implement a [**FAIR service registry**][topic-service-registry]
+* Design and implement a pub/sub [**CI/CD strategy**][topic-ci-cd]
+* Run [**CWL v1.2 conformance tests**][cwl-tests]
 * Design a [**real-world use case**][topic-use-case] showcasing the power of
   federated data analysis
 * Implement [**resource access management**][topic-access-management] for data
@@ -38,9 +39,8 @@ to work on for the BH20 hackathon include:
   and/or system admins/devops
 * Address [**open issues**][project-board] for any ELIXIR Cloud
   repository
-* Run the [**CWL v1.2 conformance tests**][cwl-tests] against CWL-tes, TESK, and CWL-WES
 
-If you have any other ideas, we are happy to l
+If you have any other ideas, we are very happy to hear them! :)
 
 ## Join the team
 
@@ -120,6 +120,11 @@ listed!
   (**co-lead**;
   [GitHub](https://github.com/jtedds),
   [ORCID](https://orcid.org/0000-0003-2829-4584))
+* [Michael R. Crusoe](mrc@commonwl.org)
+  ([GitHub](https://github.com/mr-c),
+  [ORCID](https://orcid.org/0000-0002-2961-9670))
+* Marius Dieckmann
+  ([GitHub](https://github.com/mariusdieckmann))
 
 ## Stay involved
 
