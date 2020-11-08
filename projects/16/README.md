@@ -22,25 +22,25 @@ to work on for the BH20 hackathon include:
 
 * Implement a [**FAIR service registry**][topic-service-registry]
 * Design and implement a pub/sub [**CI/CD strategy**][topic-ci-cd]
-* Run [**CWL v1.2 conformance tests**][cwl-tests]
-* Design a [**real-world use case**][topic-use-case] showcasing the power of
-  federated data analysis
+* Run [**CWL conformance tests**][cwl-tests]
 * Implement [**resource access management**][topic-access-management] for data
   and compute
 * Implement routines for [**refreshing authorization
   tokens**][topic-token-refreshal]
-* Implement and/or improve [**deployment recipes**][topic-deployment] for
-  existing services
-* Design and implement [**integration tests**][topic-integration-tests] for the
-  entire service stack
 * Conduct [**interoperability tests**][topic-interoperability] with other GA4GH
   Cloud implementations and portals
-* Write [**FAIR documentation**][topic-documentation] for end users, developers
-  and/or system admins/devops
 * Address [**open issues**][project-board] for any ELIXIR Cloud
   repository
 
 If you have any other ideas, we are very happy to hear them! :)
+
+Here are some topics for inspiration:
+
+* Design a real-world use case showcasing the power of federated data analysis
+  Cloud implementations and portals
+* Write FAIR documentation for end users, developers and/or system admins
+* Implement and/or improve deployment recipes for existing services
+* Design and implement for the entire service stack
 
 ## Join the team
 
@@ -219,9 +219,6 @@ centers, hospitals or companies, and added to the network.
 [thumb_presentation]: images/thumb_presentation.png
 [topic-access-management]: topics/access_management.md
 [topic-ci-cd]: topics/ci_cd.md
-[topic-deployment]: topics/deployment.md
-[topic-documentation]: topics/documentation.md
-[topic-integration-tests]: topics/integration_tests.md
 [topic-interoperability]: topics/interoperability.md
 [topic-service-registry]: topics/service_registry.md
 [topic-token-refreshal]: topics/token_refreshal.md
