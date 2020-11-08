@@ -43,6 +43,17 @@ Castrense Savojardo castrense.savojardo2@unibo.it
 
 The ideal final outcome would be a draft ELIXIR Service Bundle that can link together different workflows, tools and literature resources, and can provide a platform for a quick response in case of an outbreak, for example finding candidates for drug retargeting or finding phenotypes naturally resistant to the infection.
 
+Possible outcomes are:
+- Collection and detailed description of tools and databases
+- Concept maps and/or workflows describing how tools and databases can be integrated
+- Web page describing the service bundle
+
+## Plan
+
+- Define a set of use cases i.e. formal descriptions of scientific needs in the context of the analysis of new pathogens
+- Tools/databases relevant for the use case are collected
+- Each use case will be represented with a (TeSS) Concept Map or Workflow that organizes tools/databases 
+
 ## Expected audience
 
 - Scientific: experts in genomics of epidemic pathogens who can bring knowledge and help defining use cases and use scenarios
