@@ -2,7 +2,7 @@
 
 [OVERVIEW Google Slide Deck](https://docs.google.com/presentation/d/1SKxtUceSBcfwzozCJn0HN4jqHLtO1c8_TaF5ZqrtzCY/edit?usp=sharing)
 
-### SPARQL Endpoints:
+### SPARQL Endpoints (the two endpoints join on "participant"):
 
 http://ldp.cbgp.upm.es:8890/sparql
 
@@ -13,7 +13,7 @@ http://ldp.cbgp.upm.es:8890/sparql
      select *
      where {
       ?inf a efo:EFO_0001067
-      ?inf sio:has-participant ?p .
+      ?inf sio:has-participant ?participant .
      }
 </pre></code>
 
@@ -26,8 +26,8 @@ PREFIX sio: <http://semanticscience.org/resource/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 select *
 where {
-       ?p a sio:pathogen .
-       ?p sio:has-identifier ?id .
+       ?participant a sio:pathogen .
+       ?participant sio:has-identifier ?id .
 }
 </pre></code>
 
