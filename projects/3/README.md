@@ -15,11 +15,9 @@ The final goal of the bundle will be to provide tools to collect and aggregate k
 
 ## Topics
 
-Service Bundles
-Data Platform
-Plant Sciences
-Proteomics
-Tools Platform
+- Service Bundles
+- Data Platform
+- Tools Platform
 
 **Project Number:** 3
 
@@ -31,17 +29,17 @@ Tools Platform
 
 Castrense Savojardo castrense.savojardo2@unibo.it
  
- Pier Luigi Martelli pierluigi.martelli@unibo.it
+Pier Luigi Martelli pierluigi.martelli@unibo.it
 
 ### Nominated participant(s)
 
 Castrense Savojardo castrense.savojardo2@unibo.it
  
- Pier Luigi Martelli pierluigi.martelli@unibo.it
+Pier Luigi Martelli pierluigi.martelli@unibo.it
 
 ## Expected outcomes
 
-The ideal final outcome would be a draft ELIXIR Service Bundle that can link together different workflows, tools and literature resources, and can provide a platform for a quick response in case of an outbreak, for example finding candidates for drug retargeting or finding phenotypes naturally resistant to the infection.
+The ideal final outcome would be a draft ELIXIR Service Bundle that can link together different tools and databases, and can provide a platform for a quick response in case of an outbreak, for example finding candidates for drug retargeting or finding phenotypes naturally resistant to the infection.
 
 Possible outcomes are:
 - Collection and detailed description of tools and databases
@@ -52,13 +50,12 @@ Possible outcomes are:
 
 - Define a set of use cases i.e. formal descriptions of scientific needs in the context of the analysis of new pathogens
 - Tools/databases relevant for the use case are collected
-- Each use case will be represented with a (TeSS) Concept Map or Workflow that organizes tools/databases 
+- Each use case will be represented with a (TeSS) Concept Map or Workflow that organizes tools/databases
 
 ## Expected audience
 
 - Scientific: experts in genomics of epidemic pathogens who can bring knowledge and help defining use cases and use scenarios
-- Technical: GitHub,Concept map/workflow visualization, Interoperability, CWL
-
+- Technical: GitHub, Concept map/workflow visualization, Interoperability, CWL
 
 **Number of expected hacking days**: 4
 
