@@ -38,7 +38,7 @@ to work on for the BH20 hackathon include:
   and/or system admins/devops
 * Address [**open issues**][project-board] for any ELIXIR Cloud
   repository
-* Run the CWL v1.2 conformance tests against CWL-tes, TESK, and CWL-WES
+* Run the [**CWL v1.2 conformance tests**][cwl-tests] against CWL-tes, TESK, and CWL-WES
 
 If you have any other ideas, we are happy to l
 
@@ -199,6 +199,7 @@ centers, hospitals or companies, and added to the network.
 [coc-elixir-cloud]: <https://github.com/elixir-cloud-aai/elixir-cloud-aai/blob/dev/CODE_OF_CONDUCT.md>
 [contributing]: <https://github.com/elixir-cloud-aai/elixir-cloud-aai/blob/dev/CONTRIBUTING.md>
 [contributing-guidelines]: <https://github.com/elixir-cloud-aai/elixir-cloud-aai/blob/dev/resources/contributing_guidelines.md>
+[cwl-tests]: topics/cwl_conformance_tests.md
 [elixir-cloud]: <https://github.com/elixir-cloud-aai/elixir-cloud-aai>
 [elixir-compute]: <https://elixir-europe.org/platforms/compute>
 [fair]: <https://www.go-fair.org/>
