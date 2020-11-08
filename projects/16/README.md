@@ -38,6 +38,7 @@ to work on for the BH20 hackathon include:
   and/or system admins/devops
 * Address [**open issues**][project-board] for any ELIXIR Cloud
   repository
+* Run the CWL v1.2 conformance tests against CWL-tes, TESK, and CWL-WES
 
 If you have any other ideas, we are happy to l
 
