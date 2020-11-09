@@ -1,0 +1,11 @@
+# Data is stored in separate graphs
+# The following query retrieve all triples across the different graphs
+# Use a LIMIT clause to say how many triples you want returned
+
+select ?s ?p ?o
+where {
+	graph ?g {
+	    ?s ?p ?o
+  }
+}
+# LIMIT 25
