@@ -1,0 +1,10 @@
+TODO
+
+Put TPF server over triplestore
+Metadata structure inside provider
+Build registry of ShEX + endpoint + TPF URI harvests that metadata
+TPF client (nodejs)
+Parse SPARQL (Gregg Kellog told me how)
+front-end - query registry, call providers
+Provider "trigger" URL that causes Docker Pull
+
