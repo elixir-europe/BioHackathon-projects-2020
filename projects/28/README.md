@@ -52,6 +52,8 @@ Dmitry Repchevsky dmitry.repchevski@bsc.es
 
 Luca Bolzani luca.bolzani@uni.lu
 
+Valentin Groues valentin.groues@uni.lu
+
 ## Expected outcomes
 
 We look forward to the development of:
