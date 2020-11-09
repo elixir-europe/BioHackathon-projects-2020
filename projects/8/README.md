@@ -9,13 +9,9 @@ Combining access to data resources that provide experimentally determined struct
 
 ## Topics
 
-Covid-19
- Data Platform
- Proteomics
+Covid-19, Data Platform, Proteomics
 
 **Project Number:** 8
-
-
 
 **EasyChair Number:** 15
 
@@ -24,14 +20,16 @@ Covid-19
 ### Lead(s)
 
 Mihaly Varadi - mvaradi@ebi.ac.uk*
- Sreenath Nair - sreenath@ebi.ac.uk
- Ian Sillitoe - i.sillitoe@ucl.ac.uk
- Gerardo Tauriello - gerardo.tauriello@unibas.ch
+
+Sreenath Nair - sreenath@ebi.ac.uk
+
+Ian Sillitoe - i.sillitoe@ucl.ac.uk
 
 ### Nominated participant(s)
 
 Sreenath Nair - sreenath@ebi.ac.uk
- Ian Sillitoe - i.sillitoe@ucl.ac.uk
+
+Ian Sillitoe - i.sillitoe@ucl.ac.uk
 
 ## Expected outcomes
 
@@ -48,3 +46,14 @@ bioinformaticians/scientific programmers (data structures, data access mechanism
 
 **Number of expected hacking days**: 2
 
+# Documentation
+
+## API specifications
+
+Current version (0.2.1):
+SwaggerHub: https://app.swaggerhub.com/apis/3dbeacons/3D-Beacons/0.2.1
+
+## Hub API documentation
+
+Code repository: https://github.com/3D-Beacons/3d-beacons-hub-api/tree/development
+Development version of the Hub API: https://wwwdev.ebi.ac.uk/pdbe/pdbe-kb/3dbeacons-hub-api/docs
