@@ -48,3 +48,29 @@ Community registry providers
 
 **Number of expected hacking days**: 4
 
+# Hacking Plan
+
+## Day 1 Monday
+
+### IDPCentral
+
+Aim to scrape data from 3 IDP sources and interlink into a prototype IDPCentral registry. Data will be merged based on their UniProt accession number.
+
+Data model for the merged data will be based around the Bioschemas [Protein](https://bioschemas.org/profiles/Protein) and [SequenceAnnotation](https://bioschemas.org/SequenceAnnotation) models. Each statement in the model will have provenance data tracked using a similar model to Wikidata. The data model will also allow for the multiplicity of data coming from multiple sources but being slightly different.
+
+Tasks:
+- Ivan to understand why BMUSE is not pulling all pages
+- Petros to work on fixes for BMUSE
+- Andras to develop UI over a mongo data store that would contain the data according to the above model.
+- Alasdair to work on a conversion script to transform the page centric scraped data into the Bioschemas Knowledge Graph
+
+### Dundee Microscopy Database
+
+Josh will work on embedding markup within the database and checking that it can be crawled using BMUSE.
+
+the database contains a lot of cross links to ELIXIR resources and would be useful for enabling links to visual evidence for a concept.
+
+Tasks:
+- Embed markup in a page and deploy on S3
+- Create test sitemap
+- Test BMUSE can scrape deployed content.
