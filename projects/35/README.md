@@ -48,3 +48,5 @@ We want to create a knowledge graph extraction tool that will allow a bioinforma
 
 **Number of expected hacking days**: 4
 
+- Link to [google slides](https://docs.google.com/presentation/d/106cjMJReNXkV-dOwOHXAl7P982nZjwtUnagUV0HqwdM/edit?usp=sharing)
+- Link to [HackMD](https://hackmd.io/5nKOyk8qQTO5DSCa_M5p3g)
