@@ -21,28 +21,28 @@ Here we include a list of the open channels created by organizers, those startin
 * #social - general channel
 * #random - general channel
 * #1_BioHackOutcomes - floor 4
-* #2_DataStWizard
+* #2_DataStWizard - floor 1
 * #3_EpidemicBundle - floor 3
 * #4_PubDictionaries - floor 4
 * #5_Epimutations - floor 3
 * #6_BioHackrXiv - floor 4
 * #7_CNV - floor 3
-* #8_3DBeacons
+* #8_3DBeacons - floor 1
 * #9_TuringWay - floor 5
 * #10_EDAM - floor 5
 * #11_BioTools - floor 5
-* #12_FedQueryAg
-* #13_ChemInformatics
+* #12_FedQueryAg - floor 1
+* #13_ChemInformatics - floor 1
 * #14_Galaxy-ROCrate
 * #15_FAIR4Software - floor 5
 * #16_GA4GHCloud
 * #17_CWL-Galaxy
 * #18_Galaxy-BioCon
-* #19_FAIRData
+* #19_FAIRData - floor 1
 * #20_CAB - floor 4
 * #21_SoftMngPlans - floor 5
-* #22_InterMine-Fed
-* #23_InterMine-ENodes
+* #22_InterMine-Fed - floor 1
+* #23_InterMine-ENodes - floor 1
 * #24_Bioschemas - floor 5
 * #25_FedVarGraphs - floor 3
 * #26_Sapporo
