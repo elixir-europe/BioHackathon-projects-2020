@@ -3,6 +3,7 @@
 ## Updates
 
 - First draft/spec of the work for the Biohackathon is [here](https://github.com/UniBioDicts/vsm-pubdictionaries).
+- [Project presentation + updates](http://tiny.cc/ubds-biohack-2020)
 
 ## Abstract
 
