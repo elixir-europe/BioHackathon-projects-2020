@@ -19,28 +19,26 @@ Compute Platfrom
 ### Lead(s)
 
 - Hirotaka Suetake (suehiro619@gmail.com)
- - Manabu Ishii (manabu@genome-analytics.co.jp)
- - Tomoya Tanjo (tanjo@nii.ac.jp)
- - Tazro Ohta (t.ohta@dbcls.rois.ac.jp)
 
 ### Nominated participant(s)
 
-- Hirotaka Suetake (suehiro619@gmail.com)
- - Tomoya Tanjo (tanjo@nii.ac.jp)
+- Manabu Ishii (manabu@genome-analytics.co.jp)
+- Tomoya Tanjo (tanjo@nii.ac.jp)
+- Tazro Ohta (t.ohta@dbcls.rois.ac.jp)
 
 ## Expected outcomes
 
-- Sharing the system components with the other WES developers such as the WES-Elixir team
- - Creating PoC when combining WES with DRS or TRS
- - Creating a public web service that actually makes it easy for users to run workflows
+- PoC of sharing the system components with the WES-Elixir
+- PoC of Sapporo WES deployment with GA4GH DRS/TRS standards
+- Creating a public Sapporo instance for demonstration
 
 ## Expected audience
 
-- experiences with the GA4GH API standards
- - Workflow Languages
- - Workflow Engines
- - Workflow Execution Service
- - Web frontend
+- Experiences with the GA4GH API standards
+- Workflow Languages
+- Workflow Engines
+- Workflow Execution Service
+- Web frontend
 
 **Number of expected hacking days**: 4 days
 
