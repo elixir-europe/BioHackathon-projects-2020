@@ -1,7 +1,7 @@
 # Project 1: Follow-up analysis on BioHackathon-Europe outcomes
 
 ## Schedule for the BioHackathon Europe week
-* Brainstorming meeting on Remo: Tuesday 9:00 UTC = 10:00 CET = 18:00 Japan
+* Brainstorming meeting on Remo: Tuesday 9:00 UTC = 10:00 CET = 18:00 Japan (4th floor, if table full, please send us a message on Slack)
 
 ## Abstract
 
