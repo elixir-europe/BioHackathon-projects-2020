@@ -24,7 +24,7 @@ PREFIX sio: \<http://semanticscience.org/resource/>
 <> a efo:EFO_0001067 .
 <> sio:has-participant ?participant .
 
-## ShEX
+## ShEX2
 
 PREFIX : \<http://purl.org/ejp-rd/cde/v020/shex/>
 PREFIX obo: \<http://purl.obolibrary.org/obo/>
@@ -46,10 +46,11 @@ PREFIX efo: \<http://www.ebi.ac.uk/efo/efo.owl#>
 
 ## Registration
 
-<my:resource1> ex:has-input my:shex1 .
-<my:resource1> ex:has-operation my:ontologyterms .
+<my:interface1> has-resource <my:resource1> .
+<my:resource1> ex:has-input shex1 .
+<my:resource1> ex:has-operation edam:sparql .
 <my:resource1> ex:has-output my:shex2 .
-
+<my:interface1> at-url <http://this.that/?s&sio:has-participant?o>
 
 
 http://ldp.cbgp.upm.es:8890/sparql
