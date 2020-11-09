@@ -4,7 +4,7 @@
 
 ### SPARQL Endpoints (the two endpoints join on "participant"):
 
-http://ldp.cbgp.upm.es:8890/sparql
+http://fairdata.systems:8990/sparql  (yes, 8990!  Not the default for virtuoso!)
 
 <code><pre>
      PREFIX efo: \<http://www.ebi.ac.uk/efo/efo.owl#>
@@ -17,7 +17,9 @@ http://ldp.cbgp.upm.es:8890/sparql
      }
 </pre></code>
 
-http://fairdata.systems:8990/sparql  (yes, 8990!  Not the default for virtuoso!)
+
+
+http://ldp.cbgp.upm.es:8890/sparql
 
 <code><pre>
 
