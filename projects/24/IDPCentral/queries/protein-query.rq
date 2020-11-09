@@ -1,0 +1,13 @@
+# Query to retrieve protein data
+# Defensive query: assumes that data does not conform to Protein profile
+
+PREFIX schema: <https://schema.org/>
+
+SELECT *
+WHERE {
+    GRAPH ?g {
+        ?s a schema:Protein .
+        OPTIONAL {?s schema:identifier ?identifier}
+        OPTIONAL {?s schema:name ?name}
+    }
+}
