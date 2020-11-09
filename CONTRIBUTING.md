@@ -22,11 +22,11 @@ Here we include a list of the open channels created by organizers, those startin
 * #random - general channel
 * #1_BioHackOutcomes - floor 4
 * #2_DataStWizard
-* #3_EpidemicBundle
+* #3_EpidemicBundle - floor 3
 * #4_PubDictionaries - floor 4
-* #5_Epimutations
+* #5_Epimutations - floor 3
 * #6_BioHackrXiv - floor 4
-* #7_CNV
+* #7_CNV - floor 3
 * #8_3DBeacons
 * #9_TuringWay
 * #10_EDAM
@@ -44,20 +44,20 @@ Here we include a list of the open channels created by organizers, those startin
 * #22_InterMine-Fed
 * #23_InterMine-ENodes
 * #24_Bioschemas
-* #25_FedVarGraphs
+* #25_FedVarGraphs - floor 3
 * #26_Sapporo
 * #27_Galaxy-Disease
-* #28_CliniBeacon
+* #28_CliniBeacon - floor 3
 * #29_LearningPath
-* #30_OntoCovid
+* #30_OntoCovid - floor 3
 * #31_BioContainers
 * #32_PlanMetadataMng
 * #33_MolSeq - floor 4
-* #34_MechAnalysisCovid
+* #34_MechAnalysisCovid - floor 3
 * #35_WikidataKG - floor 4
-* #36_VpipeSARS
+* #36_VpipeSARS - floor 3
 * #37_BioMedData - floor 4
 * #38_panoptes
 * #39_DataComputing - floor 4
 * #40_CloudOMOP - floor 4
-* #41_RareDiseaseBundle
+* #41_RareDiseaseBundle - floor 3
