@@ -13,9 +13,9 @@ Bioschemas
 
 **Project Number:** 6
 
-
-
 **EasyChair Number:** 13
+
+See also the [Google Doc](https://docs.google.com/document/d/1O8n7OMuB3e-S8gHbhcn6XHpza1qOi_DHNNsAE_eUsGA/edit?usp=sharing).
 
 ## Team
 
@@ -30,6 +30,10 @@ Pjotr Prins <jprins@uthsc.edu>
 Pjotr Prins <jprins@uthsc.edu>
  Thomas Liener <liener.tom@gmail.com>
 
+## Progress reporting
+
+We are hosting a Google Doc to keep track of [our work](https://docs.google.com/document/d/1O8n7OMuB3e-S8gHbhcn6XHpza1qOi_DHNNsAE_eUsGA/edit?usp=sharing).
+
 ## Expected outcomes
 
 * Forms for entering metadata as part of submission
@@ -41,4 +45,3 @@ Pjotr Prins <jprins@uthsc.edu>
 There will be people working locally and remotely on this. Participants may be interested in ontologies, text mining, and some web programming.
 
 **Number of expected hacking days**: 4
-
