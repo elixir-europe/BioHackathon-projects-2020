@@ -35,7 +35,12 @@ where {
 
 ## Abstract
 
-The European Joint Programme on Rare Diseases (EJP-RD) is building an interoperability platform for registries and biobanks for rare diseases. RD registries are diverse in size, content, and form, and are widely dispersed throughout Europe, including several hundred small single-disease-focused registries being run by non-technical experts. Notably, this is among the most sensitive of all data, in particular because the rarity of the diseases make personal identification much easier to achieve with fewer data points. The EJP-RD technical platform consists of data entry/transformation tools, ...
+We wish to design a federated query framework that does not require the participating data sources to expose their data or their interface in the public (even password protected!).  The overall idea is that there is a metadata descriptor of the data in the resource, which allows a client to determine the data in that resource meets their requirements.  They then "knock on the door" of the data resource, and through some (undefined) certification process, ask that they be "invited inside".  The process of "inviting inside" is the data resource docker pull'ing the client's image (again, there will eventually be some kind of certification process here, for security!) and allowing that client to execute its query over their data resource.
+
+The interface that will expose the data in the resource will be [Triple Pattern Fragments](https://linkeddatafragments.org/specification/triple-pattern-fragments/) because these are extremely easy to build, and can expose any kind of underlying data source (e.g. databases, triplestores, APIs etc.)
+
+We anticipate using ShEX to describe the 'shape' of the data from each resource.  This will allow machmaking between user needs and one or more potential providers.
+
 
 ## Topics
 
