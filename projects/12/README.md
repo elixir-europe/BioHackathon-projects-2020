@@ -17,6 +17,39 @@ http://fairdata.systems:8990/sparql  (yes, 8990!  Not the default for virtuoso!)
      }
 </pre></code>
 
+## RDF
+
+PREFIX efo: \<http://www.ebi.ac.uk/efo/efo.owl#>
+PREFIX sio: \<http://semanticscience.org/resource/>
+<> a efo:EFO_0001067 .
+<> sio:has-participant ?participant .
+
+## ShEX
+
+PREFIX : \<http://purl.org/ejp-rd/cde/v020/shex/>
+PREFIX obo: \<http://purl.obolibrary.org/obo/>
+PREFIX sio: \<http://semanticscience.org/resource/>
+PREFIX edam: \<http://edamontology.org/>
+PREFIX xsd: \<http://www.w3.org/2001/XMLSchema#>
+PREFIX efo: \<http://www.ebi.ac.uk/efo/efo.owl#>
+
+
+:infectionShape IRI {
+  a [efo:EFO_0001067];
+  sio:has-participant @:participantShape
+}
+
+:participantShape IRI {
+  a [sio:host]
+}
+
+
+## Registration
+
+<my:resource1> ex:has-input my:shex1 .
+<my:resource1> ex:has-operation my:ontologyterms .
+<my:resource1> ex:has-output my:shex2 .
+
 
 
 http://ldp.cbgp.upm.es:8890/sparql
@@ -32,6 +65,11 @@ where {
        ?participant sio:has-identifier ?id .
 }
 </pre></code>
+## RDF
+
+PREFIX sio: \<http://semanticscience.org/resource/>
+<> a sio:pathogen .
+<> sio:has-identifier "12345" .
 
 ## Abstract
 
