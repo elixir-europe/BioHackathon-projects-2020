@@ -66,3 +66,8 @@ Erik Garrison (erik.garrison@ucsc.edu) \
 4. Experience with data visualization using JavaScript
 
 **Number of expected hacking days**: 4
+
+## Building on the following projects
+
+1. github.com/vgteam/libhandlegraph/
+2. https://github.com/pangenome/spodgi
