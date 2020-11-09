@@ -7,12 +7,12 @@
 http://ldp.cbgp.upm.es:8890/sparql
 
 <code><pre>
-     PREFIX efo: <http://www.ebi.ac.uk/efo/efo.owl#>
-     PREFIX sio: <http://semanticscience.org/resource/>
-     PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+     PREFIX efo: \<http://www.ebi.ac.uk/efo/efo.owl#>
+     PREFIX sio: \<http://semanticscience.org/resource/>
+     PREFIX rdfs: \<http://www.w3.org/2000/01/rdf-schema#>
      select *
      where {
-      ?inf a efo:EFO_0001067
+      ?inf a efo:EFO_0001067 .
       ?inf sio:has-participant ?participant .
      }
 </pre></code>
@@ -21,9 +21,9 @@ http://fairdata.systems:8990/sparql  (yes, 8990!  Not the default for virtuoso!)
 
 <code><pre>
 
-PREFIX efo: <http://www.ebi.ac.uk/efo/efo.owl#>
-PREFIX sio: <http://semanticscience.org/resource/>
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX efo: \<http://www.ebi.ac.uk/efo/efo.owl#>
+PREFIX sio: \<http://semanticscience.org/resource/>
+PREFIX rdfs: \<http://www.w3.org/2000/01/rdf-schema#>
 select *
 where {
        ?participant a sio:pathogen .
