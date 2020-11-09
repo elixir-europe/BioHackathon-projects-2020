@@ -50,6 +50,15 @@ Community registry providers
 
 # Hacking Plan
 
+## Resources
+
+- [BMUSE](https://github.com/HW-SWeL/BMUSE/tree/dev): Bioschemas scraper
+  - Use the dev branch with the skipTests flag
+  - Seed with a sitemap or list of URLs
+- [IDP Scraped Data](https://drive.google.com/drive/folders/1OdzERm1ZNBhCTrNGLXvQILRON4OA7Qj0?usp=sharing)
+- [Bioschemas Profiles](https://bioschemas.org/profiles/)
+- [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool)
+
 ## Day 1 Monday
 
 ### IDPCentral
