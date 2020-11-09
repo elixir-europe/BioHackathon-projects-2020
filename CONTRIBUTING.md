@@ -33,10 +33,10 @@ Here we include a list of the open channels created by organizers, those startin
 * #11_BioTools - floor 5
 * #12_FedQueryAg - floor 1
 * #13_ChemInformatics - floor 1
-* #14_Galaxy-ROCrate
+* #14_Galaxy-ROCrate - floor 2
 * #15_FAIR4Software - floor 5
-* #16_GA4GHCloud
-* #17_CWL-Galaxy
+* #16_GA4GHCloud - floor 2
+* #17_CWL-Galaxy - floor 2
 * #18_Galaxy-BioCon
 * #19_FAIRData - floor 1
 * #20_CAB - floor 4
@@ -45,19 +45,19 @@ Here we include a list of the open channels created by organizers, those startin
 * #23_InterMine-ENodes - floor 1
 * #24_Bioschemas - floor 5
 * #25_FedVarGraphs - floor 3
-* #26_Sapporo
-* #27_Galaxy-Disease
+* #26_Sapporo - floor 2
+* #27_Galaxy-Disease - floor 2
 * #28_CliniBeacon - floor 3
 * #29_LearningPath - floor 5
 * #30_OntoCovid - floor 3
-* #31_BioContainers
+* #31_BioContainers - floor 2
 * #32_PlanMetadataMng - floor 5
 * #33_MolSeq - floor 4
 * #34_MechAnalysisCovid - floor 3
 * #35_WikidataKG - floor 4
 * #36_VpipeSARS - floor 3
 * #37_BioMedData - floor 4
-* #38_panoptes
+* #38_panoptes - floor 2
 * #39_DataComputing - floor 4
 * #40_CloudOMOP - floor 4
 * #41_RareDiseaseBundle - floor 3
