@@ -1,0 +1,35 @@
+# Query to retrieve protein data
+# Defensive query: assumes that data does not conform to Protein profile
+# Retrieve all properties that are mentioned in the Protein Profile
+
+PREFIX schema: <https://schema.org/>
+
+SELECT *
+WHERE {
+    GRAPH ?g {
+        # Bioschemas Minimal Properties
+        ?s a schema:Protein .
+        OPTIONAL {?s schema:identifier ?identifier}
+        OPTIONAL {?s schema:name ?name}
+        # Bioschemas Recommended properties
+        OPTIONAL {?s schema:associatedDisease ?associatedDisease}
+        OPTIONAL {?s schema:description ?description}
+        OPTIONAL {?s schema:hasSequenceAnnotation ?annotation}
+        OPTIONAL {?s schema:isEncodedByBioChemEntity ?encodedBy}
+        OPTIONAL {?s schema:taxonomicRange ?taxonomicRange}
+        OPTIONAL {?s schema:url ?url}
+        # Bioschemas Optional properties
+        OPTIONAL {?s schema:alternateName ?alternateName}
+        OPTIONAL {?s schema:bioChemInteraction ?bioChemInteraction}
+        OPTIONAL {?s schema:bioChemSimilarity ?bioChemSimilarity}
+        OPTIONAL {?s schema:hasBioChemEntityPart ?bioChemEntity}
+        OPTIONAL {?s schema:hasBioPloymerSequence ?sequence}
+        OPTIONAL {?s schema:hasMolecularFunction ?molFunction}
+        OPTIONAL {?s schema:hasRepresentation ?representation}
+        OPTIONAL {?s schema:image ?image}
+        OPTIONAL {?s schema:isInvolvedInBiologicalProcess ?process}
+        OPTIONAL {?s schema:isLocatedInSubcellularLocation ?cellularLocation}
+        OPTIONAL {?s schema:isPartOfBioChemEntity ?parentEntity}
+        OPTIONAL {?s schema:sameAs ?sameAs}
+    }
+}

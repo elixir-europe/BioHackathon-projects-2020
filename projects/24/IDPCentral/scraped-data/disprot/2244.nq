@@ -1,0 +1,3 @@
+<https://bioschemas.org/crawl/v1/disprot/DP00005/20201108/2244> <http://purl.org/pav/retrievedFrom> <https://disprot.org/DP00005> <https://bioschemas.org/crawl/v1/disprot/DP00005/20201108/2244> .
+<https://bioschemas.org/crawl/v1/disprot/DP00005/20201108/2244> <http://purl.org/pav/retrievedOn> "2020-11-08T21:20:11"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://bioschemas.org/crawl/v1/disprot/DP00005/20201108/2244> .
+<https://disprot.org/DP00005> <http://purl.org/dc/terms/title> "DisProt" <https://bioschemas.org/crawl/v1/disprot/DP00005/20201108/2244> .

@@ -22,7 +22,14 @@ Below is an example of panoptes in action:
 
 ### Lead(s)
 
-Foivos Gypas, foivos.gypas@fmi.ch, Friedrich Miescher Institute for Biomedical Research (FMI), Basel, Switzerland
+- Foivos Gypas, foivos.gypas@fmi.ch, Friedrich Miescher Institute for Biomedical Research (FMI), Basel, Switzerland
+- Argyrios-Alexandros Gardelakos, agardelakos@gmail.com, Technical Universiry of Crete
+
+### Participants
+
+- Georgios Kostoulas, Technical Universiry of Crete
+- Georgios Ntalaperas, Commodity Risk Management Expertise Centre
+- Dimitrios Rekoumis, Technical Universiry of Crete
 
 ## Expected outcomes
 

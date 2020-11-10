@@ -1,4 +1,4 @@
-# Project 16: The ELIXIR Cloud
+# Project 16: ELIXIR Cloud
 
 ![logo-banner][logo-banner]
 
@@ -26,7 +26,7 @@ to work on for the BH20 hackathon include:
 * Implement [**resource access management**][topic-access-management] for data
   and compute
 * Implement routines for [**refreshing authorization
-  tokens**][topic-token-refreshal]
+  tokens**][topic-refreshing-tokens]
 * Conduct [**interoperability tests**][topic-interoperability] with other GA4GH
   Cloud implementations and portals
 * Address [**open issues**][project-board] for any ELIXIR Cloud
@@ -36,11 +36,11 @@ If you have any other ideas, we are very happy to hear them! :)
 
 Here are some topics for inspiration:
 
-* Design a real-world use case showcasing the power of federated data analysis
-  Cloud implementations and portals
-* Write FAIR documentation for end users, developers and/or system admins
-* Implement and/or improve deployment recipes for existing services
-* Design and implement for the entire service stack
+* Design a **real-world use case** showcasing the power of federated data
+  analysis Cloud implementations and portals
+* Write **FAIR documentation** for end users, developers and/or system admins
+* Implement and/or improve **deployment recipes** for existing services
+* Design and implement **integration tests** for the entire service stack
 
 ## Join the team
 
@@ -77,7 +77,7 @@ listed!
 #### Some useful skills
 
 * Microservices, REST/HTTP APIs, OpenAPI, Python, Flask, Java, Spring Boot
-* Miocro-frontends, web components, React
+* Micro-frontends, web components, React
 * Containers, Kubernetes, OpenShift
 * CI/CD
 * OIDC, OAuth2, JWT
@@ -115,7 +115,7 @@ listed!
 * [Alex Kanitz](alexander.kanitz@unibas.ch)
   (**co-lead**;
   [GitHub](https://github.com/uniqueg),
-  [ORCID](https://orcid.org/0000-0002-3468-0652)) <corresponding author>
+  [ORCID](https://orcid.org/0000-0002-3468-0652))
 * [Jonathan Tedds](jonathan.tedds@elixir-europe.org)
   (**co-lead**;
   [GitHub](https://github.com/jtedds),
@@ -132,7 +132,7 @@ listed!
 
 Regardless of whether you have contributed to the project during the hackathon
 or you hacked for one or more of the other amazing projects: if you are
-interested in the ELIXIR Cloud, **_the ELIXIR Cloud is interesting in YOU!_**
+interested in the ELIXIR Cloud, **_the ELIXIR Cloud is interested in YOU!_**
 
 Please have a look [here][contributing] for some more info and reach out to us,
 e.g., through our Slack space:
@@ -146,11 +146,12 @@ e.g., through our Slack space:
 ### The ELIXIR Cloud & AAI Ecosystem
 
 Championed by the [ELIXIR Compute Platform][elixir-compute], the [**ELIXIR
-Cloud & AAI Ecosystem**][elixir-cloud] is a cross-platform effort within the
-ELIXIR universe, and is a [Driver Project][ga4gh-drivers] of the [Global
-Alliance for Genomics and Health (GA4GH)][ga4gh]. We are aligning with
-international partners to deliver cloud-based population-scale genomic and
-phenotypic data analysis to the biomedical research and healthcare community.
+Cloud & Authentication and Authorization Infrastructure (AAI)
+Ecosystem**][elixir-cloud] is a cross-platform effort within the ELIXIR
+universe, and is a [Driver Project][ga4gh-drivers] of the [Global Alliance
+for Genomics and Health (GA4GH)][ga4gh]. We are aligning with international
+partners to deliver cloud-based population-scale genomic and phenotypic data
+analysis to the biomedical research and healthcare community.
 
 ### The ELIXIR Cloud
 
@@ -160,7 +161,7 @@ integrate them, present veritable barriers to the advancement of the biomedical
 sciences. The sensitivity of health-related data further requires sophisticated
 security measures to be put in place, which are difficult to implement and
 maintain in a world of fragmented IT infrastructure as is typically found
-across hospitals, research centers and industry. 
+across hospitals, research centers and industry.
 
 To help overcome these obstacles, the [Global Alliance for Genomics and Health
 (GA4GH)][ga4gh], an internationally backed standard-setting organization
@@ -221,6 +222,6 @@ centers, hospitals or companies, and added to the network.
 [topic-ci-cd]: topics/ci_cd.md
 [topic-interoperability]: topics/interoperability.md
 [topic-service-registry]: topics/service_registry.md
-[topic-token-refreshal]: topics/token_refreshal.md
+[topic-refreshing-tokens]: topics/refreshing_tokens.md
 [topic-use-case]: topics/use_case.md
 [vision]: images/vision_interoperability.png

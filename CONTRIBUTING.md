@@ -37,7 +37,7 @@ Here we include a list of the open channels created by organizers, those startin
 * #15_FAIR4Software - floor 5
 * #16_GA4GHCloud - floor 2
 * #17_CWL-Galaxy - floor 2
-* #18_Galaxy-BioCon
+* #18_Galaxy-BioCon - floor 2
 * #19_FAIRData - floor 1
 * #20_CAB - floor 4
 * #21_SoftMngPlans - floor 5

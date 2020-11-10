@@ -17,6 +17,40 @@ http://fairdata.systems:8990/sparql  (yes, 8990!  Not the default for virtuoso!)
      }
 </pre></code>
 
+## RDF
+
+PREFIX efo: \<http://www.ebi.ac.uk/efo/efo.owl#>
+PREFIX sio: \<http://semanticscience.org/resource/>
+<> a efo:EFO_0001067 .
+<> sio:has-participant ?participant .
+
+## ShEX2
+
+PREFIX : \<http://purl.org/ejp-rd/cde/v020/shex/>
+PREFIX obo: \<http://purl.obolibrary.org/obo/>
+PREFIX sio: \<http://semanticscience.org/resource/>
+PREFIX edam: \<http://edamontology.org/>
+PREFIX xsd: \<http://www.w3.org/2001/XMLSchema#>
+PREFIX efo: \<http://www.ebi.ac.uk/efo/efo.owl#>
+
+
+:infectionShape IRI {
+  a [efo:EFO_0001067];
+  sio:has-participant @:participantShape
+}
+
+:participantShape IRI {
+  a [sio:host]
+}
+
+
+## Registration
+
+<my:interface1> has-resource <my:resource1> .
+<my:resource1> ex:has-input shex1 .
+<my:resource1> ex:has-operation edam:sparql .
+<my:resource1> ex:has-output my:shex2 .
+<my:interface1> at-url <http://this.that/?s&sio:has-participant?o>
 
 
 http://ldp.cbgp.upm.es:8890/sparql
@@ -32,10 +66,20 @@ where {
        ?participant sio:has-identifier ?id .
 }
 </pre></code>
+## RDF
+
+PREFIX sio: \<http://semanticscience.org/resource/>
+<> a sio:pathogen .
+<> sio:has-identifier "12345" .
 
 ## Abstract
 
-The European Joint Programme on Rare Diseases (EJP-RD) is building an interoperability platform for registries and biobanks for rare diseases. RD registries are diverse in size, content, and form, and are widely dispersed throughout Europe, including several hundred small single-disease-focused registries being run by non-technical experts. Notably, this is among the most sensitive of all data, in particular because the rarity of the diseases make personal identification much easier to achieve with fewer data points. The EJP-RD technical platform consists of data entry/transformation tools, ...
+We wish to design a federated query framework that does not require the participating data sources to expose their data or their interface in the public (even password protected!).  The overall idea is that there is a metadata descriptor of the data in the resource, which allows a client to determine the data in that resource meets their requirements.  They then "knock on the door" of the data resource, and through some (undefined) certification process, ask that they be "invited inside".  The process of "inviting inside" is the data resource docker pull'ing the client's image (again, there will eventually be some kind of certification process here, for security!) and allowing that client to execute its query over their data resource.
+
+The interface that will expose the data in the resource will be [Triple Pattern Fragments](https://linkeddatafragments.org/specification/triple-pattern-fragments/) because these are extremely easy to build, and can expose any kind of underlying data source (e.g. databases, triplestores, APIs etc.)
+
+We anticipate using ShEX to describe the 'shape' of the data from each resource.  This will allow machmaking between user needs and one or more potential providers.
+
 
 ## Topics
 

@@ -52,6 +52,12 @@ Dmitry Repchevsky dmitry.repchevski@bsc.es
 
 Luca Bolzani luca.bolzani@uni.lu
 
+Valentin Groues valentin.groues@uni.lu
+
+Vittorio Meloni vmeloni@crs4.it
+
+Rahel Paloots rahelpaloots@gmail.com
+
 ## Expected outcomes
 
 We look forward to the development of:

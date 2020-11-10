@@ -48,3 +48,38 @@ Community registry providers
 
 **Number of expected hacking days**: 4
 
+# Hacking Plan
+
+## Resources
+
+- [BMUSE](https://github.com/HW-SWeL/BMUSE/tree/dev): Bioschemas scraper
+  - Use the dev branch with the skipTests flag
+  - Seed with a sitemap or list of URLs
+- [IDP Scraped Data](https://drive.google.com/drive/folders/1OdzERm1ZNBhCTrNGLXvQILRON4OA7Qj0?usp=sharing)
+- [Bioschemas Profiles](https://bioschemas.org/profiles/)
+- [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool)
+
+## Day 1 Monday
+
+### IDPCentral
+
+Aim to scrape data from 3 IDP sources and interlink into a prototype IDPCentral registry. Data will be merged based on their UniProt accession number.
+
+Data model for the merged data will be based around the Bioschemas [Protein](https://bioschemas.org/profiles/Protein) and [SequenceAnnotation](https://bioschemas.org/SequenceAnnotation) models. Each statement in the model will have provenance data tracked using a similar model to Wikidata. The data model will also allow for the multiplicity of data coming from multiple sources but being slightly different.
+
+Tasks:
+- Ivan to understand why BMUSE is not pulling all pages
+- Petros to work on fixes for BMUSE
+- Andras to develop UI over a mongo data store that would contain the data according to the above model.
+- Alasdair to work on a conversion script to transform the page centric scraped data into the Bioschemas Knowledge Graph
+
+### [Image Data Resource](https://idr.openmicroscopy.org)
+
+Josh will work on embedding markup within the database and checking that it can be crawled using BMUSE.
+
+The database contains a lot of cross links to ELIXIR resources and would be useful for enabling links to visual evidence for a concept.
+
+Tasks:
+- [x] Embed markup in a page and deploy on S3
+- [x] Create test sitemap
+- [x] Test BMUSE can scrape deployed content.

@@ -1,0 +1,4 @@
+[submodule "projects/36/V-pipe"]
+	path = projects/36/V-pipe
+	url = https://github.com/cbg-ethz/V-pipe.git
+	branch = biohackeu20
