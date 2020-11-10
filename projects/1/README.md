@@ -109,6 +109,7 @@ Note: we are starting from zero --sort of
   * If not, let's go through the readme.md file and find any GitHub repo mentioned there that is relevant for us
   * A GitHub repo is a link starting with github.com
   * A GitHub repo is relevant for us if it is a repo rather than an organization or user
+  * Avoid duplicates/loops (e.g., this repo will be processed and it includes links to the BioHackathon projects)
   * For 2020 projects, double check that the repo **also** has the topic BioHackEU20 (non-case sensitive)
   * Extract metadata
     * Owner username
