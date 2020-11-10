@@ -1,0 +1,186 @@
+<mat-vertical-stepper #stepper>
+    <mat-step [stepControl]="">
+        <section class="registration-section">
+                <ng-template matStepLabel>Summary</ng-template>
+
+                <mat-form-field>
+                    <mat-label>Tool name</mat-label>
+                    <input matInput placeholder="Tool name">
+                </mat-form-field>
+                <br>
+
+                <mat-form-field>
+                    <mat-label>Persistent biotoolsID</mat-label>
+                    <input matInput placeholder="Unique, persistent ID">
+                </mat-form-field>
+                <br>
+
+                <mat-form-field>
+                    <mat-label>Homepage</mat-label>
+                    <input matInput placeholder="Tool homepage">
+                </mat-form-field>
+                <br>
+
+                <mat-form-field>
+                    <mat-label>Description</mat-label>
+                    <textarea rows="5" matInput placeholder="Tool description"></textarea>
+                </mat-form-field>
+                <br>
+
+                <div>
+                    <button mat-button matStepperNext>Next</button>
+                </div>
+        </section>
+
+    </mat-step>
+    <mat-step [stepControl]="" label="Publication">
+        <section class="registration-section">
+            <p>
+                Has your tool been published or are there any publications associated in any way with your tool?
+            </p>
+
+            
+                <mat-form-field>
+                    <mat-label>Digital Object ID</mat-label>
+                    <input matInput placeholder="e.g. 10.1093/nar/gkv/1116">
+                </mat-form-field>
+                <br>
+
+                <mat-form-field>
+                    <mat-label>PubMed ID</mat-label>
+                    <input matInput placeholder="26538599">
+                </mat-form-field>
+                <br>
+
+                <mat-form-field>
+                    <mat-label>PubMed Central ID</mat-label>
+                    <input matInput formControlName="publicationCtrl" placeholder="PMC4702812">
+                </mat-form-field>
+                <br>
+
+                <div>
+                    <button mat-button matStepperPrevious>Back</button>
+                    <button mat-button matStepperNext>Next</button>
+                </div>
+            
+        </section>
+    </mat-step>
+    <mat-step [stepControl]="" label="EDAM Suggestions">
+        <section class="registration-section">
+                <p>
+                    This is the place where EDAMmap will run and will show suggestions.
+                </p>
+
+                <p>
+                    Based on these suggestions the user will pick EDAM terms. 
+                    Topics will be added to the "topic" attribute, 
+                    operations, input and output will be collected and offered later in the "function" section.
+                </p>
+        </section>
+
+
+    </mat-step>
+
+    <mat-step [stepControl]="" label="Labels">
+        <section class="registration-section">
+            
+                <p>
+                    Labels
+                </p>
+        </section>
+    </mat-step>
+
+    <mat-step [stepControl]="" label="Links">
+        <section class="registration-section">
+            
+                <p>
+                    Links
+                </p>
+        </section>
+    </mat-step>
+
+
+    <mat-step [stepControl]="" label="Download">
+        <section class="registration-section">
+            
+                <p>
+                    Download
+                </p>
+        </section>
+    </mat-step>
+
+    <mat-step [stepControl]="" label="Documentation">
+        <section class="registration-section">
+            
+                <p>
+                    Documentation
+                </p>
+        </section>
+    </mat-step>
+
+    <mat-step [stepControl]="" label="Credits & Support">
+        <section class="registration-section">
+            
+                <p>
+                    Credits & Support
+                </p>
+        </section>
+    </mat-step>
+
+    <mat-step [stepControl]="" label="Function">
+        <section class="registration-section">
+            
+                <p>
+                    Function
+                </p>
+        </section>
+    </mat-step>
+
+    <mat-step [stepControl]="" label="Relations">
+        <section class="registration-section">
+            
+                <p>
+                    Relations
+                </p>
+        </section>
+    </mat-step>
+
+    <mat-step [stepControl]="" label="Community">
+        <section class="registration-section">
+            
+                <p>
+                    Community
+                </p>
+        </section>
+    </mat-step>
+
+    <mat-step [stepControl]="" label="JSON">
+        <section class="registration-section">
+            
+                <p>
+                    JSON
+                </p>
+        </section>
+    </mat-step>
+
+    <mat-step [stepControl]="" label="Permissions">
+        <section class="registration-section">
+            
+                <p>
+                    Permissions
+                </p>
+        </section>
+    </mat-step>
+
+    <mat-step>
+        <section class="registration-section">
+            <ng-template matStepLabel>Done</ng-template>
+            <p>You are now done.</p>
+            <div>
+                <button mat-button matStepperPrevious>Back</button>
+                <button mat-raised-button color="primary">Validate</button>
+                <button mat-raised-button color="accent">Save</button>
+            </div>
+        </section>
+    </mat-step>
+</mat-vertical-stepper>

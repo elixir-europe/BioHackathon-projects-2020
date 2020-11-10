@@ -1,5 +1,8 @@
 # Project 29: Design of a modular learning path (curriculum) in Data Stewardship, Management and Analysis for the Life Sciences
 
+# Project Master Document: http://bit.ly/project29-master
+Here, you will find useful information and links to work on Project 29
+
 ## Abstract
 
 In the context of ELIXIR-CONVERGE, a pilot Learning Path (LP) in Data Stewardship, Management and Analysis (DSMA) for the Life Sciences will be designed (phase 1), delivered (phase 2) and assessed (phase 3). This task will build on the experience and expertise of ELIXIR nodes and CONVERGE WPs. The LP will consist of a set of learning modules, which can be also attended as independent training events by users who only need to fill specific gaps. This BH project focuses on phase 1. It consists in a collaborative curriculum design activity that will pave the road for the development of ...
@@ -17,19 +20,20 @@ Data Platform
 
 ## Team
 
-### Lead(s)
+### Lead(s) - BH Ladies
 
-Allegra Via; allegra.via@cnr.it (author1)
+ Allegra Via; allegra.via@cnr.it (author1)
  Loredana Le Pera; loredanalepera@gmail.com
  Celia van Gelder; celia.van.gelder@dtls.nl
  Jessica Lindvall; jessica.lindvall@nbis.se
  Patricia Palagi; Patricia.Palagi@sib.swiss
  Alexia Cardona; ac812@cam.ac.uk
  Victoria Dominguez del Angel; victoria.dominguez@france-bioinformatique.fr
+ Mijke Jetten; mijke.jetten@dtls.nl
 
 ### Nominated participant(s)
 
-Patricia Palagi 
+ Patricia Palagi 
  Alexia Cardona
 
 ## Expected outcomes

@@ -30,6 +30,6 @@ Design and implement a set of tests that that run [CWL v1.2][cwl-1.2]
 [cwltool]: <https://github.com/common-workflow-language/cwltool>
 [cwl-wes]: <https://github.com/elixir-cloud-aai/cwl-WES>
 [cwl-wes-req]: <https://github.com/elixir-cloud-aai/cwl-WES/blob/749b9886e8ae83cafe7189705b8978af6b8709f7/requirements.txt#L6>
-[s3-pr]: <https://github.com/ohsu-comp-bio/cwl-tes/pull/38>
+[pr-s3]: <https://github.com/ohsu-comp-bio/cwl-tes/pull/38>
 [tesk]: <https://github.com/EMBL-EBI-TSI/TESK>
 [topics-overview]: ../README.md#topics

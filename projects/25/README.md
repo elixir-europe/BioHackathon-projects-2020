@@ -66,3 +66,14 @@ Erik Garrison (erik.garrison@ucsc.edu) \
 4. Experience with data visualization using JavaScript
 
 **Number of expected hacking days**: 4
+
+## Building on the following projects
+
+1. github.com/vgteam/libhandlegraph/
+2. https://github.com/pangenome/spodgi
+
+## Starting the following projects
+1. https://github.com/nf-core/pangenome
+
+## Meeting minutes
+For everyone to stay up to date we collect the current status of each day on [GDocs](https://docs.google.com/document/d/1wifM0Y58AWfCxQdqig3frlhUpyLvb74rNxVWOWQPZC0/edit?usp=sharing).

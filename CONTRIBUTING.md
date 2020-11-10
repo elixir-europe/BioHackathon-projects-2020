@@ -20,44 +20,44 @@ Here we include a list of the open channels created by organizers, those startin
 * #general - general channel
 * #social - general channel
 * #random - general channel
-* #1_BioHackOutcomes
-* #2_DataStWizard
-* #3_EpidemicBundle
-* #4_PubDictionaries
-* #5_Epimutations
-* #6_BioHackrXiv
-* #7_CNV
-* #8_3DBeacons
-* #9_TuringWay
-* #10_EDAM
-* #11_BioTools
-* #12_FedQueryAg
-* #13_ChemInformatics
-* #14_Galaxy-ROCrate
-* #15_FAIR4Software
-* #16_GA4GHCloud
-* #17_CWL-Galaxy
-* #18_Galaxy-BioCon
-* #19_FAIRData
-* #20_CAB
-* #21_SoftMngPlans
-* #22_InterMine-Fed
-* #23_InterMine-ENodes
-* #24_Bioschemas
-* #25_FedVarGraphs
-* #26_Sapporo
-* #27_Galaxy-Disease
-* #28_CliniBeacon
-* #29_LearningPath
-* #30_OntoCovid
-* #31_BioContainers
-* #32_PlanMetadataMng
-* #33_MolSeq
-* #34_MechAnalysisCovid
-* #35_WikidataKG
-* #36_VpipeSARS
-* #37_BioMedData
-* #38_panoptes
-* #39_DataComputing
-* #40_CloudOMOP
-* #41_RareDiseaseBundle
+* #1_BioHackOutcomes - floor 4
+* #2_DataStWizard - floor 1
+* #3_EpidemicBundle - floor 3
+* #4_PubDictionaries - floor 4
+* #5_Epimutations - floor 3
+* #6_BioHackrXiv - floor 4
+* #7_CNV - floor 3
+* #8_3DBeacons - floor 1
+* #9_TuringWay - floor 5
+* #10_EDAM - floor 5
+* #11_BioTools - floor 5
+* #12_FedQueryAg - floor 1
+* #13_ChemInformatics - floor 1
+* #14_Galaxy-ROCrate - floor 2
+* #15_FAIR4Software - floor 5
+* #16_GA4GHCloud - floor 2
+* #17_CWL-Galaxy - floor 2
+* #18_Galaxy-BioCon - floor 2
+* #19_FAIRData - floor 1
+* #20_CAB - floor 4
+* #21_SoftMngPlans - floor 5
+* #22_InterMine-Fed - floor 1
+* #23_InterMine-ENodes - floor 1
+* #24_Bioschemas - floor 5
+* #25_FedVarGraphs - floor 3
+* #26_Sapporo - floor 2
+* #27_Galaxy-Disease - floor 2
+* #28_CliniBeacon - floor 3
+* #29_LearningPath - floor 5
+* #30_OntoCovid - floor 3
+* #31_BioContainers - floor 2
+* #32_PlanMetadataMng - floor 5
+* #33_MolSeq - floor 4
+* #34_MechAnalysisCovid - floor 3
+* #35_WikidataKG - floor 4
+* #36_VpipeSARS - floor 3
+* #37_BioMedData - floor 4
+* #38_panoptes - floor 2
+* #39_DataComputing - floor 4
+* #40_CloudOMOP - floor 4
+* #41_RareDiseaseBundle - floor 3
