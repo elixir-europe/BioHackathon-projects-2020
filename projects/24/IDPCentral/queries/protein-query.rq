@@ -14,6 +14,7 @@ WHERE {
         # Bioschemas Recommended properties
         OPTIONAL {?s schema:associatedDisease ?associatedDisease}
         OPTIONAL {?s schema:description ?description}
+        OPTIONAL {?s schema:hasSequenceAnnotation ?annotation}
         OPTIONAL {?s schema:isEncodedByBioChemEntity ?encodedBy}
         OPTIONAL {?s schema:taxonomicRange ?taxonomicRange}
         OPTIONAL {?s schema:url ?url}
