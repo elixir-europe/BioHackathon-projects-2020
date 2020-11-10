@@ -12,8 +12,14 @@ section.registration-section{
     width: 50%;
     max-width: 1000px;
     margin: 0 auto;
+    min-height: 75vh;
 }
 
 button{
     margin: 10px;
 }
+
+.block{
+    display: block;
+}
+
