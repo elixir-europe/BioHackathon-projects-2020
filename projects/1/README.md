@@ -81,6 +81,8 @@ Note: we are starting from zero --sort of
   * https://github.com/KnowledgeCaptureAndDiscovery/somef
   * https://github.com/weso-edma/hercules-challenge-git
   * https://melaniesoek0120.medium.com/how-to-use-github-api-to-extract-data-with-python-bdc61106a501
+  * https://towardsdatascience.com/all-the-things-you-can-do-with-github-api-and-python-f01790fca131
+  * https://docs.github.com/en/free-pro-team@latest/rest
 
 ### BioHackthon ideas and planning
 
