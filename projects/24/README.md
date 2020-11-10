@@ -73,13 +73,13 @@ Tasks:
 - Andras to develop UI over a mongo data store that would contain the data according to the above model.
 - Alasdair to work on a conversion script to transform the page centric scraped data into the Bioschemas Knowledge Graph
 
-### Dundee Microscopy Database
+### [Image Data Resource](https://idr.openmicroscopy.org)
 
 Josh will work on embedding markup within the database and checking that it can be crawled using BMUSE.
 
-the database contains a lot of cross links to ELIXIR resources and would be useful for enabling links to visual evidence for a concept.
+The database contains a lot of cross links to ELIXIR resources and would be useful for enabling links to visual evidence for a concept.
 
 Tasks:
-- Embed markup in a page and deploy on S3
-- Create test sitemap
-- Test BMUSE can scrape deployed content.
+- [x] Embed markup in a page and deploy on S3
+- [x] Create test sitemap
+- [x] Test BMUSE can scrape deployed content.
