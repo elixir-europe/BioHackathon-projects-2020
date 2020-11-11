@@ -2,6 +2,7 @@
 # Defensive query: assumes that data does not conform to Protein profile
 # Retrieve all properties that are mentioned in the Protein Profile
 
+PREFIX pav: <http://purl.org/pav/>
 PREFIX schema: <https://schema.org/>
 
 SELECT *
@@ -31,5 +32,7 @@ WHERE {
         OPTIONAL {?s schema:isLocatedInSubcellularLocation ?cellularLocation}
         OPTIONAL {?s schema:isPartOfBioChemEntity ?parentEntity}
         OPTIONAL {?s schema:sameAs ?sameAs}
+        ?g pav:retrievedFrom ?source ;
+            pav:retrievedOn ?date .
     }
 }
