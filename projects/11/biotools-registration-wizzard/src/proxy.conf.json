@@ -1,0 +1,8 @@
+{
+    "/edammap/*": {
+      "target": "https://biit.cs.ut.ee",
+      "changeOrigin": true,
+      "secure": false,
+      "logLevel": "debug"
+    }
+  }
