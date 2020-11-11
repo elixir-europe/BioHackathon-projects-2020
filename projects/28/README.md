@@ -1,5 +1,9 @@
 # Project 28: Beacon for clinical and translational data
 
+
+### Github repository
+Code is stored in a separate repository: <https://github.com/elixir-luxembourg/BH2020-beacon-2.x>
+
 ## Abstract
 
 The Global Alliance for Genomics and Health (GA4GH) Beacon Project has shown its great potential in federated discovery of genomic data. It is originally implemented as a tool to share aggregated information (the “existence“) of Single Nucleotide Polymorphisms (SNP) in distributed genomic data collections. This has been later on extended to other types of genomic variants such as structural variants (the “Beacon+”). The ELIXIR team across several nodes has developed a reference implementation of the Beacon protocol.
