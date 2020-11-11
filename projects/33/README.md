@@ -15,18 +15,11 @@ Biodiversity
 **EasyChair Number:** 53
 
 ## Team
-
-### Lead(s)
-
-Quentin Groom quentin.groom@plantentuinmeise.be (corresponding author)
- Mathias Dillen mathias.dillen@plantentuinmeise.be
- Pieter Huybrechts pieter.huybrechts@plantentuinmeise.be
- Maarten Trekels maarten.trekels@plantentuinmeise.be
- Andra Waagmeester andra@micel.io
-
-### Nominated participant(s)
-
-Maarten Trekels
+* Quentin Groom quentin.groom@plantentuinmeise.be (corresponding author)
+* Mathias Dillen mathias.dillen@plantentuinmeise.be
+* Pieter Huybrechts pieter.huybrechts@plantentuinmeise.be
+* Maarten Trekels maarten.trekels@plantentuinmeise.be
+* Andra Waagmeester andra@micel.io
 
 ## Expected outcomes
 
