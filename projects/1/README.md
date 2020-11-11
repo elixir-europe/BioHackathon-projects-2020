@@ -100,11 +100,14 @@ Note: we are starting from zero --sort of
   * Dates when the events took place: bh_start_date, bh_final_date
   * Initial date for agregations: start_date (if ommited the created date of the analyzed repo will be used)
   * Final date for aggregations: final_date (if ommited "today" will be used)
-* Let's focus on BioHackathon Europe GitHub repositories
+* Let's focus on BioHackathon Europe GitHub repositories and the Covid one
   * 2019 Projects: https://github.com/elixir-europe/BioHackathon-projects-2019 
   * 2019 BioHackathon dates: 2019.11.18 - 2020.11.22
-  * 2020 Projects: https://github.com/elixir-europe/BioHackathon-projects-2020
+  * 2020 Projects: https://github.com/elixir-europe/BioHackathon-projects-2020 and those with topic BioHackEU20
   * 2020 BioHackathon dates: 2020.11.09 - 2020.11.13
+  * 2020 Covid Wiki: https://github.com/virtual-biohackathons/covid-19-bh20/wiki
+  * Projects: those with topic BioHackCovid20
+  * 2020 Covid BioHackathon dates: 2020.04.05 - 2020.04.11  
 * For a given BioHackathon year (either 2019 or 2020 by now)
   * Let's get the projects out of the folder name "projects"
   * If there is any code in there, let's get metadata
