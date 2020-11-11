@@ -4,14 +4,32 @@ tags:
   - replace with your own keywords
   - at least is recommended
 authors:
-  - name: First Last
-    orcid: 0000-0000-0000-0000
+  - name: Quentin Groom
+    orcid: 0000-0002-0596-5376
     affiliation: 1
-  - name: Second Last
-    orcid: 0000-0000-0000-0000
+  - name: Mathias Dillen
+    orcid: 0000-0002-3973-1252
+    affiliation: 1
+  - name: 	Pieter Huybrechts
+    orcid:0000-0002-6658-6062
+    affiliation: 1
+    - name: Rukaya Johaadien
+    orcid:0000-0002-2857-2276
     affiliation: 2
+    - name: Niki Kyriakopoulou
+    orcid:0000-0002-2857-2276
+    affiliation: 3
+  - name: Francisco Quevedo
+    orcid: 0000-0002-8443-9832
+    affiliation: 4
+  - name: Maarten Trekels
+    orcid: 0000-0001-8282-8765
+    affiliation: 1
+   - name: Wai Yee Wong
+    orcid: 0000-0002-2329-2566
+    affiliation: 5
 affiliations:
- - name: Institution 1, address, city, country
+ - name: Meise Botanic Garden, Nieuwelaan 38, 1860 Meise, Belgium
    index: 1
  - name: Institution 1, address, city, country
    index: 2
