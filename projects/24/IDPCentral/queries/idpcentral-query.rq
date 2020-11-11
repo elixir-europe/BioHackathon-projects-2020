@@ -1,0 +1,35 @@
+PREFIX schema: <https://schema.org/>
+PREFIX idp: <https://example.com/ipd/>
+PREFIX up: <http://purl.uniprot.org/core/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+CONSTRUCT {
+    ?entry_url idp:name ?entry_name ;
+    	idp:uniprot_name ?uniprot_name ;
+        idp:identifier ?entry_id ;
+        idp:sameAs ?uniprot_acc ;
+        idp:sequence_range [
+            idp:start ?start;
+            idp:end ?end ;
+    		idp:range_annotation ?range_annotation 
+        ] .
+  		
+}
+WHERE {
+    GRAPH ?g {
+        ?entry_url a schema:Protein ;
+            schema:name ?entry_name ;
+            schema:identifier ?entry_id ;
+            schema:hasSequenceAnnotation ?sequence ;
+            schema:sameAs ?uniprot_acc .
+        FILTER regex(str(?uniprot_acc), "^https://www.uniprot.org/uniprot/")
+        ?sequence schema:sequenceLocation ?sequenceLocation ;
+                  schema:additionalProperty/schema:value/schema:name ?range_annotation .
+        ?sequenceLocation schema:rangeStart ?start ;
+            schema:rangeEnd ?end.
+    }
+	SERVICE <https://sparql.uniprot.org/> {
+        <http://purl.uniprot.org/uniprot/P49913> rdfs:label ?uniprot_name .
+    	# ?uniprot_acc rdfs:label ?uniprot_name
+	}
+}
