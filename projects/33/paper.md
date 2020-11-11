@@ -1,8 +1,11 @@
 ---
-title: 'BioHackrXiv  template'
+title: 'Connecting molecular sequence to their voucher specimens'
 tags:
-  - replace with your own keywords
-  - at least is recommended
+  - Voucher Specimens
+  - Collections
+  - Herbarium
+  - Museum
+  - linking data
 authors:
   - name: Quentin Groom
     orcid: 0000-0002-0596-5376
@@ -10,14 +13,14 @@ authors:
   - name: Mathias Dillen
     orcid: 0000-0002-3973-1252
     affiliation: 1
-  - name: 	Pieter Huybrechts
-    orcid:0000-0002-6658-6062
+  - name: Pieter Huybrechts
+    orcid: 0000-0002-6658-6062
     affiliation: 1
-    - name: Rukaya Johaadien
-    orcid:0000-0002-2857-2276
+  - name: Rukaya Johaadien
+    orcid: 0000-0002-2857-2276
     affiliation: 2
-    - name: Niki Kyriakopoulou
-    orcid:0000-0002-2857-2276
+  - name: Niki Kyriakopoulou
+    orcid: 0000-0002-2857-2276
     affiliation: 3
   - name: Francisco Quevedo
     orcid: 0000-0002-8443-9832
@@ -25,7 +28,7 @@ authors:
   - name: Maarten Trekels
     orcid: 0000-0001-8282-8765
     affiliation: 1
-   - name: Wai Yee Wong
+  - name: Wai Yee Wong
     orcid: 0000-0002-2329-2566
     affiliation: 5
 affiliations:
@@ -33,7 +36,13 @@ affiliations:
    index: 1
  - name: Institution 1, address, city, country
    index: 2
-date: 01 January 2020
+ - name: Institution 1, address, city, country
+   index: 3
+ - name: Institution 1, address, city, country
+   index: 4
+ - name: Institution 1, address, city, country
+   index: 5   
+date: 11 November 2020
 bibliography: paper.bib
 ---
 
