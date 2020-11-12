@@ -59,6 +59,7 @@ Jerven Bolleman - Jerven.Bolleman@sib.swiss
  2. InterMine model description doc (https://intermine.readthedocs.io/en/latest/data-model/model/)
  3. R2RML Mapping Language (https://www.w3.org/TR/r2rml/)
  4. Ontop (https://ontop-vkg.org/)
+ 5. RDF playground (http://rdfplayground.dcc.uchile.cl/) github (https://github.com/BastyZ/RDFPlayground)
  
 ## Instruction to build the biotestmine database using Docker
 biotestmine database is a test database containing some data sets for Malaria (P. falciparum)
