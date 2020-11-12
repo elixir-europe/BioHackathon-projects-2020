@@ -40,6 +40,9 @@ We are hosting a Google Doc to keep track of [our work](https://docs.google.com/
  * Extract metadata from paper
  * RDF store with metadata and SPARQL end point
 
+Code is hosted on https://github.com/biohackrxiv/. Publication
+is written in [paper.md](https://github.com/biohackrxiv/bhxiv-metadata/blob/main/doc/elixir_biohackathon2020/paper.md).
+
 ## Expected audience
 
 There will be people working locally and remotely on this. Participants may be interested in ontologies, text mining, and some web programming.

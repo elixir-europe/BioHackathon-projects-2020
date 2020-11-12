@@ -11,6 +11,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 
 //
@@ -42,7 +43,8 @@ import { MatVerticalStepperScrollerDirective } from './core/mat-vertical-stepper
     MatFormFieldModule,
     MatInputModule,
     MatCheckboxModule,
-    HttpClientModule
+    HttpClientModule,
+    MatProgressSpinnerModule
   ],
   providers: [
     MatStepperIntl,
