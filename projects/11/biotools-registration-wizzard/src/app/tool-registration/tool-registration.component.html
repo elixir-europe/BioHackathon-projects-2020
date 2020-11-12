@@ -31,7 +31,10 @@
                 <div>
                     <button mat-button matStepperNext>Next</button>
                 </div>
+
             </section>
+
+            
 
         </mat-step>
         <mat-step [stepControl]="" label="Publication">
@@ -105,13 +108,46 @@
                     Topics will be added to the "topic" attribute,
                     operations, input and output will be collected and offered later in the "function" section.
                 </p>
+               
                 <mat-form-field>
-                <mat-label>Keywords</mat-label>
-                    <textarea rows="10" matInput placeholder="Keywords, tags etc., one per line"></textarea>
+                    <mat-label>Keywords (add any other relevant tags that could not be added in other fields)</mat-label>
+                    <textarea rows="10" matInput placeholder="Keywords, tags etc., one per line" (change)="onKeywordChange($event)"></textarea>
                 </mat-form-field>
+            
+                
 
 
                 <button type="button" (click)="getEDAMMapTerms()">Load suggestions</button>
+
+                <mat-spinner *ngIf="isLoading()"></mat-spinner>
+
+                <div *ngIf="edamMapError">
+                    Error in retrieving EDAM terms: {{edamMapError}}
+                </div>
+
+                <div *ngIf="edamMapResults && edamMapResults.success">
+                    <h2>Results</h2>
+                    <h3>Topics</h3>
+                    <div *ngFor="let t of edamMapResults.mapping.results.topic">
+                        <div>
+                            <strong>{{t.label}}</strong>
+                            <br>
+                            <a href="{{t.edamUri}}" target="_blank">{{t.edamUri}}</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3>Operations</h3>
+                    <div *ngFor="let o of edamMapResults.mapping.results.operation">
+                        <div>
+                            <strong>{{o.label}}</strong>
+                            <br>
+                            <a href="{{o.edamUri}}" target="_blank">{{o.edamUri}}</a>
+                        </div>
+                    </div>
+                    <pre>
+                        {{edamMapResults.mapping.results | json}}
+                    </pre>
+                </div>
 
                 <div>
                     <button mat-button matStepperPrevious>Back</button>
@@ -267,7 +303,7 @@
             </section>
         </mat-step>
 
-        <mat-step>
+        <mat-step [stepControl]="">
             <section class="registration-section">
                 <ng-template matStepLabel>Done</ng-template>
                 <p>You are now done.</p>

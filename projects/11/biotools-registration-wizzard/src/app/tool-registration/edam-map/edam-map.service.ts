@@ -10,7 +10,14 @@ export class EdamMapService {
     constructor(private httpClient: HttpClient) {}
 
     getEDAM(searchOptions: any): Observable<any> {
-
+        searchOptions = {...searchOptions,
+            branches: [
+                'topic'
+                , 'operation'
+                // , 'data'
+                // , 'format'
+            ]
+        };
         return this.httpClient.post<any>('/edammap/api',
             searchOptions,
             {
