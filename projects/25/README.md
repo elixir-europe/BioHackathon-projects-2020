@@ -101,6 +101,8 @@ For everyone to stay up to date we collect the current status of each day on [GD
 
 ![Progress by Topic](wednesday_BioHackathon-Europe2020.svg)
 
-### Day 4 - TO COME
+### [Day 4 - Progress by topic](https://docs.google.com/presentation/d/1f-_W0OxQwlzMie1maW7fmzBL2gHHvdneATH5CQ7eCDc/edit#slide=id.ga8e2d573f7_0_181)
+
+![Progress by Topic](Thursday_BioHackathon-Europe2020.svg)
 
 ### Day 5 - TO COME
