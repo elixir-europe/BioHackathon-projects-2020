@@ -1,0 +1,12 @@
+PREFIX bioschemas: <https://schema.org/>
+
+SELECT ?count ?description
+WHERE {
+{ {SELECT (COUNT(*) AS ?c) WHERE {?s ?p ?o} } BIND("Total number of triples" AS ?d)} UNION
+{ {SELECT (COUNT(DISTINCT ?v) AS ?c) WHERE {[] bioschemas:inChI ?v} } BIND("InChIs" AS ?d)} UNION
+{ {SELECT (COUNT(DISTINCT ?v) AS ?c) WHERE {[] bioschemas:license ?v} } BIND("Different license(s)" AS ?d)} UNION
+{ {SELECT (COUNT(DISTINCT ?v) AS ?c) WHERE {[] bioschemas:molecularFormula ?v} } BIND("Molecular formula" AS ?d)} UNION
+{ {SELECT (COUNT(DISTINCT ?v) AS ?c) WHERE {[] bioschemas:monoisotopicMolecularWeight ?v} } BIND("Monoisotopic molecular weights" AS ?d)}
+BIND (?c AS ?count)
+BIND (?d AS ?description)
+} ORDER BY DESC(?count)
