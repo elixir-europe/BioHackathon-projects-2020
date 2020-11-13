@@ -35,8 +35,8 @@ const util = require('util');
   const queryfile: string = args[3];
   var query: string = "";
 
-  console.log('getting ' + queryfile);
-  console.log('endpoint ' + endpoint);
+  //console.log('getting ' + queryfile);
+  //console.log('endpoint ' + endpoint);
 
   const readFileContent = util.promisify(fs.readFile)
   
@@ -69,8 +69,8 @@ const util = require('util');
         // Wait a bit, as there may still be buffered actions (TODO: fix this in Comunica so that actions are aborted once query exec ends)
         setTimeout(() => {
           // Print stats to stdout
-          console.log('Query results: ' + results);
-          console.log('HTTP requests: ' + observer.urls.length);
+          //console.log('Query results: ' + results);
+          //console.log('HTTP requests: ' + observer.urls.length);
           observer.quadss.forEach(function (q) {
                 js.push(JSON.parse(q));
           });
