@@ -37,7 +37,7 @@ This repository is meant for the participants of the BioHackathon hosted in Barc
 * [Project 32](projects/32) User interface for plant experimental metadata management: EBI(DSP)-ISA-FAIRDOMHub/SEEK harmonization
 * [Project 33](projects/33) Connecting molecular sequence to their voucher specimens
 * [Project 34](projects/34) Development of a tool for mechanistic meta-analyses using COVID-19 available data as proof of concept
-* [Project 35](projects/35) Knowledge graphs and wikidata subsetting
+* [Project 35](projects/35) Knowledge graphs and Wikidata subsetting
 * [Project 36](projects/36) Enabling interactive R analyses in the InterMine user interface
 * [Project 37](projects/37) Accelerating integrated use of biomedical databases through semantic data modeling
 * [Project 38](projects/38) panoptes: monitor computational workflows in real time
