@@ -1,8 +1,0 @@
-name: IDPnotebook
-channels:
-  - conda-forge
-dependencies:
-  - rdflib
-  - string
-  - glob
-  - uuid
