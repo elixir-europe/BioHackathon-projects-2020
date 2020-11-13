@@ -76,13 +76,14 @@ Erik Garrison (erik.garrison@ucsc.edu) \
 ## Projects we are working on
 
 1. https://github.com/ekg/edlign 
-2. https://github.com/pangenome/pggb
-3. https://github.com/nf-core/pangenome
-4. https://github.com/Imipenem/MultiQC/tree/module/odgi_stats/multiqc/modules/odgi
-5. https://github.com/AndreaGuarracino/rs-spodgi
-6. https://github.com/JervenBolleman/rs-handlegraph-ffi
-7. https://github.com/6br/hgb
-8. https://github.com/6br/gam2bam
+2. https://github.com/ekg/wflambda
+3. https://github.com/pangenome/pggb
+4. https://github.com/nf-core/pangenome
+5. https://github.com/Imipenem/MultiQC/tree/module/odgi_stats/multiqc/modules/odgi
+6. https://github.com/AndreaGuarracino/rs-spodgi
+7. https://github.com/JervenBolleman/rs-handlegraph-ffi
+8. https://github.com/6br/hgb
+9. https://github.com/6br/gam2bam
 
 ## Meeting minutes
 For everyone to stay up to date we collect the current status of each day on [GDocs](https://docs.google.com/document/d/1wifM0Y58AWfCxQdqig3frlhUpyLvb74rNxVWOWQPZC0/edit?usp=sharing).
