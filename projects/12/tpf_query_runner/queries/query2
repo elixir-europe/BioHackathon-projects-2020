@@ -1,0 +1,8 @@
+PREFIX efo: <http://www.ebi.ac.uk/efo/efo.owl#>
+PREFIX sio: <http://semanticscience.org/resource/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+select *
+where {
+?inf a efo:EFO_0001067 .
+?inf sio:has-participant ?participant .
+}

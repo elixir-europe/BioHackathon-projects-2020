@@ -2,6 +2,8 @@
 
 [OVERVIEW Google Slide Deck](https://docs.google.com/presentation/d/1SKxtUceSBcfwzozCJn0HN4jqHLtO1c8_TaF5ZqrtzCY/edit?usp=sharing)
 
+### Michel's TORRES registry and query platform:  https://github.com/micheldumontier/torres-api-platform
+
 ### SPARQL Endpoints (the two endpoints join on "participant"):
 
 http://fairdata.systems:8990/sparql  (yes, 8990!  Not the default for virtuoso!)

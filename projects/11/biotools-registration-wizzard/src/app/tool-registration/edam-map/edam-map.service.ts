@@ -14,8 +14,8 @@ export class EdamMapService {
             branches: [
                 'topic'
                 , 'operation'
-                // , 'data'
-                // , 'format'
+                , 'data'
+                , 'format'
             ]
         };
         return this.httpClient.post<any>('/edammap/api',

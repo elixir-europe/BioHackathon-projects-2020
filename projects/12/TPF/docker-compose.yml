@@ -1,0 +1,22 @@
+version: "2.0"
+services:
+  ldp_server:
+    image: markw/ldp_server:latest
+    container_name: ldp_server_hackathon
+    ports:
+      - "2222:1111"
+      - "8990:8890"
+    volumes:
+      - /home/markw/hackathon_data:/opt/virtuoso-opensource/database
+
+  tpf_server:
+    image: markw/tpfserver:latest
+    container_name: tpfserver
+    ports:
+      - "5000:5000"
+    links:
+      - ldp_server
+    volumes:
+      - /root/TPFserver/config:/config
+
+
