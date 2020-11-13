@@ -62,6 +62,8 @@ Vittorio Meloni vmeloni@crs4.it
 
 Rahel Paloots rahelpaloots@gmail.com
 
+Aina Jene aina.jene@crg.eu
+
 ## Expected outcomes
 
 We look forward to the development of:
