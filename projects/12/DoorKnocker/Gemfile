@@ -1,0 +1,18 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+# gem "rails"
+gem 'rdf'
+gem 'sparql'
+gem 'rest-client'
+gem 'json'
+gem 'sinatra'
+gem 'haml'
+gem 'sinatra-partial'
+gem "uuidtools"
+gem 'nokogiri'
+gem 'equivalent-xml'
+gem 'rerun'
