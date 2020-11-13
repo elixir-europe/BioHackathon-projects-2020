@@ -1,0 +1,16 @@
+CONSTRUCT {
+  <https://disprot.org/DP00003r003> a schema:SequenceAnnotation ;
+    schema:additionalProperty ?addProp ;
+    schema:citation ?citation;
+    schema:creationMethod ?method;
+    schema:editor ?editor ;
+    schema:sequenceLocation ?seqLoc .
+}
+WHERE {
+  <https://disprot.org/DP00003r003> a schema:SequenceAnnotation ;
+    schema:additionalProperty ?addProp ;
+    schema:citation ?citation;
+    schema:creationMethod ?method;
+    schema:editor ?editor ;
+    schema:sequenceLocation ?seqLoc .
+}

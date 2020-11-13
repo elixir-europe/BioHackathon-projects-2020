@@ -1,0 +1,48 @@
+PREFIX bs: <https://bioschemas.org/entity/>
+PREFIX bsst: <https://bioschemas.org/entity/statement/>
+PREFIX bsp: <https://bioschemas.org/ns/p/>
+PREFIX bss: <https://bioschemas.org/ns/s/>
+PREFIX bsr: <https://bioschemas.org/reference/>
+PREFIX pav: <http://purl.org/pav/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX schema: <https://schema.org/>
+CONSTRUCT {
+    bs:P03265 a schema:Protein ;
+        schema:identifier ?identifier ;
+#        schema:name ?name ;
+        schema:hasSequenceAnnotation ?annotation .
+#        schema:taxonomicRange ?taxonomicRange ;
+#        schema:hasRepresentation ?representation ;
+#        schema:sameAs ?sameAs , <http://disprot.org/DP00003>.
+  		bs:P03265 bsp:type [
+				prov:wasDerivedFrom ?refNode ;
+		        bss:type schema:Protein 
+			] ;
+    		bsp:identifer [	
+    			prov:wasDerivedFrom ?refNode ;
+		  		bss:identifier ?identifier 
+  			];
+    		bsp:hasSequenceAnnotation [
+    			prov:wasDerivedFrom ?refNode ;
+		    	bss:hasSequenceAnnotation ?annotation 
+  			].
+    	?refNode pav:retrievedFrom ?source ;
+        	pav:retrievedOn ?date .
+}
+WHERE {
+    GRAPH ?g {
+# Bioschemas Minimal Properties
+        <http://disprot.org/DP00003> a schema:Protein ;
+            schema:identifier ?identifier ;
+#            schema:name ?name ;
+# Bioschemas Recommended properties
+            schema:hasSequenceAnnotation ?annotation .
+#            schema:taxonomicRange ?taxonomicRange ;
+# Bioschemas Optional properties
+#            schema:sameAs ?sameAs .
+#        OPTIONAL {<http://disprot.org/DP00003> schema:hasRepresentation ?representation }
+        ?g pav:retrievedFrom ?source ;
+            pav:retrievedOn ?date .
+    }
+    BIND(IRI(CONCAT("https://bioschemas.org/reference/", "P03265-", STRUUID())) AS ?refNode)
+}
