@@ -21,7 +21,7 @@ authors:
     orcid: 0000-0002-2857-2276
     affiliation: 2
   - name: Niki Kyriakopoulou
-    orcid: 0000-0002-2857-2276
+    orcid: 
     affiliation: 3
   - name: Francisco Quevedo
     orcid: 0000-0002-8443-9832
@@ -98,9 +98,7 @@ We recommend to include some discussion or conclusion about your work. Feel free
 
 # Future work
 
-And maybe you want to add a sentence or two on how you plan to continue. Please keep reading to learn about citations and references.
-
-For citations of references, we prefer the use of parenthesis, last name and year. If you use a citation manager, Elsevier – Harvard or American Psychological Association (APA) will work. If you are referencing web pages, software or so, please do so in the same way. Whenever possible, add authors and year. We have included a couple of citations along this document for you to get the idea. Please remember to always add DOI whenever available, if not possible, please provide alternative URLs. You will end up with an alphabetical order list by authors’ last name.
+Reconnecting the links between objects and the data derived from them is inefficient, error prone and expensive. Indeed, if rigorous data management procedures were followed it would not be necessary. Considerable work needs to be done to improve scientific procedures, infrastructural standards and scientific data management culture. Much of the followup work that needs to be done is to make these changes, so that there will be no need to reconnect vouchers and their data in the future.
 
 # Jupyter notebooks, GitHub repositories and data repositories
 
