@@ -1,0 +1,9 @@
+{
+  "@context": "https://linkedsoftwaredependencies.org/bundles/npm/example-actor-rdf-dereference/^1.0.0/components/context.jsonld",
+  "@id": "npmd:example-actor-rdf-dereference",
+  "@type": "Module",
+  "requireName": "example-actor-rdf-dereference",
+  "import": [
+    "files-ex:components/ActionObserver/RdfDereference/My.jsonld"
+  ]
+}

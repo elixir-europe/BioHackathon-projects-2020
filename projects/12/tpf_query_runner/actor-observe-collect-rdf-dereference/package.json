@@ -1,0 +1,37 @@
+{
+  "name": "example-actor-rdf-dereference",
+  "version": "1.0.0",
+  "description": "An example illustrating how to observe all RDF triples received by the engine",
+  "main": "index.js",
+  "license": "MIT",
+  "lsd:module": "https://linkedsoftwaredependencies.org/bundles/npm/example-actor-rdf-dereference",
+  "lsd:components": "components/components.jsonld",
+  "lsd:contexts": {
+    "https://linkedsoftwaredependencies.org/bundles/npm/example-actor-rdf-dereference/^1.0.0/components/context.jsonld": "components/context.jsonld"
+  },
+  "lsd:importPaths": {
+    "https://linkedsoftwaredependencies.org/bundles/npm/example-actor-rdf-dereference/^1.0.0/components/": "components/",
+    "https://linkedsoftwaredependencies.org/bundles/npm/example-actor-rdf-dereference/^1.0.0/config/": "config/"
+  },
+  "files": [
+    "components",
+    "config",
+    "index.js",
+    "index.d.ts"
+  ],
+  "dependencies": {
+    "@comunica/actor-init-sparql": "^1.14.0",
+    "@comunica/core": "^1.14.0",
+    "@comunica/bus-rdf-dereference": "^1.14.0",
+    "@comunica/runner": "^1.14.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  },
+  "scripts": {
+    "prepublishOnly": "npm run build",
+    "build": "tsc",
+    "build-watch": "tsc --watch",
+    "postinstall": "npm run build"
+  }
+}
