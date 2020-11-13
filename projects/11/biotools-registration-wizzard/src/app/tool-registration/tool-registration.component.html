@@ -34,19 +34,25 @@
 
             </section>
 
-            
+
 
         </mat-step>
+
         <mat-step [stepControl]="" label="Publication">
             <section class="registration-section">
 
-                <div formArrayName="publication">
-                    <p>
-                        Has your tool been published or are there any publications associated in any way with your tool?
-                    </p>
+                <p>
+                    Has your tool been published or are there any publications associated in any way with your
+                    tool?
+                </p>
+                <p>
+                    We recommend you specify at least the primary publication, i.e. the one that should be cited when
+                    the tool is used. Use "Add publication" for each individual publication and specify one or more of
+                    DOI, PMID and PMCID (ideally the DOI).
+                </p>
 
-                    <div *ngFor="let p of publication; let i = index">
-
+                <div formArrayName="publication" *ngIf="publication">
+                    <div *ngFor="let p of publication; let i = index" class="repeat-form-content">
                         <div [formGroupName]="i">
                             <mat-form-field>
                                 <mat-label>Digital Object ID</mat-label>
@@ -65,42 +71,197 @@
                                 <input matInput placeholder="PMC4702812" formControlName="pmcid">
                             </mat-form-field>
                             
-                               
-                            
-                            
-                            <div formArrayName="type">
-                                <mat-checkbox class="block" color="primary" *ngFor="let type of publicationTypes; let j = index">
+                            <mat-label>Publication type</mat-label>
+                            <div *ngFor="let type of publicationTypes; let j = index">
+                                <label>
+                                    <input type="checkbox" [value]="type" (change)="onPublicationTypeChange($event)">
                                     {{type}}
-                                </mat-checkbox>
-                                
-
+                                </label>
                             </div>
 
+                            <mat-form-field>
+                                <mat-label>Version</mat-label>
+                                <input matInput placeholder="e.g. 1.2, beta01,2.0-2.7" formControlName="version">
+                            </mat-form-field>
+
+                            <mat-form-field>
+                                <mat-label>Note</mat-label>
+                                <textarea rows="4" matInput placeholder="Note about publication"
+                                    formControlName="note"></textarea>
+                            </mat-form-field>
                             <br>
                         </div>
-                        <hr>
+                        <br>
                     </div>
 
                 </div>
                 <button type="button" (click)="onAddPublication()">Add publication</button>
 
-        
-                    
-                
+
+
+
 
                 <div>
                     <button mat-button matStepperPrevious>Back</button>
-                    <button mat-button matStepperNext >Next</button>
+                    <button mat-button matStepperNext>Next</button>
                 </div>
 
 
 
             </section>
         </mat-step>
+
+        <mat-step [stepControl]="" label="Documentation">
+            <section class="registration-section">
+
+                <p>
+                    Please provide links to documentation for your tool
+
+                </p>
+                <p>
+                    We recommend you specify at least a link to general documentation, a manual, or API documentation.
+                </p>
+
+                <div formArrayName="documentation">
+                    <div *ngFor="let d of documentation; let i = index" class="repeat-form-content">
+                        <div [formGroupName]="i">
+                            <mat-form-field>
+                                <mat-label>URL</mat-label>
+                                <input matInput placeholder="URL" formControlName="url">
+                            </mat-form-field>
+                            <br>
+                            
+                            <mat-label>Documentation type</mat-label>
+                            <div *ngFor="let type of documentationTypes; let j = index">    
+                                <label>
+                                    <input type="checkbox" [value]="type" (change)="onDocumentationTypeChange($event)">
+                                    {{type}}
+                                </label>
+                            </div>
+
+                            <mat-form-field>
+                                <mat-label>Note</mat-label>
+                                <textarea rows="4" matInput placeholder="Note about documentation"
+                                    formControlName="note"></textarea>
+                            </mat-form-field>
+                            <br>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+                <button type="button" (click)="onAddDocumentation()">Add documentation</button>
+
+                <div>
+                    <button mat-button matStepperPrevious>Back</button>
+                    <button mat-button matStepperNext>Next</button>
+                </div>
+            </section>
+        </mat-step>
+
+        <mat-step [stepControl]="" label="Download">
+            <section class="registration-section">
+
+                <p>
+                    A link to download a resource related to the tool.
+                </p>
+                <p>
+                    
+                    We recommend you specify at least downloads for the software source code or binaries, if available
+                </p>
+
+                <div formArrayName="download">
+                    <div *ngFor="let d of download; let i = index" class="repeat-form-content">
+                        <div [formGroupName]="i">
+                            <mat-form-field>
+                                <mat-label>URL</mat-label>
+                                <input matInput placeholder="URL" formControlName="url">
+                            </mat-form-field>
+                            <br>
+
+                            <mat-label>Download type</mat-label>
+                            <div *ngFor="let type of downloadTypes; let j = index">
+                                <label>
+                                    <input type="checkbox" [value]="type" (change)="onDownloadTypeChange($event)">
+                                    {{type}}
+                                </label>
+                            </div>
+                            <br>
+
+                            <mat-form-field>
+                                <mat-label>Version</mat-label>
+                                <input matInput placeholder="e.g. 1.1, beta01, 2.2-2.7" formControlName="version">
+                            </mat-form-field>
+                            <br>
+
+                            <mat-form-field>
+                                <mat-label>Note</mat-label>
+                                <textarea rows="4" matInput placeholder="Note about download"
+                                    formControlName="note"></textarea>
+                            </mat-form-field>
+                            <br>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+                <button type="button" (click)="onAddDownload()">Add download</button>
+
+                <div>
+                    <button mat-button matStepperPrevious>Back</button>
+                    <button mat-button matStepperNext>Next</button>
+                </div>
+            </section>
+        </mat-step>
+
+        <mat-step [stepControl]="" label="Links">
+            <section class="registration-section">
+
+                <p>
+                    Miscellaneous links of relevance to the tool.
+                </p>
+                <p>
+                    We recommend you specify at least the repository, issue tracker and mailing list URLs, if available.
+                </p>
+
+                <div formArrayName="link">
+                    <div *ngFor="let l of link; let i = index" class="repeat-form-content">
+                        <div [formGroupName]="i">
+                            <mat-form-field>
+                                <mat-label>URL</mat-label>
+                                <input matInput placeholder="URL" formControlName="url">
+                            </mat-form-field>
+                            <br>
+
+                            <mat-label>Link type</mat-label>
+                            <div *ngFor="let type of linkTypes; let j = index">
+                                <label>
+                                    <input type="checkbox" [value]="type" (change)="onLinkTypeChange($event)">
+                                    {{type}}
+                                </label>
+                            </div>
+
+                            <mat-form-field>
+                                <mat-label>Note</mat-label>
+                                <textarea rows="4" matInput placeholder="Note about link"
+                                    formControlName="note"></textarea>
+                            </mat-form-field>
+                            <br>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+                <button type="button" (click)="onAddLink()">Add link</button>
+                <div>
+                    <button mat-button matStepperPrevious>Back</button>
+                    <button mat-button matStepperNext>Next</button>
+                </div>
+            </section>
+        </mat-step>
+
         <mat-step [stepControl]="" label="EDAM Suggestions">
             <section class="registration-section">
                 <p>
-                    Scientific tool annotations powered by the <a href="http://edamontology.org/" target="_blank">EDAM Ontology</a>
+                    Scientific tool annotations powered by the <a href="http://edamontology.org/" target="_blank">EDAM
+                        Ontology</a>
                 </p>
 
                 <p>
@@ -108,13 +269,15 @@
                     Topics will be added to the "topic" attribute,
                     operations, input and output will be collected and offered later in the "function" section.
                 </p>
-               
+
                 <mat-form-field>
-                    <mat-label>Keywords (add any other relevant tags that could not be added in other fields)</mat-label>
-                    <textarea rows="10" matInput placeholder="Keywords, tags etc., one per line" (change)="onKeywordChange($event)"></textarea>
+                    <mat-label>Keywords (add any other relevant tags that could not be added in other fields)
+                    </mat-label>
+                    <textarea rows="10" matInput placeholder="Keywords, tags etc., one per line"
+                        (change)="onKeywordChange($event)"></textarea>
                 </mat-form-field>
-            
-                
+
+
 
 
                 <button type="button" (click)="getEDAMMapTerms()">Load suggestions</button>
@@ -144,14 +307,34 @@
                             <a href="{{o.edamUri}}" target="_blank">{{o.edamUri}}</a>
                         </div>
                     </div>
-                    <pre>
+                    <hr>
+                    <h3>Data</h3>
+                    <div *ngFor="let d of edamMapResults.mapping.results.data">
+                        <div>
+                            <strong>{{d.label}}</strong>
+                            <br>
+                            <a href="{{d.edamUri}}" target="_blank">{{d.edamUri}}</a>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3>Formats</h3>
+                    <div *ngFor="let f of edamMapResults.mapping.results.format">
+                        <div>
+                            <strong>{{f.label}}</strong>
+                            <br>
+                            <a href="{{f.edamUri}}" target="_blank">{{f.edamUri}}</a>
+                        </div>
+                    </div>
+
+
+                    <!-- <pre>
                         {{edamMapResults.mapping.results | json}}
-                    </pre>
+                    </pre> -->
                 </div>
 
                 <div>
                     <button mat-button matStepperPrevious>Back</button>
-                    <button mat-button matStepperNext >Next</button>
+                    <button mat-button matStepperNext>Next</button>
                 </div>
             </section>
 
@@ -167,53 +350,17 @@
 
                 <div>
                     <button mat-button matStepperPrevious>Back</button>
-                    <button mat-button matStepperNext >Next</button>
-                </div>
-            </section>
-        </mat-step>
-
-        <mat-step [stepControl]="" label="Links">
-            <section class="registration-section">
-
-                <p>
-                    Links
-                </p>
-
-                <div>
-                    <button mat-button matStepperPrevious>Back</button>
-                    <button mat-button matStepperNext >Next</button>
+                    <button mat-button matStepperNext>Next</button>
                 </div>
             </section>
         </mat-step>
 
 
-        <mat-step [stepControl]="" label="Download">
-            <section class="registration-section">
 
-                <p>
-                    Download
-                </p>
 
-                <div>
-                    <button mat-button matStepperPrevious>Back</button>
-                    <button mat-button matStepperNext >Next</button>
-                </div>
-            </section>
-        </mat-step>
 
-        <mat-step [stepControl]="" label="Documentation">
-            <section class="registration-section">
 
-                <p>
-                    Documentation
-                </p>
 
-                <div>
-                    <button mat-button matStepperPrevious>Back</button>
-                    <button mat-button matStepperNext >Next</button>
-                </div>
-            </section>
-        </mat-step>
 
         <mat-step [stepControl]="" label="Credits & Support">
             <section class="registration-section">
@@ -224,7 +371,7 @@
 
                 <div>
                     <button mat-button matStepperPrevious>Back</button>
-                    <button mat-button matStepperNext >Next</button>
+                    <button mat-button matStepperNext>Next</button>
                 </div>
             </section>
         </mat-step>
@@ -238,7 +385,7 @@
 
                 <div>
                     <button mat-button matStepperPrevious>Back</button>
-                    <button mat-button matStepperNext >Next</button>
+                    <button mat-button matStepperNext>Next</button>
                 </div>
             </section>
         </mat-step>
@@ -252,7 +399,7 @@
 
                 <div>
                     <button mat-button matStepperPrevious>Back</button>
-                    <button mat-button matStepperNext >Next</button>
+                    <button mat-button matStepperNext>Next</button>
                 </div>
             </section>
         </mat-step>
@@ -266,7 +413,7 @@
 
                 <div>
                     <button mat-button matStepperPrevious>Back</button>
-                    <button mat-button matStepperNext >Next</button>
+                    <button mat-button matStepperNext>Next</button>
                 </div>
             </section>
         </mat-step>
@@ -284,7 +431,7 @@
 
                 <div>
                     <button mat-button matStepperPrevious>Back</button>
-                    <button mat-button matStepperNext >Next</button>
+                    <button mat-button matStepperNext>Next</button>
                 </div>
             </section>
         </mat-step>
@@ -298,7 +445,7 @@
 
                 <div>
                     <button mat-button matStepperPrevious>Back</button>
-                    <button mat-button matStepperNext >Next</button>
+                    <button mat-button matStepperNext>Next</button>
                 </div>
             </section>
         </mat-step>
