@@ -1,0 +1,37 @@
+PREFIX idp: <https://example.com/ipd/>
+PREFIX pav: <http://purl.org/pav/>
+PREFIX schema: <https://schema.org/>
+
+CONSTRUCT {
+    ?entry_url idp:name ?entry_name ;
+        idp:identifier ?entry_id ;
+        idp:sameAs ?uniprot_acc ;
+        idp:sequence_range [
+            idp:sequence_id ?sequenceID ;
+            idp:start ?start ;
+            idp:end ?end ;
+            idp:range_annotation ?range_annotation
+        ] ;
+        idp:resource_name ?source ;
+        idp:last_update ?date.
+}
+WHERE {
+    GRAPH ?g {
+        ?entry_url a schema:Protein .
+        OPTIONAL { ?entry_url schema:name ?entry_name }
+        OPTIONAL { ?entry_url schema:identifier ?entry_id }
+        OPTIONAL { 
+            ?entry_url schema:hasSequenceAnnotation ?sequenceID .
+            ?sequenceID schema:sequenceLocation ?sequenceLocation ;
+                  schema:additionalProperty/schema:value/schema:name ?range_annotation .
+            ?sequenceLocation schema:rangeStart ?start ;
+                schema:rangeEnd ?end.
+        }
+        OPTIONAL { ?entry_url schema:sameAs ?uniprot_acc }
+        FILTER regex(str(?uniprot_acc), "^(https://www|http://purl).uniprot.org/uniprot/")
+        
+        
+        ?g pav:retrievedFrom ?source ;
+            pav:retrievedOn ?date .
+    }
+}
