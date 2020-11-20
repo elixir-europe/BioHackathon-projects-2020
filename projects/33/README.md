@@ -1,3 +1,5 @@
+33_molseq: This is the working repository for Project 33 in the 2020 Biohackathon.
+
 # Project 33: Connecting molecular sequence to their voucher specimens
 
 ## Abstract
@@ -39,4 +41,3 @@ scripting (Python, R)
  Understanding of biological collection data and the metadata associated with molecular sequence data
 
 **Number of expected hacking days**: 4
-

@@ -1,0 +1,13 @@
+{% extends "web/base.html" %}
+
+{% block content %}
+<h1>Create new matching run</h1>
+<p>Create a new matching run by entering a genbank query and GBIF query.</p>
+<p>This will do the following:</p>
+<ol>
+    <li>Download your genbank query and GBIF query results to the database</li>
+    <li>Iterate over each genbank result and run it through our automated matching algorithm against the GBIF query results to try and automatically match it to the GBIF occurrence</li>
+    <li>Create a user interface to show you suggested matches, and allow you to manually curate additional matches</li>
+    <li>Create a download button for you to retrieve the manual and automatic matches</li>
+</ol>
+{% endblock %}

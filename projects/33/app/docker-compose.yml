@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  db:
+    image: postgres
+    shm_size: 5g
+    environment:
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    expose:
+      - 5432
+  web:
+    build: .
+    command: python /code/django/manage.py runserver 0.0.0.0:80
+    volumes:
+      - .:/code
+    env_file:
+      - ./dev.env
+    ports:
+      - "80:80"
+    depends_on:
+      - db

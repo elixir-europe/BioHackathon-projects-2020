@@ -1,0 +1,126 @@
+{% extends "web/base.html" %}
+
+{% block content %}
+<p>
+  <a href="/">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-left-short" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
+    </svg>
+    Back to main list
+  </a>
+</p>
+<h2 style="margin-bottom: 0.8em">{{ object.created }} matching run</h2>
+<hr>
+<div class="row">
+  <dl class="col-sm">
+    <dt>ENA query</dt>
+    <dd>{{ object.ena_query }}</dd>
+  </dl>
+  <dl class="col-sm">
+    <dt>GBIF query</dt>
+    <dd>{{ object.gbif_query }}</dd>
+  </dl>
+</div>
+<p>There are a total of <strong>{{ object.ena_query|length }}</strong> results from ENA. ? of them have been matched automatically using our algorithm, ? require manual matching and ? have no matches.</p>
+<ul class="nav nav-tabs" style="margin: 1.8em 0 1.2em 0;">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Manual (?/? complete)
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Automatic</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">No matches</a>
+  </li>
+</ul>
+
+<!-- Pagination -->
+<nav style="margin-bottom: 1.5em;">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<!-- Results -->
+{% for ena_key, gbif_keys in object.suggested_matches.items %}
+<p><strong style="padding: 10px; background-color: #bfe3ff;">Details on ENA</strong></p>
+{% with ena_result=object.ena_results|get_item:ena_key %}
+<p>
+  <strong>specimen_voucher</strong>: {{ ena_result.specimen_voucher }}
+  <br>
+  <strong>description</strong>: {{ ena_result.description }}
+</p>
+<table class="table" style="margin-top: 1em; font-size: 0.9em;">
+  <thead style="">
+    <tr>
+      <th scope="col" style="width:10%">scientific_name</th>
+      <th scope="col" style="width:10%">country</th>
+      <th scope="col" style="width:10%">collected_by</th>
+      <th scope="col" style="width:10%">collection_date</th>
+      <th scope="col" style="width:20%; visibility: hidden;"></th>
+      <th scope="col" style="width:10%; visibility: hidden;"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{ ena_result.scientific_name  }}</td>
+      <td>{{ ena_result.country }}</td>
+      <td>{{ ena_result.collected_by }}</td>
+      <td>{{ ena_result.collection_date }}</td>
+      <td style="visibility: hidden"></td>
+      <td style="visibility: hidden"></td>
+    </tr>
+  </tbody>
+  {% endwith %}
+  <tr><td colspan="6" style="padding: 0"><p style="margin-top: 2em;"><strong style="margin: 10px 0; padding: 10px; background-color: #fff9ba;">GBIF matches ({{ gbif_keys|length }})</strong></p></td></tr>
+  <thead style="">
+    <tr>
+      <th scope="col" style="width:10%">scientific_name</th>
+      <th scope="col" style="width:10%">country</th>
+      <th scope="col" style="width:10%">collected_by</th>
+      <th scope="col" style="width:10%">collection_date</th>
+      <th scope="col" style="width:20%;">additional GBIF data</th>
+      <th scope="col" style="width:10%;"></th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for gbif_key in gbif_keys %}
+  {% with gbif_result=object.gbif_results|get_item:gbif_key %}
+  <tr>
+    <td>{{ gbif_result.scientificName }}</td>
+    <td>{{ gbif_result.country}}</td>
+    <td>{{ gbif_result.recordedBy }}</td>
+    <td>{{ gbif_result.eventDate }}</td>
+    <td>
+      <dl>
+        <dt>Institution code</dt>
+        <dd>{{ gbif_result.institutionCode }}</dd>
+        <dt>Basis of record</dt>
+        <dd>{{ gbif_result.basisOfRecord }}</dd>
+      </dl>
+      <p><a href="https://www.gbif.org/occurrence/{{ gbif_result.gbifID }}">https://www.gbif.org/occurrence/{{ gbif_result.gbifID }}</a></p>
+    </td>
+    <td style="text-align: center "> <input class="form-check-input" type="checkbox" id="checkbox1" checked></td>
+  </tr>
+  {% endwith %}
+  {% empty %}
+  <tr><p>No GBIF match suggestions</p></tr>
+  {% endfor %}
+  </tbody>
+</table>
+<hr style="border-color: black; border-width: 3px; margin-top: 20px;"><br>
+{% endfor %}
+{% endblock %}
