@@ -1,0 +1,32 @@
+{% extends "web/base.html" %}
+
+{% block content %}
+<h1>List of matching runs</h1>
+<table class="table table-striped" style="margin-top: 1em; font-size: 0.9em">
+  <thead>
+    <tr>
+      <th scope="col" style="width:10%">Created</th>
+      <th scope="col" style="width: 15%">Genbank query</th>
+      <th scope="col" style="width: 15%">GBIF query</th>
+      <th scope="col">Progress</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for run in object_list %}
+     <tr>
+       <td>{{ run.created }}</td>
+       <td style="word-wrap: break-word; white-space: pre-wrap;"><div style="width: 200px">{{ run.ena_query }}</div></td>
+       <td><div>{{ run.gbif_query }}</div></td>
+      <td>
+        <div class="progress" style="height: 20px; width: 25em;">
+          <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25/100</div>
+        </div>
+      </td>
+      <td><a href="/{{ run.id }}" class="btn btn-primary btn-sm">Contribute</a> <button type="button" class="btn btn-secondary btn-sm">Download results</button></td>
+     <tr>
+     {{ run.created }}
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}
