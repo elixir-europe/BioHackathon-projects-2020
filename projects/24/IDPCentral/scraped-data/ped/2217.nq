@@ -1,3 +1,0 @@
-<https://bioschemas.org/crawl/v1/proteinensemble/PED00148/20201108/2217> <http://purl.org/pav/retrievedFrom> <https://proteinensemble.org/PED00148> <https://bioschemas.org/crawl/v1/proteinensemble/PED00148/20201108/2217> .
-<https://bioschemas.org/crawl/v1/proteinensemble/PED00148/20201108/2217> <http://purl.org/pav/retrievedOn> "2020-11-08T21:17:13"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://bioschemas.org/crawl/v1/proteinensemble/PED00148/20201108/2217> .
-<https://proteinensemble.org/PED00148> <http://purl.org/dc/terms/title> "PED" <https://bioschemas.org/crawl/v1/proteinensemble/PED00148/20201108/2217> .
