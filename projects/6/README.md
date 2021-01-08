@@ -28,7 +28,7 @@ Pjotr Prins <jprins@uthsc.edu>
 ### Nominated participant(s)
 
 Pjotr Prins <jprins@uthsc.edu>
- Thomas Liener <liener.tom@gmail.com>
+ 
 
 ## Progress reporting
 
