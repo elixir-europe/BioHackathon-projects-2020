@@ -1,5 +1,7 @@
 # Project 34: Development of a tool for mechanistic meta-analyses using COVID-19 available data as proof of concept
 
+Currently under development [here](https://github.com/babelomics/MechACov).
+
 ## Abstract
 
 The development of biomedical high-throughput technologies has made omic analyses more affordable and, thus, accessible. This technological boom has rapidly taken us to a scenario where we are gathering a vast amount of data at public repositories, such as GEO, EGA, SRA or ArrayExpress, changing the data challenge, that now lies in the integration of all the available data, and in drawing conclusions from it as a whole. 
@@ -28,8 +30,6 @@ Covid-19
 Maria Peña-Chilet (author)
 mariapch84@gmail.com
  
-Joaquin Dopazo (corresponing author)
-joaquin.dopazo@juntadeandalucia.es
 Clinical Bioinformatics Area - FPS (Fundacion Progreso y Salud)
 
 ### Nominated participant(s)

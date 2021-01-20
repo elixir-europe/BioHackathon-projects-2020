@@ -9,11 +9,24 @@
 }
 
 section.registration-section{
-    width: 50%;
+    width: 60%;
     max-width: 1000px;
     margin: 0 auto;
+    min-height: 75vh;
 }
 
 button{
     margin: 10px;
 }
+
+.block{
+    display: block;
+}
+
+.repeat-form-content{
+    border: 1px solid lightgrey;
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+

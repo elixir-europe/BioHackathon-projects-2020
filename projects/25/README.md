@@ -71,9 +71,44 @@ Erik Garrison (erik.garrison@ucsc.edu) \
 
 1. github.com/vgteam/libhandlegraph/
 2. https://github.com/pangenome/spodgi
+3. https://github.com/chfi/rs-handlegraph
 
-## Starting the following projects
-1. https://github.com/nf-core/pangenome
+## Projects we are working on
+
+1. https://github.com/ekg/edlign 
+2. https://github.com/ekg/wflambda
+3. https://github.com/pangenome/pggb
+4. https://github.com/nf-core/pangenome
+5. https://github.com/Imipenem/MultiQC/tree/module/odgi_stats/multiqc/modules/odgi
+6. https://github.com/AndreaGuarracino/rs-spodgi
+7. https://github.com/JervenBolleman/rs-handlegraph-ffi
+8. https://github.com/6br/hgb
+9. https://github.com/6br/gam2bam
 
 ## Meeting minutes
 For everyone to stay up to date we collect the current status of each day on [GDocs](https://docs.google.com/document/d/1wifM0Y58AWfCxQdqig3frlhUpyLvb74rNxVWOWQPZC0/edit?usp=sharing).
+
+## Daily summary
+
+### [Day 1 - Topics overview](https://docs.google.com/presentation/d/1tJYAHGJhYU4ui5bdPLBx27o0UiAAcxmCDlbi4PKihp8/edit#slide=id.ga722af1293_0_20)
+
+![Aims Outcomes Expertise](Monday_Projects_BioHackathon-Europe2020.svg)
+
+### [Day 2 - Selected topics](https://docs.google.com/presentation/d/1sQkqPvT_QJXMwZk4d2GE0nWTpPpEmiK1tIlMdfeMtEQ/edit#slide=id.ga97d2fb217_0_1055)
+
+
+![Selected Topics](Tuesday_BioHackathon-Europe2020.svg)
+
+### [Day 3 - Progress by topic](https://docs.google.com/presentation/d/19uWyuEmrXHpaUWds1Z-njAhRjh60JS7jU6jrJTDWRBU/edit#slide=id.ga8e2d573f7_0_181)
+
+![Progress by Topic](wednesday_BioHackathon-Europe2020.svg)
+
+### [Day 4 - Progress by topic](https://docs.google.com/presentation/d/1f-_W0OxQwlzMie1maW7fmzBL2gHHvdneATH5CQ7eCDc/edit#slide=id.ga8e2d573f7_0_181)
+
+![Progress by Topic](Thursday_BioHackathon-Europe2020.svg)
+
+### [Day 5 - Achievements by topic](https://docs.google.com/presentation/d/12MbkvJuOYc3NCP2EwChLtrrMa0tnat4gbuhqeVAomHg/edit#slide=id.ga8e2d573f7_0_181)
+
+![Achievements by Topic 1](Friday_BioHackathon-Europe2020.svg)
+
+![Achievements by Topic 2](Friday_BioHackathon-Europe2020_1.svg)
