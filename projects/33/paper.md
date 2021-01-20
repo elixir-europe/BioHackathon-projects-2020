@@ -136,7 +136,7 @@ Candidate matches between sequences on GBIF and sequences on ENA were envisaged 
  - people (i.e. [ORCID](https://orcid.org/))
  - institutions (i.e. [ROR](https://ror.org/scope))
  - publications (i.e. [DOI](https://www.doi.org/))
- -and specimens [@10.1093/database/bax003].
+ - and specimens [@10.1093/database/bax003]
 ## For collections
 - Scientists depositing sequence data should be given training on the data model and standards used.
 - Collections should make more effort to reconnect their backlog of voucher specimens to their sequences.
