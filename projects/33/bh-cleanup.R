@@ -1,5 +1,7 @@
 #continue with result from bh-apicalls.R script
 #or read the txt file with ENA sequences
+
+#brpossibles = read_tsv("brpossibles.txt")
 brpossibles = br3
 
 #filter meisenburg and different, longer BR acronyms
