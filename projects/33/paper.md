@@ -132,16 +132,16 @@ Candidate matches between sequences on GBIF and sequences on ENA were envisaged 
 # 3. Recommendations
 
 ## For INSDC partner databases
-Databases should incorporate PIDs into their data model for…
-people (i.e. [ORCID](https://orcid.org/))
-institutions (i.e. [ROR](https://ror.org/scope))
-publications (i.e. [DOI](https://www.doi.org/))
-and specimens [@10.1093/database/bax003].
+- Databases should incorporate PIDs into their data model for…
+ - people (i.e. [ORCID](https://orcid.org/))
+ - institutions (i.e. [ROR](https://ror.org/scope))
+ - publications (i.e. [DOI](https://www.doi.org/))
+ -and specimens [@10.1093/database/bax003].
 ## For collections
-Scientists depositing sequence data should be given training on the data model and standards used.
-Collections should make more effort to reconnect their backlog of voucher specimens to their sequences.
-Specimens should obtain a PID at the earliest point possible upon collection and certainly before tissue collection for sequencing.
-Novel data encapsulation approaches are needed to ensure that the links between these data can be transversed by people and by machines.
+- Scientists depositing sequence data should be given training on the data model and standards used.
+- Collections should make more effort to reconnect their backlog of voucher specimens to their sequences.
+- Specimens should obtain a PID at the earliest point possible upon collection and certainly before tissue collection for sequencing.
+- Novel data encapsulation approaches are needed to ensure that the links between these data can be transversed by people and by machines.
 
 # 4. Future work
 
