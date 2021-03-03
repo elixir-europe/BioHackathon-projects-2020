@@ -128,6 +128,8 @@ query <- 'SELECT ?taxon ?taxonLabel ?ncbi_taxonID ?gbifid WHERE {
                 }'
 
 #list query results
+tax = count(brf,tax_id)
+
 for (i in seq(1,dim(tax)[1],30)) {
   subtax = paste0("\"",
                   paste(tax$tax_id[i:(i+29)],
@@ -141,7 +143,9 @@ for (i in seq(1,dim(tax)[1],30)) {
     resu = rbind(resu,
                  querki(que))
   }
-  print(i)
+  if (i%%100==0) {
+    print(i)
+  }
 }
 
 #join into ena sequence data
