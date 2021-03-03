@@ -1,0 +1,30 @@
+import { Injectable } from '@angular/core';
+import { HttpClient, HttpParams, HttpHeaders } from '@angular/common/http';
+import { Observable } from 'rxjs';
+
+@Injectable({
+    providedIn: 'root'
+})
+export class EdamMapService {
+
+    constructor(private httpClient: HttpClient) {}
+
+    getEDAM(searchOptions: any): Observable<any> {
+        searchOptions = {...searchOptions,
+            branches: [
+                'topic'
+                , 'operation'
+                , 'data'
+                , 'format'
+            ]
+        };
+        return this.httpClient.post<any>('/edammap/api',
+            searchOptions,
+            {
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+    }
+
+}

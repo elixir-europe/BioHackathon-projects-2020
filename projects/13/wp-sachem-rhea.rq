@@ -1,0 +1,41 @@
+PREFIX sachem: <http://bioinfo.uochb.cas.cz/rdf/v1.0/sachem#>
+PREFIX idsm: <https://idsm.elixir-czech.cz/sparql/endpoint/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX wp: <http://vocabularies.wikipathways.org/wp#>
+PREFIX sso: <http://semanticscience.org/resource/>
+PREFIX rh:<http://rdf.rhea-db.org/>
+PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+
+SELECT distinct ?chebio ?score ?similar ?reaction WHERE {
+  # WikiPathways service
+  SERVICE <http://sparql.wikipathways.org/sparql/> {
+    ?interaction dcterms:isPartOf ?pathway ; a wp:Conversion ;
+      wp:source ?source ;
+      wp:target ?target .
+    ?source wp:bdbChEBI ?chebiSrc .
+    ?target wp:bdbChEBI ?chebiTgt .
+    ?pathway dcterms:identifier "WP1560"^^xsd:string .
+    BIND(iri(concat("http://purl.obolibrary.org/obo/CHEBI_", substr(str(?chebiSrc),36))) AS ?chebioSrc)
+    BIND(iri(concat("http://purl.obolibrary.org/obo/CHEBI_", substr(str(?chebiTgt),36))) AS ?chebioTgt)
+  }
+  
+  ?chebioSrc ^sso:is-attribute-of / sso:has-value ?molfileSrc .
+  ?chebioTgt ^sso:is-attribute-of / sso:has-value ?molfileTgt .
+
+  [ sachem:compound ?similarSrc; sachem:score ?scoreSrc ]
+    sachem:similaritySearch [
+      sachem:query ?molfileSrc ;
+      sachem:cutoff "0.95"^^xsd:double
+    ].
+  [ sachem:compound ?similarTgt; sachem:score ?scoreTgt ]
+    sachem:similaritySearch [
+      sachem:query ?molfileTgt ;
+      sachem:cutoff "0.95"^^xsd:double
+    ].
+
+  SERVICE <https://sparql.rhea-db.org/sparql> {
+    ?reaction rdfs:subClassOf rh:Reaction ;
+      rh:side / rh:contains / rh:compound / rh:chebi ?similarSrc , ?similarTgt .
+  }
+  
+} LIMIT 10

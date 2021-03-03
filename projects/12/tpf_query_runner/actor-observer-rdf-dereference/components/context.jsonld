@@ -1,0 +1,13 @@
+
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/componentsjs/^3.0.0/components/context.jsonld",
+    {
+      "npmd": "https://linkedsoftwaredependencies.org/bundles/npm/",
+      "ex": "npmd:example-actor-rdf-dereference/",
+      "files-ex": "ex:^1.0.0/",
+
+      "MyActionObserverRdfDereference": "ex:ActionObserver/Http/Stats"
+    }
+  ]
+}

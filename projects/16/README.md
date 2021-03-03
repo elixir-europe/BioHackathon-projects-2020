@@ -36,11 +36,11 @@ If you have any other ideas, we are very happy to hear them! :)
 
 Here are some topics for inspiration:
 
-* Design a real-world use case showcasing the power of federated data analysis
-  Cloud implementations and portals
-* Write FAIR documentation for end users, developers and/or system admins
-* Implement and/or improve deployment recipes for existing services
-* Design and implement for the entire service stack
+* Design a **real-world use case** showcasing the power of federated data
+  analysis Cloud implementations and portals
+* Write **FAIR documentation** for end users, developers and/or system admins
+* Implement and/or improve **deployment recipes** for existing services
+* Design and implement **integration tests** for the entire service stack
 
 ## Join the team
 

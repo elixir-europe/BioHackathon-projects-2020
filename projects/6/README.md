@@ -28,7 +28,7 @@ Pjotr Prins <jprins@uthsc.edu>
 ### Nominated participant(s)
 
 Pjotr Prins <jprins@uthsc.edu>
- Thomas Liener <liener.tom@gmail.com>
+ 
 
 ## Progress reporting
 
@@ -39,6 +39,9 @@ We are hosting a Google Doc to keep track of [our work](https://docs.google.com/
 * Forms for entering metadata as part of submission
  * Extract metadata from paper
  * RDF store with metadata and SPARQL end point
+
+Code is hosted on https://github.com/biohackrxiv/. Publication
+is written in [paper.md](https://github.com/biohackrxiv/bhxiv-metadata/blob/main/doc/elixir_biohackathon2020/paper.md).
 
 ## Expected audience
 

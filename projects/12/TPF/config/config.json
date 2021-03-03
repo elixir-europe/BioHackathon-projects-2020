@@ -1,0 +1,20 @@
+{
+  "@context": "https://linkedsoftwaredependencies.org/bundles/npm/@ldf/server/^3.0.0/components/context.jsonld",
+  "@id": "urn:ldf-server:my",
+  "import": "preset-qpf:config-defaults.json",
+
+  "title": "FAIR Data Systems Linked Data Fragments server over LDP",
+
+  "datasources": [
+    {
+      "@id": "ex:fairdataSparqlDatasource",
+      "@type": "SparqlDatasource",
+      "datasourceTitle": "fairdata-tdf",
+      "description": "fairdata content",
+      "datasourcePath": "fairdata-tfs",
+      "sparqlEndpoint": "http://fairdata.systems:8990/sparql"
+    }
+
+  ]
+}
+

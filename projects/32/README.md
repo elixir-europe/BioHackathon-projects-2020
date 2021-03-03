@@ -27,7 +27,14 @@ Name: Flora D’Anna
 ### Nominated participant(s)
 
 - Stuart Owen, UMAN for FAIRDOMHub/SEEK, stuart.owen@manchester.ac.uk
- - Cyril Pommier, INRA Centre de Versailles-Grignon for MIAPPE, cyril.pommier@inrae.fr
+- Cyril Pommier, INRA Centre de Versailles-Grignon for MIAPPE, cyril.pommier@inrae.fr
+- Philippe Rocca-Serra, University of Oxford e-Research Centre, philippe.rocca-serra@oerc.ox.ac.uk
+- Dominique Batista, University of Oxford e-Research Centre
+- Vahid Kiani, VIB
+- Isuru Liyanage, EMBL-EBI
+- Bert Droesbeke, VIB 
+- Eliana Papoutsoglou, Wageningen University.
+- Alan Williams, UMAN for FAIRDOMHub/SEEK.
 
 ## Expected outcomes
 
