@@ -27,6 +27,10 @@ Anna Sandionigi anna.sandionigi@unimib.it (corresponding)
 
 Donat Agosti agosti@amnh.org (text-mining expert)
  Bachir Balech b.balech@ibiom.cnr.it (taxonomy data management expert)
+ 
+### Other Authors
+Giulia Agostinetto (g.agostinetto@campus.unimib.it)
+Alberto Brusati (a.brusati1@campus.unimib.it)
 
 ## Expected outcomes
 
