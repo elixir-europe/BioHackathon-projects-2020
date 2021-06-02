@@ -48,7 +48,7 @@ sparql-slurper==0.3.4
 SPARQLWrapper==1.8.5
 sqlparse==0.4.1
 tqdm==4.51.0
-urllib3==1.25.11
+urllib3==1.26.5
 Werkzeug==1.0.1
 wikidataintegrator==0.8.0
 pdfminer.six==20201018
