@@ -231,7 +231,7 @@ At the time of the Hackathon, IDPcentral were developing a MongoDb backend for t
 
 * GitHub repository: https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/24/IDPCentral
 * Jupyter Notebooks:
-  * Knowledge Graph Construction:
+  * Knowledge Graph Construction: https://github.com/elixir-europe/BioHackathon-projects-2020/blob/master/projects/24/IDPCentral/notebooks/ETLProcess.ipynb
   * Analysis Queries:
 
 # Acknowledgements
