@@ -24,7 +24,6 @@ affiliations:
    index: 1
  - name: University of Padua, Padua, Italy
    index: 2
-date: 08 June 2021
 bibliography: paper.bib
 ---
 
