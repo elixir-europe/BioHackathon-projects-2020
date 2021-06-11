@@ -1,5 +1,5 @@
 ---
-title: 'Exploiting Bioschemas Markup to Populate IDPCentral'
+title: 'Exploiting Bioschemas Markup to Populate IDPcentral'
 tags:
   - Bioschemas
   - Intrinsically Disordered Proteins
@@ -16,26 +16,26 @@ authors:
   - name: Ivan Mičetić
     orcid: 0000-0003-1691-8425
     affiliation: 2
-  - name: Andras Hatos
+  - name: András Hatos
     orcid: 0000-0001-9224-9820
     affiliation: 2
 affiliations:
  - name: Heriot-Watt University, Edinburgh, UK
    index: 1
- - name: University of Padua, Padua, Italy
+ - name: Department of Biomedical Sciences, University of Padua, Padova, Italy
    index: 2
 bibliography: paper.bib
 ---
 
 # Background
 
-One of the goals of the ELIXIR Intrinsically Disordered Protein (IDP) [community](https://elixir-europe.org/communities/intrinsically-disordered-proteins) is create a registry called [IDPCentral](https://idpcentral.org/). The registry will aggregate data contained in the community's specialist data sources such as [DisProt](https://disprot.org/) [@hatos_disprot_2020], [MobiDB](https://mobidb.bio.unipd.it/) [@piovesan_mobidb_2021], and [Protein Ensemble](https://proteinensemble.org/) [@lazar_ped_2021] so that proteins that are known to be intrinsically disordered can be discovered; with summary details of the protein presented, and the specialist source consulted for more detailed data. 
+One of the goals of the ELIXIR Intrinsically Disordered Protein (IDP) [community](https://elixir-europe.org/communities/intrinsically-disordered-proteins) is create a registry called [IDPcentral](https://idpcentral.org/registry). The registry will aggregate data contained in the community's specialist data sources such as [DisProt](https://disprot.org/) [@hatos_disprot_2020], [MobiDB](https://mobidb.bio.unipd.it/) [@piovesan_mobidb_2021], and [Protein Ensemble](https://proteinensemble.org/) [@lazar_ped_2021] so that proteins that are known to be intrinsically disordered can be discovered; with summary details of the protein presented, and the specialist source consulted for more detailed data. 
 
-At the [ELIXIR BioHackathon-Europe 2020](https://elixir-europe.org/events/biohackathon-2020), we aimed to investigate the feasibility of populating IDPCentral harvesting the Bioschemas markup that has been deployed on the IDP community data sources. The benefit of using Bioschemas markup, which is embedded in the HTML web pages for each protein in the data source, is that a standard harvesting approach can be used for all data sources; rather than needing bespoke wrappers for each data source API. We expect to harvest the markup using the Bioschemas Markup Scraper and Extractor ([BMUSE](https://github.com/HW-SWeL/BMUSE)) tool that has been developed specifically for this purpose. 
+At the [ELIXIR BioHackathon-Europe 2020](https://elixir-europe.org/events/biohackathon-2020), we aimed to investigate the feasibility of populating IDPcentral harvesting the Bioschemas markup that has been deployed on the IDP community data sources. The benefit of using Bioschemas markup, which is embedded in the HTML web pages for each protein in the data source, is that a standard harvesting approach can be used for all data sources; rather than needing bespoke wrappers for each data source API. We expect to harvest the markup using the Bioschemas Markup Scraper and Extractor ([BMUSE](https://github.com/HW-SWeL/BMUSE)) tool that has been developed specifically for this purpose. 
 
 The challenge, however, is that the sources contain overlapping information about proteins but use different identifiers for the proteins. After the data has been harvested, it will need to be processed so that information about a particular protein, which will come from multiple sources, is consolidated into a single concept for the protein, with links back to where each piece of data originated.
 
-As well as populating the IDPCentral registry, we plan to consolidate the markup into a knowledge graph that can be queried to gain further insight into the IDPs. 
+As well as populating the IDPcentral registry, we plan to consolidate the markup into a knowledge graph that can be queried to gain further insight into the IDPs. 
 
 # Data and Data Models
 
@@ -96,7 +96,7 @@ The hackathon actives were carried out in a Jupyter Notebook which has subsequen
 
 We initially loaded the data into [Jena Fuseki triplestore](https://jena.apache.org/documentation/fuseki2/) hosted on the same machine that is running the notebook. The triplestore was queried using the Python [SPARQLWrapper](https://github.com/RDFLib/sparqlwrapper) library. However, to increase reusability of the notebook, and the scripts contained within them, we decided to directly use the querying capabilities of [RDFLib](https://github.com/RDFLib/rdflib) (at the time of the Hackathon version 5.0.0 of the library was used and the [readthedocs](https://rdflib.readthedocs.io/en/stable/) documentation extensively consulted).
 
-We will now discuss the different aspects of the work. Throughout the hackathon we followed an iterative process, gradually adding more data and functionality. We started by focusing on three files scraped from the DisProt site ([files](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/24/IDPCentral/scraped-data/disprot)) corresponding to [disprot:DP00003](http://disprot.org/DP00003), [disprot:DP00004](http://disprot.org/DP00004), and [disprot:DP00005](https://disprot.org/DP00005). Once we were able to reliably extract and transform the data, we added in two pages from MobiDb ([files](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/24/IDPCentral/scraped-data/mobidb)) corresponding to [mobidb:Q12959](https://mobidb.org/Q12959) and [mobidb:P03265](https://mobidb.org/P03265). The page [mobidb:P03265](https://mobidb.org/P03265) was specifically selected as it represents the same protein as the [disprot:DP00003](http://disprot.org/DP00003) page. Before adding in the final source, we implemented the protein disambiguation process. Finally, three Protein Ensemble pages ([files](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/24/IDPCentral/scraped-data/ped)) were added corresponding to the pages [ped:PED00001](https://proteinensemble.org/PED00001), [ped:PED00148](https://proteinensemble.org/PED00148), and [ped:PED00174](https://proteinensemble.org/PED00174). 
+We will now discuss the different aspects of the work. Throughout the hackathon we followed an iterative process, gradually adding more data and functionality. We started by focusing on three files scraped from the DisProt site ([files](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/24/IDPCentral/scraped-data/disprot)) corresponding to [disprot:DP00003](http://disprot.org/DP00003), [disprot:DP00004](http://disprot.org/DP00004), and [disprot:DP00005](https://disprot.org/DP00005). Once we were able to reliably extract and transform the data, we added in two pages from MobiDB ([files](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/24/IDPCentral/scraped-data/mobidb)) corresponding to [mobidb:Q12959](https://mobidb.org/Q12959) and [mobidb:P03265](https://mobidb.org/P03265). The page [mobidb:P03265](https://mobidb.org/P03265) was specifically selected as it represents the same protein as the [disprot:DP00003](http://disprot.org/DP00003) page. Before adding in the final source, we implemented the protein disambiguation process. Finally, three Protein Ensemble pages ([files](https://github.com/elixir-europe/BioHackathon-projects-2020/tree/master/projects/24/IDPCentral/scraped-data/ped)) were added corresponding to the pages [ped:PED00001](https://proteinensemble.org/PED00001), [ped:PED00148](https://proteinensemble.org/PED00148), and [ped:PED00174](https://proteinensemble.org/PED00174). 
 
 ## Data Extraction by Profile
 
@@ -227,7 +227,7 @@ The notebooks included in this report have been extracted from the single notebo
 
 The framework developed within this hackathon has only been used on a small sample of data from each of the data sources. Once the deployments of the markup of these sources has been updated, we intend to use the transformation framework over the entire scraped data.
 
-At the time of the Hackathon, IDPcentral were developing a MongoDb backend for their repository. While the transformation process was able to generate the intended data model, it would be desirable to have a single collection of data for IDPcentral. IDPcentral are considering changing their backend data store to a SPARQL endpoint to enable them to use the IDP knowledge graph directly. This would enable the more detailed data in the knowledge graph to be exploited through queries whilst still supporting the surfacing of basic data about a given protein by the web site.
+At the time of the Hackathon, IDPcentral were developing a MongoDB backend for their repository. While the transformation process was able to generate the intended data model, it would be desirable to have a single collection of data for IDPcentral. IDPcentral are considering changing their backend data store to a SPARQL endpoint to enable them to use the IDP knowledge graph directly. This would enable the more detailed data in the knowledge graph to be exploited through queries whilst still supporting the surfacing of basic data about a given protein by the web site.
 
 # Jupyter notebooks, GitHub repositories and data repositories
 
