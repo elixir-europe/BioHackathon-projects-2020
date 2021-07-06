@@ -58,5 +58,22 @@ Possible outcomes are:
 - Scientific: experts in genomics of epidemic pathogens who can bring knowledge and help defining use cases and use scenarios
 - Technical: GitHub, Concept map/workflow visualization, Interoperability, CWL
 
+## Partipants
+
+- Castrense Savojardo (ELIXIR-IT, lead) 
+- Pier Luigi Martelli (ELIXIR-IT, lead)
+- Giulia Babbi (ELIXIR-IT)
+- Marco Anteghini (ELIXIR-NL)
+- Jumamyrat Bayjanov (ELIXIR-NL)
+- Matteo Manfredi (ELIXIR-IT)
+- Giovanni Madeo (ELIXIR-IT)
+- Emidio Capriotti (ELIXIR-IT)
+- Margherita Mutarelli (ELIXIR-IT)
+
+## Final outcome
+
+The outcomes of this project, including the complete collection of the tools/resources included in the service bundle 
+as well as links to use scenario concept maps are available at https://sb4er.github.io. 
+
 **Number of expected hacking days**: 4
 
