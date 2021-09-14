@@ -41,7 +41,8 @@ Simon Heumos (simon.heumos@qbic.uni-tuebingen.de)* \
  Jerven Bollemann ([jerven.bolleman@sib.swiss](jerven.bolleman@sib.swiss)) \
  Toshiyuki Yokoyama (toshiyuki.t.yokoyama@gmail.com) \
  Lukas Heumos (lukas.heumos@posteo.net) \
- Philipp Ehmele (philipp_ehm@protonmail.com)
+ Philipp Ehmele (philipp_ehm@protonmail.com) \
+ Andrea Guarracino (andrea.guarracino@uniroma2.it)
 
  *corresponding author
 
