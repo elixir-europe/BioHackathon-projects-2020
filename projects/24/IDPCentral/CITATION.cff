@@ -4,15 +4,19 @@ authors:
   - family-names: Gray
     given-names: Alasdair J G
     orcid: http://orcid.org/0000-0002-5711-4872
+    affiliation: "Heriot-Watt University, Edinburgh, UK"
   - family-names: Papadopoulos
     given-names: Petros
     orcid: https://orcid.org/0000-0002-8110-7576
+    affiliation: "Heriot-Watt University, Edinburgh, UK"
   - family-names: Mičetić
     given-names: Ivan
     orcid: https://orcid.org/0000-0003-1691-8425
+    affiliation: "Department of Biomedical Sciences, University of Padua, Padova, Italy"
   - family-names: Hatos
     given-names: András
     orcid: https://orcid.org/0000-0001-9224-9820
+    affiliation: "Department of Biomedical Sciences, University of Padua, Padova, Italy"
 title: "Exploiting Bioschemas Markup to Populate IDPcentral"
 doi: 10.37044/osf.io/v3jct
 date-released: 2021-06-22
