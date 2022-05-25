@@ -29,7 +29,7 @@ Pillow==8.0.1
 psycopg2==2.8.6
 pygbif==0.5.0
 PyJSG==0.10.0
-PyJWT==1.7.1
+PyJWT==2.4.0
 pyparsing==2.4.7
 PyShEx==0.7.14
 PyShExC==0.8.2
